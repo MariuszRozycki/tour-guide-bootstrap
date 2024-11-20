@@ -1,6 +1,4 @@
-// Nadpisz zmienne Bootstrap przed zaimportowaniem jego stylów
-$primary: #ff5733;
-$font-family-sans-serif: "Roboto", sans-serif;
+$enable-negative-margins: true;
 
 @import "bootstrap/scss/bootstrap";
 
