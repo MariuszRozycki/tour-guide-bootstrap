@@ -48,7 +48,8 @@ const CustomCarousel = ({ slides }) => {
   const groupedSlides = groupSlides(slides, itemsPerSlide);
 
   return (
-    <Container>
+    <Container className='mt-4'>
+      <h2>Nasze najpopularniejsze wycieczki</h2>
       <Carousel>
         {groupedSlides.map((group, index) => (
           <Carousel.Item key={index}>
@@ -59,7 +60,7 @@ const CustomCarousel = ({ slides }) => {
                     <img
                       src={slide.image}
                       alt={slide.alt}
-                      className='d-block w-100'
+                      className='d-block w-100 rounded'
                       style={{ height: "200px", objectFit: "cover" }}
                     />
                     <h5 className='mt-2'>{slide.title}</h5>
