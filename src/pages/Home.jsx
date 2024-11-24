@@ -1,11 +1,10 @@
-import { CustomCarousel, Hero } from "../components";
-import { slides } from "../utils/slides";
+import { CustomCarouselContainer, Hero } from "../components";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <CustomCarousel slides={slides} />
+      <CustomCarouselContainer />
     </>
   );
 };

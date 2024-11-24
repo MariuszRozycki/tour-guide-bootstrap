@@ -1,21 +1,32 @@
 import { useQuery } from "@tanstack/react-query";
+import axios from "axios";
 
-export const useGetData = (id = null) => {
-  const fetchData = async () => {
-    const response = await fetch(endpoint);
+const fetchData = async ({ queryKey }) => {
+  const [endpoint, id] = queryKey;
+  console.log("Endpoint:", endpoint); // Sprawdź, czy endpoint jest poprawny
+  const url = id ? `${endpoint}/${id}` : endpoint;
+  console.log("Finalny URL:", url); // Sprawdź URL
+  try {
+    const response = await axios.get(url);
+    console.log("Odpowiedź z API:", response); // Debuguj odpowiedź z API
+    return response.data;
+  } catch (error) {
+    console.error("Błąd pobierania danych:", error); // Debuguj błędy
+    throw error;
+  }
+};
 
-    if (!response.ok) {
-      throw new Error("Network response was not ok");
-    }
-
-    const json = await response.json();
-    return json.data; // Zakładam, że dane są w polu `data`
-  };
-
-  // Użyj useQuery, aby zarządzać stanami automatycznie
-  const { data, isLoading, isError, error } = useQuery(["getData", id], fetchData, {
-    staleTime: 1000 * 60 * 5, // Cache przez 5 minut
+// Hook useGetData
+const useGetData = (endpoint, id = null) => {
+  const { data, isLoading, isError, error } = useQuery({
+    queryKey: [endpoint, id], // Poprawny sposób przekazania queryKey w v5
+    queryFn: fetchData, // Funkcja pobierania danych
+    enabled: !!endpoint, // Włączenie tylko, gdy endpoint jest dostępny
+    retry: 2, // Ile razy próbować ponownie w razie błędu
+    refetchOnWindowFocus: false, // Wyłącz ponowne pobieranie przy powrocie do okna
   });
 
   return { data, isLoading, isError, error };
 };
+
+export default useGetData;

@@ -10,7 +10,7 @@ const Hero = () => {
         <h2 className='display-5 text-primary'>Witaj na mojej stronie!</h2>
         <div className='mt-4 row g-0 d-flex align-items-center'>
           <div className='col-md-7 mb-4 mb-xl-0'>
-            <img className='w-100 rounded' src='../../../public/images/latvia01.jpg' alt='' />
+            <img className='w-100 rounded' src='../../../public/pictures/lublin/lublin02.jpg' alt='' />
           </div>
 
           <Card className='col-md-5 ms-0 ms-md-n4 mb-md-n4 mb-lg-0 shadow border-0'>
