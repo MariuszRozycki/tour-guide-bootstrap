@@ -2,6 +2,12 @@ import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
+import path from "path";
+import { fileURLToPath } from "url";
+
+// Define __dirname for ES Modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 import offerRoutes from "./routes/offerRoutes.js";
 
 dotenv.config();
@@ -12,6 +18,10 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
+// Serve static files from the "public/pictures" directory
+app.use("/pictures", express.static(path.join(__dirname, "../public/pictures")));
+
+// API routes
 app.use("/api/offers", offerRoutes);
 
 mongoose
