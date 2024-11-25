@@ -43,13 +43,15 @@ const CustomSwiper = () => {
                   <img className='rounded-3' src={offer.imageMain} alt={offer.title} />
                 </div>
                 <div className='slider-item-details mt-2'>
-                  <h4 className='h4 md-h3 mb-1'>{containerWidth < 315 ? trimText(offer.title, 28) : offer.title}</h4>
-                  <p className='h5 my-2'>
-                    <i className='bi bi-calendar2-week'></i> {offer.days}
-                  </p>
-                  <p className='h5'>
-                    <i className='bi bi-tag'></i> {offer.price45people} PLN /min 45 <i className='bi bi-person-standing'></i>
-                  </p>
+                  <h3 className='h5 md-h3 mb-1'>{containerWidth < 315 ? trimText(offer.title, 28) : offer.title}</h3>
+                  <div className='details-description'>
+                    <p className='h5 my-2'>
+                      <i className='bi bi-calendar2-week'></i> {offer.days}
+                    </p>
+                    <p className='h5'>
+                      <i className='bi bi-tag'></i> {offer.price45people} PLN /min 45 <i className='bi bi-person-standing'></i>
+                    </p>
+                  </div>
                 </div>
               </SwiperSlide>
             ))}
