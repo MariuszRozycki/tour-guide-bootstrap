@@ -11,7 +11,7 @@ function CustomNav() {
   return (
     <>
       {["md"].map((expand) => (
-        <Navbar key={expand} expand={expand} className='bg-body-tertiary mb-3'>
+        <Navbar key={expand} expand={expand} className='bg-body-tertiary mb-3 position-sticky top-0 z-2'>
           <Container>
             <Navbar.Brand href='#'>Tour Guide</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
