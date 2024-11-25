@@ -7,9 +7,11 @@ import "./Swiper.scss";
 import { trimText } from "../../utils/trimText";
 import useGetData from "../../hooks/useGetData";
 import { offersApi } from "../../api/api";
+import { useNavigateToOffer } from "../../hooks/useNavigateToOffer";
 
 const CustomSwiper = () => {
   const { data: offers, isLoading, isError, error } = useGetData(offersApi);
+  const { handleSingleOffer } = useNavigateToOffer();
 
   const elementRef = useRef(null);
   const containerWidth = useElementWidth(elementRef);
@@ -38,7 +40,7 @@ const CustomSwiper = () => {
             grabCursor
           >
             {offers.map((offer) => (
-              <SwiperSlide key={offer._id} className='slider-item rounded-3'>
+              <SwiperSlide key={offer._id} className='slider-item rounded-3' onClick={() => handleSingleOffer(offer._id)}>
                 <div className='slider-item-img'>
                   <img className='rounded-3' src={offer.imageMain} alt={offer.title} />
                 </div>

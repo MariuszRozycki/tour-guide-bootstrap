@@ -15,7 +15,6 @@ function App() {
           v7_skipActionErrorRevalidation: true,
         }}
       />
-      ;
     </>
   );
 }
