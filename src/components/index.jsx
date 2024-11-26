@@ -6,7 +6,7 @@ import Hero from "./Hero/Hero";
 import CustomCarouselContainer from "./Carousel/CustomCarouselContainer";
 import CustomCarousel from "./Carousel/CustomCarousel";
 import CustomSwiper from "./Swiper/CustomSwiper";
-import { RenderAllOffers, RenderOffersByDestination, RenderSingleOffer } from "./RenderOffers";
+import { RenderAllOffers, RenderOffersTypes, RenderSingleOffer, RenderOffersByType, RenderAbroadOffers } from "./RenderOffers";
 
 export {
   CustomNav,
@@ -18,6 +18,8 @@ export {
   CustomCarouselContainer,
   CustomSwiper,
   RenderAllOffers,
-  RenderOffersByDestination,
+  RenderOffersTypes,
+  RenderOffersByType,
   RenderSingleOffer,
+  RenderAbroadOffers,
 };

@@ -1,8 +1,11 @@
 import Container from "react-bootstrap/Container";
 import { Card, Button } from "react-bootstrap";
+import { useNavigateToOffer } from "../../hooks/useNavigateToOffer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Hero = () => {
+  const { handleOffersByType } = useNavigateToOffer();
+
   return (
     <section className='hero-section'>
       <Container>
@@ -13,7 +16,11 @@ const Hero = () => {
         <div className='mt-4 row g-0 d-flex align-items-center'>
           <div className='col-md-7 mb-4 mb-xl-0 d-flex flex-column justify-content-center'>
             <img className='w-100 rounded' src='../../../public/pictures/lublin/lublin02.jpg' alt='' />
-            <Button variant='danger' className='w-100 w-sm-50 mx-auto mx-sm-0 shadow-lg rounded-pill mt-3'>
+            <Button
+              variant='danger'
+              className='w-100 w-sm-50 mx-auto mx-sm-0 shadow-lg rounded-pill mt-3'
+              onClick={() => handleOffersByType()}
+            >
               Pokaż oferty
             </Button>
           </div>

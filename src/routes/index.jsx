@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
 import { Home, About, Contact } from "../pages";
-import { RenderAllOffers, RenderOffersByDestination, RenderSingleOffer } from "../components";
+import { RenderAllOffers, RenderOffersByType, RenderOffersTypes, RenderSingleOffer, RenderAbroadOffers } from "../components";
 
 const router = createBrowserRouter([
   {
@@ -25,8 +25,16 @@ const router = createBrowserRouter([
         element: <RenderAllOffers />,
       },
       {
-        path: "/offers-by-destination",
-        element: <RenderOffersByDestination />,
+        path: "/offers-types",
+        element: <RenderOffersTypes />,
+      },
+      {
+        path: "/offers-types/abroad",
+        element: <RenderAbroadOffers />,
+      },
+      {
+        path: "/offers-by-type/:type",
+        element: <RenderOffersByType />,
       },
       {
         path: "/single-offer/:id",
