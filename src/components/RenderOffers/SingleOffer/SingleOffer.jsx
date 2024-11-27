@@ -4,8 +4,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import { useParams } from "react-router-dom";
-import { offersApi } from "../../api/api";
-import useGetData from "../../hooks/useGetData";
+import { offersApi } from "../../../api/api";
+import useGetData from "../../../hooks/useGetData";
 
 const RenderSingleOffer = () => {
   const { id } = useParams();

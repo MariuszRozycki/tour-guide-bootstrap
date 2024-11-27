@@ -6,7 +6,21 @@ import Hero from "./Hero/Hero";
 import CustomCarouselContainer from "./Carousel/CustomCarouselContainer";
 import CustomCarousel from "./Carousel/CustomCarousel";
 import CustomSwiper from "./Swiper/CustomSwiper";
-import { RenderAllOffers, RenderOffersTypes, RenderSingleOffer, RenderOffersByType, RenderAbroadOffers } from "./RenderOffers";
+import {
+  RenderAllOffers,
+  OffersTypesList,
+  RenderSingleOffer,
+  OffersListByType,
+  AbroadOffers,
+  BussOffers,
+  CrossBorderOffers,
+  DomesticOffers,
+  FiveDaysOffers,
+  FourDaysOffers,
+  KayakOffers,
+  OneDayOffers,
+  ThreeDaysOffers,
+} from "./RenderOffers";
 
 export {
   CustomNav,
@@ -18,8 +32,16 @@ export {
   CustomCarouselContainer,
   CustomSwiper,
   RenderAllOffers,
-  RenderOffersTypes,
-  RenderOffersByType,
+  OffersTypesList,
+  OffersListByType,
   RenderSingleOffer,
-  RenderAbroadOffers,
+  AbroadOffers,
+  BussOffers,
+  CrossBorderOffers,
+  DomesticOffers,
+  FiveDaysOffers,
+  FourDaysOffers,
+  KayakOffers,
+  OneDayOffers,
+  ThreeDaysOffers,
 };
