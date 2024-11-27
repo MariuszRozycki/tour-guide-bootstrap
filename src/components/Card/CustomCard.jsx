@@ -1,5 +1,7 @@
 import { useRef } from "react";
 import { Card } from "react-bootstrap";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Tooltip from "react-bootstrap/Tooltip";
 import { trimText } from "../../utils/trimText";
 import useElementWidth from "../../hooks/useElementWidth";
 import { useNavigateToOffer } from "../../hooks/useNavigateToOffer";
@@ -20,7 +22,9 @@ const CustomCard = ({ offer }) => {
       />
       <Card.Body className='d-flex flex-column justify-content-between'>
         <div className='text-wrapper'>
-          <Card.Title className='h6'>{containerWidth < 315 ? trimText(offer.title, 30) : offer.title}</Card.Title>
+          <OverlayTrigger placement='top' overlay={<Tooltip id={`tooltip-${offer._id}`}>{offer.title}</Tooltip>}>
+            <Card.Title className='h6'>{containerWidth < 315 ? trimText(offer.title, 27) : offer.title}</Card.Title>
+          </OverlayTrigger>
           <div>
             <div className='slider-item-details mt-2'>
               <div className='details-description'>

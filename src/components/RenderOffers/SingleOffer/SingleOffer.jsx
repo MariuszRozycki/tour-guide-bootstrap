@@ -19,36 +19,62 @@ const RenderSingleOffer = () => {
   return (
     <Container className='my-5'>
       <h1 className='h2 mb-md-4'>{offer.title}</h1>
-      <Row>
-        <Col sm={4} className='mb-3'>
-          <Image
-            className='w-100 h-sm-50 h-md-75 h-lg-100 rounded-6 shadow-4 rotate-md-4 object-fit-cover'
-            src={offer.imageMain}
-            rounded
-          />
+      <Row className='g-lg-5'>
+        <Col lg={4} className='mb-3'>
+          <Image className='w-100 h-sm-100 rounded-6 shadow-4 rotate-lg-6 object-fit-cover' src={offer.imageMain} rounded />
         </Col>
-        <Col sm={8}>
+        <Col lg={8}>
           <Card className='border-0'>
             <Card.Body className='p-0'>
-              <p className='fs-6 m-0 fw-semibold'>{offer.days}</p>
-              <h2 className='h5'>{offer.titleSub}</h2>
-              <h3 className='h5'>Plan wycieczki:</h3>
-              <ol>
-                {offer.description.map((desc, index) => (
-                  <li key={index}>{desc}</li>
-                ))}
-              </ol>
+              <p className='fs-4 m-0 fw-semibold'>{offer.days}</p>
+              <h2 className='h4'>{offer.titleSub}</h2>
+              <h3 className='h4'>Plan wycieczki:</h3>
+              {offer.descTitle ? (
+                <ul className='list-unstyled'>
+                  <li className='fw-bolder fs-5 mb-2'>{offer.descTitle}</li>
+                  {offer.description.map((desc, index) => (
+                    <li key={index} className='fs-5'>
+                      {desc}
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <ol>
+                  {offer.description.map((desc, index) => (
+                    <li key={index} className='fs-4'>
+                      {desc}
+                    </li>
+                  ))}
+                </ol>
+              )}
+
               <div className='offer-details d-flex flex-column gap-1 mt-4'>
-                <p className='fs-5 m-0 fw-semibold'>
-                  <i className='bi bi-tag d-none d-sm-inline-block'></i> {offer.price45people} PLN /os., min 45{" "}
-                  <i className='bi bi-person-standing'></i>
-                </p>
-                <p className='fs-5 m-0 fw-semibold'>
-                  <i className='bi bi-tag invisible d-none d-sm-inline-block'></i> {offer.price40people} PLN /os., min 40
-                  <i className='bi bi-person-standing'></i>
-                </p>
+                {offer.price40people === 0 ? (
+                  <>
+                    <p className='h4'>
+                      <i className='bi bi-tag'></i> *{offer.price45people} PLN/
+                      <i className='bi bi-person-standing'></i>
+                    </p>
+                    <p className='fw-6'>* cena dla min. 45 osób</p>
+                  </>
+                ) : (
+                  <>
+                    <p className='h4'>
+                      <i className='bi bi-tag pe-2'></i>
+                      {offer.price45people} PLN/
+                      <i className='bi bi-person-standing'></i>*
+                    </p>
+                    <p className='h4 mb-4'>
+                      <i className='bi bi-tag pe-2 invisible'></i>
+                      {offer.price40people} PLN/
+                      <i className='bi bi-person-standing'></i>**
+                    </p>
+                    <p className='fw-6 mb-0'>* cena dla 45 osób</p>
+                    <p className='fw-6'>** cena dla 40 osób</p>
+                  </>
+                )}
               </div>
-              <Button variant='primary'>Go somewhere</Button>
+              <Button variant='primary'>Dodaj do ulubionych</Button>
             </Card.Body>
           </Card>
         </Col>
