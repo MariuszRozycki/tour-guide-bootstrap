@@ -1,7 +1,31 @@
 import RenderAllOffers from "./RenderAllOffers";
-import RenderSingleOffer from "./RenderSingleOffer";
-import RenderOffersTypes from "./RenderOffersTypes";
-import RenderOffersByType from "./RenderOffersByType";
-import RenderAbroadOffers from "./RenderAbroadOffers";
+import RenderSingleOffer from "./SingleOffer/SingleOffer";
+import OffersTypesList from "./OffersTypesList/OffersTypesList";
+import {
+  OffersListByType,
+  AbroadOffers,
+  BussOffers,
+  CrossBorderOffers,
+  DomesticOffers,
+  FiveDaysOffers,
+  FourDaysOffers,
+  KayakOffers,
+  OneDayOffers,
+  ThreeDaysOffers,
+} from "./OffersByType";
 
-export { RenderAllOffers, RenderSingleOffer, RenderOffersTypes, RenderOffersByType, RenderAbroadOffers };
+export {
+  RenderAllOffers,
+  RenderSingleOffer,
+  OffersTypesList,
+  OffersListByType,
+  AbroadOffers,
+  BussOffers,
+  CrossBorderOffers,
+  DomesticOffers,
+  FiveDaysOffers,
+  FourDaysOffers,
+  KayakOffers,
+  OneDayOffers,
+  ThreeDaysOffers,
+};

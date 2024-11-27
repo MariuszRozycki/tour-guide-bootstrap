@@ -1,9 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { useNavigateToOffer } from "../../hooks/useNavigateToOffer";
+import { useNavigateToOffer } from "../../../hooks/useNavigateToOffer";
 import Card from "react-bootstrap/Card";
-import "./RenderOffersTypes.scss";
+import "./OffersTypesList.scss";
 
-const RenderOffersTypes = () => {
+const OffersTypesList = () => {
   const { handleOffersType } = useNavigateToOffer();
 
   const types = [
@@ -15,7 +15,7 @@ const RenderOffersTypes = () => {
     { name: "4-dniowe", type: "four-days", imgSrc: "/../../../public/pictures/trip-categories/trip-five-days.jpg" },
     { name: "5-dniowe", type: "five-days", imgSrc: "/../../../public/pictures/trip-categories/trip-five-days.jpg" },
     { name: "Spływy kajakowe", type: "kayak", imgSrc: "/../../../public/pictures/trip-categories/trip-kayak.jpg" },
-    { name: "Autokarowe", type: "buss-trip", imgSrc: "/../../../public/pictures/trip-categories/trip-bus.jpg" },
+    { name: "Autokarowe", type: "buss", imgSrc: "/../../../public/pictures/trip-categories/trip-bus.jpg" },
     { name: "Weekndowe", type: "weekend", imgSrc: "/../../../public/pictures/trip-categories/trip-weekend.jpg" },
   ];
 
@@ -43,4 +43,4 @@ const RenderOffersTypes = () => {
   );
 };
 
-export default RenderOffersTypes;
+export default OffersTypesList;

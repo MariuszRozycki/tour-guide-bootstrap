@@ -1,12 +1,14 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { offersApi } from "../../api/api";
-import useGetData from "../../hooks/useGetData";
+import { offersApi } from "../../../../api/api";
+import useGetData from "../../../../hooks/useGetData";
 import Card from "react-bootstrap/Card";
-import { trimText } from "../../utils/trimText";
+import { trimText } from "../../../../utils/trimText";
 import Button from "react-bootstrap/Button";
+import { useNavigateToOffer } from "../../../../hooks/useNavigateToOffer";
 
-const RenderOffersByType = ({ mainTitle, type, filterCondition }) => {
-  const { data: offers, isLoading, isError, error } = useGetData(`${offersApi}`);
+const OffersListByType = ({ mainTitle, filterCondition }) => {
+  const { data: offers, isLoading, isError, error } = useGetData(offersApi);
+  const { handleSingleOffer } = useNavigateToOffer();
 
   if (isLoading) return <p>Loading...</p>;
   if (isError) return <p>Error loading data: {error.message}</p>;
@@ -20,7 +22,7 @@ const RenderOffersByType = ({ mainTitle, type, filterCondition }) => {
       <Row className='g-3'>
         {filteredOffers.map((offer) => (
           <Col col={12} sm={6} md={4} lg={3} key={offer._id}>
-            <Card>
+            <Card onClick={() => handleSingleOffer(offer._id)}>
               <Card.Img className='object-fit-cover' variant='top' style={{ height: "180px" }} src={offer.imageMain} />
               <Card.Body className='d-flex flex-column justify-content-between'>
                 <div className='text-wrapper'>
@@ -39,4 +41,4 @@ const RenderOffersByType = ({ mainTitle, type, filterCondition }) => {
   );
 };
 
-export default RenderOffersByType;
+export default OffersListByType;
