@@ -6,6 +6,7 @@ import Hero from "./Hero/Hero";
 import CustomCarouselContainer from "./Carousel/CustomCarouselContainer";
 import CustomCarousel from "./Carousel/CustomCarousel";
 import CustomSwiper from "./Swiper/CustomSwiper";
+import CustomCard from "./Card/CustomCard";
 import {
   RenderAllOffers,
   OffersTypesList,
@@ -30,6 +31,7 @@ export {
   Hero,
   CustomCarousel,
   CustomCarouselContainer,
+  CustomCard,
   CustomSwiper,
   RenderAllOffers,
   OffersTypesList,

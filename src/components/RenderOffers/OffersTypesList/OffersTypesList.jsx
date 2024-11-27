@@ -24,16 +24,22 @@ const OffersTypesList = () => {
       <h1>Oferty wg typu</h1>
       <Row className='g-2'>
         {types.map((type, index) => (
-          <Col className='col' sm={6} md={4} lg={3} key={`${Math.random()}${index}`}>
+          <Col className='card-by-offers-type' sm={6} md={4} lg={3} key={`${Math.random()}${index}`}>
             <Card
+              className='rounded-4 shadow-lg'
               onClick={() => {
                 console.log(type.type);
                 handleOffersType(type.type);
               }}
             >
-              <Card.Img className='object-fit-cover' style={{ height: "180px" }} variant='top' src={type.imgSrc} />
+              <Card.Img
+                className='object-fit-cover rounded-4 rounded-bottom-0'
+                style={{ height: "180px" }}
+                variant='top'
+                src={type.imgSrc}
+              />
               <Card.Body>
-                <Card.Title>{type.name}</Card.Title>
+                <Card.Title className='h-100'>{type.name}</Card.Title>
               </Card.Body>
             </Card>
           </Col>
