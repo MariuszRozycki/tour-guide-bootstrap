@@ -7,6 +7,7 @@ import CustomCarouselContainer from "./Carousel/CustomCarouselContainer";
 import CustomCarousel from "./Carousel/CustomCarousel";
 import CustomSwiper from "./Swiper/CustomSwiper";
 import CustomCard from "./Card/CustomCard";
+import AboutContent from "./About/AboutContent";
 import {
   RenderAllOffers,
   OffersTypesList,
@@ -46,4 +47,5 @@ export {
   KayakOffers,
   OneDayOffers,
   ThreeDaysOffers,
+  AboutContent,
 };

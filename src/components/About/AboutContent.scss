@@ -1,0 +1,31 @@
+@import "../../styles/breakpoints";
+
+.about-content-img-wrapper {
+  height: 200px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .tomek-about-1 {
+    object-position: center 13%;
+  }
+}
+
+.about-card {
+  cursor: default;
+}
+
+.about-details {
+  li {
+    margin-bottom: 9px;
+  }
+}
+
+@media (min-width: map-get($breakpoints, lg)) {
+  .about-content-img-wrapper {
+    height: 300px;
+  }
+}
