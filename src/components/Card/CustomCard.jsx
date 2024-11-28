@@ -4,13 +4,13 @@ import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 import { trimText } from "../../utils/trimText";
 import useElementWidth from "../../hooks/useElementWidth";
-import { useNavigateToOffer } from "../../hooks/useNavigateToOffer";
+import { useNavigateToElement } from "../../hooks/useNavigateToElement";
 import "./CustomCard.scss";
 
 const CustomCard = ({ offer }) => {
   const elementRef = useRef(null);
   const containerWidth = useElementWidth(elementRef);
-  const { handleSingleOffer } = useNavigateToOffer();
+  const { handleSingleOffer } = useNavigateToElement();
 
   return (
     <Card className='w-100 border-0 shadow-lg rounded-4 ' onClick={() => handleSingleOffer(offer._id)}>
