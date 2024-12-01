@@ -6,8 +6,18 @@ import { CustomCard } from "../../../../components";
 const OffersListByType = ({ mainTitle, filterCondition }) => {
   const { data: offers, isLoading, isError, error } = useGetData(offersApi);
 
-  if (isLoading) return <p>Loading...</p>;
-  if (isError) return <p>Error loading data: {error.message}</p>;
+  if (isLoading)
+    return (
+      <Container>
+        <p>Loading...</p>
+      </Container>
+    );
+  if (isError)
+    return (
+      <Container>
+        <p>Error loading data: {error.message}</p>
+      </Container>
+    );
 
   const filteredOffers = offers.filter(filterCondition);
   console.log("Filtered offers from OffersByType", filteredOffers);

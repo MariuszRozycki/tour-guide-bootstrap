@@ -1,21 +1,29 @@
+import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import { NavLink } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import "./CustomNav.scss";
 
 function CustomNav() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <>
       {["md"].map((expand) => (
         <Navbar key={expand} expand={expand} className='bg-body-tertiary mb-3 position-sticky top-0 z-2'>
           <Container>
             <Navbar.Brand href='#'>Tour Guide</Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Toggle onClick={handleShow} aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
+              show={show}
+              onHide={handleClose}
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement='end'
@@ -25,27 +33,18 @@ function CustomNav() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className='justify-content-end flex-grow-1 pe-3'>
-                  <Nav.Link as={NavLink} to='/' end>
+                  <Nav.Link as={NavLink} to='/' end onClick={handleClose}>
                     Home
                   </Nav.Link>
-                  <Nav.Link as={NavLink} to='/about'>
-                    About
+                  <Nav.Link as={NavLink} to='/about' onClick={handleClose}>
+                    O mnie
                   </Nav.Link>
-                  <Nav.Link as={NavLink} to='/contact'>
-                    Contact
+                  <Nav.Link as={NavLink} to='/contact' onClick={handleClose}>
+                    Kontakt
                   </Nav.Link>
-                  <NavDropdown title='Oferty' id={`offcanvasNavbarDropdown-expand-${expand}`}>
-                    <NavDropdown.Item as={NavLink} to='/action1'>
-                      Transgraniczne
-                    </NavDropdown.Item>
-                    <NavDropdown.Item as={NavLink} to='/action2'>
-                      Krajowe
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item as={NavLink} to='/action3'>
-                      Something else here
-                    </NavDropdown.Item>
-                  </NavDropdown>
+                  <Nav.Link as={NavLink} to='/offers-types' onClick={handleClose}>
+                    Oferty
+                  </Nav.Link>
                 </Nav>
                 <Form className='d-flex'>
                   <Form.Control type='search' placeholder='Search' className='me-2' aria-label='Search' />

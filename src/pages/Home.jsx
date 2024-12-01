@@ -1,8 +1,9 @@
-import { Hero, CustomSwiper } from "../components";
+import { HomeHeading, Hero, CustomSwiper } from "../components";
 
 const Home = () => {
   return (
     <>
+      <HomeHeading />
       <Hero />
       <CustomSwiper />
     </>

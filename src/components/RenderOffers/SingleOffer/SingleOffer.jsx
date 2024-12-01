@@ -11,8 +11,18 @@ const RenderSingleOffer = () => {
   const { id } = useParams();
   const { data: offer, isLoading, isError, error } = useGetData(offersApi, id);
 
-  if (isLoading) return <p>Loading...</p>;
-  if (isError) return <p>Error loading data: {error.message}</p>;
+  if (isLoading)
+    return (
+      <Container>
+        <p>Loading...</p>
+      </Container>
+    );
+  if (isError)
+    return (
+      <Container>
+        <p>Error loading data: {error.message}</p>
+      </Container>
+    );
 
   console.log("offer from RenderSingleOffer", offer);
 
@@ -21,7 +31,7 @@ const RenderSingleOffer = () => {
       <h1 className='h2 mb-md-4'>{offer.title}</h1>
       <Row className='g-lg-5'>
         <Col lg={4} className='mb-3'>
-          <Image className='w-100 h-sm-100 rounded-6 shadow-4 rotate-lg-6 object-fit-cover' src={offer.imageMain} rounded />
+          <Image className='w-100 h-sm-100 rounded-4 shadow-4 object-fit-cover' src={offer.imageMain} rounded />
         </Col>
         <Col lg={8}>
           <Card className='border-0'>

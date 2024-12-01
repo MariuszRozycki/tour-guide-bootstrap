@@ -1,10 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { useNavigateToOffer } from "../../../hooks/useNavigateToOffer";
+import { useNavigateToElement } from "../../../hooks/useNavigateToElement";
 import Card from "react-bootstrap/Card";
 import "./OffersTypesList.scss";
 
 const OffersTypesList = () => {
-  const { handleOffersType } = useNavigateToOffer();
+  const { handleOffersType } = useNavigateToElement();
 
   const types = [
     { name: "Zagraniczne", type: "abroad", imgSrc: "/../../../public/pictures/abroad/budapest01.jpg" },

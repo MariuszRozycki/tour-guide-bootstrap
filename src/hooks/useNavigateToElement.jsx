@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-export const useNavigateToOffer = () => {
+export const useNavigateToElement = () => {
   const navigate = useNavigate();
 
   const handleSingleOffer = (offerId) => {
