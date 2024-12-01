@@ -10,11 +10,7 @@ const Hero = () => {
   return (
     <section className='hero-section'>
       <Container>
-        <h1 className='display-4 text-primary mb-0 fw-semibold'>
-          Tour Guide <span className='d-block fs-1'>Kraftowe wyjazdy</span>
-        </h1>
-        <h2 className='display-5 text-primary mt-4'>Witaj na mojej stronie!</h2>
-        <div className='mt-4 row g-0 d-flex align-items-center'>
+        <div className='row g-0 d-flex align-items-center'>
           <div className='col-md-7 mb-4 mb-xl-0 d-flex flex-column justify-content-center'>
             <img className='w-100 rounded' src='../../../public/pictures/lublin/lublin02.jpg' alt='' />
             <Button

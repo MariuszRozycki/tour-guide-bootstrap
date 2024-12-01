@@ -11,8 +11,18 @@ const RenderSingleOffer = () => {
   const { id } = useParams();
   const { data: offer, isLoading, isError, error } = useGetData(offersApi, id);
 
-  if (isLoading) return <p>Loading...</p>;
-  if (isError) return <p>Error loading data: {error.message}</p>;
+  if (isLoading)
+    return (
+      <Container>
+        <p>Loading...</p>
+      </Container>
+    );
+  if (isError)
+    return (
+      <Container>
+        <p>Error loading data: {error.message}</p>
+      </Container>
+    );
 
   console.log("offer from RenderSingleOffer", offer);
 

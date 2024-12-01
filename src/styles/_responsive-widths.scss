@@ -3,16 +3,16 @@
 @each $breakpoint, $value in $breakpoints {
   @media (min-width: #{$value}) {
     .w-#{$breakpoint}-25 {
-      width: 50% !important;
+      width: 25% !important;
     }
     .w-#{$breakpoint}-50 {
       width: 50% !important;
     }
     .w-#{$breakpoint}-75 {
-      width: 50% !important;
+      width: 75% !important;
     }
     .w-#{$breakpoint}-100 {
-      width: 50% !important;
+      width: 100% !important;
     }
   }
 }

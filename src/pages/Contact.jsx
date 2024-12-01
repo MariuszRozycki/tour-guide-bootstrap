@@ -1,5 +1,12 @@
+import { ContactHeading, ContactForm } from "../components";
+
 const Contact = () => {
-  return <h1>Contact</h1>;
+  return (
+    <>
+      <ContactHeading />
+      <ContactForm />
+    </>
+  );
 };
 
 export default Contact;
