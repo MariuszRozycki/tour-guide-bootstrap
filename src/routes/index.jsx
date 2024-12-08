@@ -16,6 +16,7 @@ import {
   OneDayOffers,
   ThreeDaysOffers,
   WeekendOffers,
+  SearchOffer,
 } from "../components";
 
 const router = createBrowserRouter([
@@ -87,7 +88,10 @@ const router = createBrowserRouter([
         path: "/offers-types/weekend",
         element: <WeekendOffers />,
       },
-
+      {
+        path: "/search",
+        element: <SearchOffer />,
+      },
       {
         path: "/single-offer/:id",
         element: <RenderSingleOffer />,

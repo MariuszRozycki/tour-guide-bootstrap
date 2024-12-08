@@ -12,6 +12,7 @@ import AboutHeading from "./Headings/AboutHeading/AboutHeading";
 import AboutContent from "./About/AboutContent";
 import ContactHeading from "./Headings/ContactHeading.jsx/ContactHeading";
 import ContactForm from "./ContactForm/ContactForm";
+import { SearchOffer } from "./RenderOffers";
 import {
   RenderAllOffers,
   OffersTypesList,
@@ -54,6 +55,7 @@ export {
   OneDayOffers,
   ThreeDaysOffers,
   WeekendOffers,
+  SearchOffer,
   AboutHeading,
   AboutContent,
   ContactHeading,

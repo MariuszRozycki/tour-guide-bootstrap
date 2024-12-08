@@ -10,8 +10,6 @@ const CustomCard = ({ offer }) => {
   const containerWidth = useElementWidth(elementRef);
   const { handleSingleOffer } = useNavigateToElement();
 
-  console.log(offer);
-
   return (
     <Card className='w-100 border-0 shadow-lg rounded-4 ' onClick={() => handleSingleOffer(offer._id)}>
       <Card.Img
