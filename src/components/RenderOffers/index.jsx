@@ -12,6 +12,7 @@ import {
   KayakOffers,
   OneDayOffers,
   ThreeDaysOffers,
+  WeekendOffers,
 } from "./OffersByType";
 
 export {
@@ -28,4 +29,5 @@ export {
   KayakOffers,
   OneDayOffers,
   ThreeDaysOffers,
+  WeekendOffers,
 };

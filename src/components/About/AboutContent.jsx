@@ -7,7 +7,7 @@ const AboutContent = () => {
       <Container>
         <Row className='mb-4 mb-md-5'>
           <Col className='about-content-img-wrapper pe-lg-0 mb-3' xs={12} md={8}>
-            <Image src='../../public/pictures/about/about-torun.jpg' className='rounded-4' />
+            <Image src='/pictures/about/about-torun.jpg' className='rounded-4' />
           </Col>
           <Col xs={12}>
             <Card className='about-card  mt-lg-3 rounded-4 border-0 shadow-lg bg-primary-subtle'>
@@ -27,7 +27,7 @@ const AboutContent = () => {
         </Row>
         <Row className='mb-5'>
           <Col className='about-content-img-wrapper pe-lg-0 mb-2 mb-md-0' xs={12} md={4} lg={5}>
-            <Image src='../../public/pictures/about/tomek-about-2.jpg' className='rounded-4 rotate-md-8' />
+            <Image src='/pictures/about/tomek-about-2.jpg' className='rounded-4 rotate-md-8' />
           </Col>
           <Col xs={12} md={8} lg={7}>
             <Card className='about-card ms-lg-n5 mt-lg-3 rounded-4 border-0 shadow-lg bg-primary-subtle'>
@@ -55,7 +55,7 @@ const AboutContent = () => {
             </Card>
           </Col>
           <Col className='order-0 order-md-1 about-content-img-wrapper ps-lg-0 mb-2 mb-md-0' xs={12} md={4}>
-            <Image className='tomek-about-1 w-100 rounded-4' src='../../public/pictures/about/tomek-about-1.jpg' rounded />
+            <Image className='tomek-about-1 w-100 rounded-4' src='/pictures/about/tomek-about-1.jpg' rounded />
           </Col>
         </Row>
         <Row className='mb-4'>
