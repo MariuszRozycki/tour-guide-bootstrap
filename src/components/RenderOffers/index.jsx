@@ -1,6 +1,7 @@
 import RenderAllOffers from "./RenderAllOffers";
 import RenderSingleOffer from "./SingleOffer/SingleOffer";
 import OffersTypesList from "./OffersTypesList/OffersTypesList";
+import SearchOffer from "./SearchOffer/SearchOffer";
 import {
   OffersListByType,
   AbroadOffers,
@@ -30,4 +31,5 @@ export {
   OneDayOffers,
   ThreeDaysOffers,
   WeekendOffers,
+  SearchOffer,
 };

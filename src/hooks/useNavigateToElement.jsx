@@ -4,8 +4,6 @@ export const useNavigateToElement = () => {
   const navigate = useNavigate();
 
   const handleSingleOffer = (offerId) => {
-    console.log("offerId", offerId);
-
     navigate(`/single-offer/${offerId}`);
   };
 
@@ -17,5 +15,9 @@ export const useNavigateToElement = () => {
     navigate(`/offers-types/${type}`);
   };
 
-  return { handleSingleOffer, handleOffersByType, handleOffersType };
+  const handleNavigateToSearch = () => {
+    navigate("/search");
+  };
+
+  return { handleSingleOffer, handleOffersByType, handleOffersType, handleNavigateToSearch };
 };

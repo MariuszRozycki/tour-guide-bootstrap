@@ -28,7 +28,6 @@ const OffersTypesList = () => {
             <Card
               className='rounded-4 shadow-lg'
               onClick={() => {
-                console.log(type.type);
                 handleOffersType(type.type);
               }}
             >
