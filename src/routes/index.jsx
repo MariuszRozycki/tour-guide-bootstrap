@@ -15,6 +15,7 @@ import {
   KayakOffers,
   OneDayOffers,
   ThreeDaysOffers,
+  WeekendOffers,
 } from "../components";
 
 const router = createBrowserRouter([
@@ -81,6 +82,10 @@ const router = createBrowserRouter([
       {
         path: "/offers-types/three-days",
         element: <ThreeDaysOffers />,
+      },
+      {
+        path: "/offers-types/weekend",
+        element: <WeekendOffers />,
       },
 
       {

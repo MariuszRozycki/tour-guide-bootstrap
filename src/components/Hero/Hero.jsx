@@ -12,7 +12,7 @@ const Hero = () => {
       <Container>
         <div className='row g-0 d-flex align-items-center'>
           <div className='col-md-7 mb-4 mb-xl-0 d-flex flex-column justify-content-center'>
-            <img className='w-100 rounded' src='../../../public/pictures/lublin/lublin02.jpg' alt='' />
+            <img className='w-100 rounded' src='/pictures/lublin/lublin02.jpg' alt='' />
             <Button
               variant='danger'
               className='w-100 w-sm-50 mx-auto mx-sm-0 shadow-lg rounded-pill mt-3'

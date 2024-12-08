@@ -1,8 +1,6 @@
 import { useRef } from "react";
-import { Card } from "react-bootstrap";
-import OverlayTrigger from "react-bootstrap/OverlayTrigger";
-import Tooltip from "react-bootstrap/Tooltip";
-import { trimText } from "../../utils/trimText";
+import { Card, OverlayTrigger, Tooltip } from "react-bootstrap";
+import { trimText, capitalizeFirstLetter, handleImageError } from "../../utils/index";
 import useElementWidth from "../../hooks/useElementWidth";
 import { useNavigateToElement } from "../../hooks/useNavigateToElement";
 import "./CustomCard.scss";
@@ -12,6 +10,8 @@ const CustomCard = ({ offer }) => {
   const containerWidth = useElementWidth(elementRef);
   const { handleSingleOffer } = useNavigateToElement();
 
+  console.log(offer);
+
   return (
     <Card className='w-100 border-0 shadow-lg rounded-4 ' onClick={() => handleSingleOffer(offer._id)}>
       <Card.Img
@@ -19,6 +19,7 @@ const CustomCard = ({ offer }) => {
         variant='top'
         style={{ height: "180px" }}
         src={offer.imageMain}
+        onError={handleImageError}
       />
       <Card.Body className='d-flex flex-column justify-content-between'>
         <div className='text-wrapper'>
@@ -28,7 +29,7 @@ const CustomCard = ({ offer }) => {
           <div>
             <div className='slider-item-details mt-2'>
               <div className='details-description'>
-                <p className='h6 my-2'>{offer.days}</p>
+                <p className='h6 my-2'>{capitalizeFirstLetter(offer.days)}</p>
                 <p className='h6'>
                   <i className='bi bi-tag'></i> {offer.price45people} PLN/
                   <i className='bi bi-person-standing'></i>

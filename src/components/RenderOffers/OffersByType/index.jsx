@@ -8,6 +8,7 @@ import FourDaysOffers from "./FourDaysOffers/FourDaysOffers";
 import KayakOffers from "./KayakOffers/KayakOffers";
 import OneDayOffers from "./OneDayOffers/OneDayOffers";
 import ThreeDaysOffers from "./ThreeDaysOffers/ThreeDaysOffers";
+import WeekendOffers from "./WeekendOffers/WeekendOffers";
 
 export {
   OffersListByType,
@@ -20,4 +21,5 @@ export {
   KayakOffers,
   OneDayOffers,
   ThreeDaysOffers,
+  WeekendOffers,
 };

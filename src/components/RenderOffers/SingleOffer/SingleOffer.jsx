@@ -1,10 +1,7 @@
-import Container from "react-bootstrap/Container";
-import { Card, Button } from "react-bootstrap";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+import { Container, Row, Col, Card, Image, Button } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { offersApi } from "../../../api/api";
+import { capitalizeFirstLetter, handleImageError } from "../../../utils/index";
 import useGetData from "../../../hooks/useGetData";
 
 const RenderSingleOffer = () => {
@@ -24,19 +21,22 @@ const RenderSingleOffer = () => {
       </Container>
     );
 
-  console.log("offer from RenderSingleOffer", offer);
-
   return (
     <Container className='my-5'>
       <h1 className='h2 mb-md-4'>{offer.title}</h1>
       <Row className='g-lg-5'>
         <Col lg={4} className='mb-3'>
-          <Image className='w-100 h-sm-100 rounded-4 shadow-4 object-fit-cover' src={offer.imageMain} rounded />
+          <Image
+            className='w-100 h-sm-100 h-md-75 rounded-4 shadow-4 object-fit-cover'
+            src={offer.imageMain}
+            onError={handleImageError}
+            rounded
+          />
         </Col>
         <Col lg={8}>
           <Card className='border-0'>
             <Card.Body className='p-0'>
-              <p className='fs-4 m-0 fw-semibold'>{offer.days}</p>
+              <p className='fs-4 m-0 mb-2'>Czas trwania: {capitalizeFirstLetter(offer.days)}</p>
               <h2 className='h4'>{offer.titleSub}</h2>
               <h3 className='h4'>Plan wycieczki:</h3>
               {offer.descTitle ? (

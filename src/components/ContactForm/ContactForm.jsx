@@ -12,7 +12,7 @@ const ContactForm = () => {
     <Container>
       <Row className='mb-2'>
         <Col xs={12} className='contact-img-wrapper mb-4'>
-          <Image className='object-fit-cover mb-2 w-100 h-100' src='../../../public/pictures/contact-us.jpg' rounded />
+          <Image className='object-fit-cover mb-2 w-100 h-100' src='/pictures/contact-us.jpg' rounded />
         </Col>
         <Col>
           <h2 className='h3 mb-3'>Zapytaj o ofertę!</h2>

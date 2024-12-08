@@ -26,6 +26,7 @@ import {
   KayakOffers,
   OneDayOffers,
   ThreeDaysOffers,
+  WeekendOffers,
 } from "./RenderOffers";
 
 export {
@@ -52,6 +53,7 @@ export {
   KayakOffers,
   OneDayOffers,
   ThreeDaysOffers,
+  WeekendOffers,
   AboutHeading,
   AboutContent,
   ContactHeading,
