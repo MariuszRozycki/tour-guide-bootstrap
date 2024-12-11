@@ -13,6 +13,8 @@ import AboutContent from "./About/AboutContent";
 import ContactHeading from "./Headings/ContactHeading.jsx/ContactHeading";
 import ContactForm from "./ContactForm/ContactForm";
 import { SearchOffer } from "./RenderOffers";
+import FavoriteButton from "./Buttons/FavoriteButton/FavoriteButton";
+import ShowFavoriteButton from "./Buttons/ShowFavoriteButton/ShowFavoriteButton";
 import {
   RenderAllOffers,
   OffersTypesList,
@@ -28,6 +30,7 @@ import {
   OneDayOffers,
   ThreeDaysOffers,
   WeekendOffers,
+  FavoritesOffers,
 } from "./RenderOffers";
 
 export {
@@ -60,4 +63,7 @@ export {
   AboutContent,
   ContactHeading,
   ContactForm,
+  FavoritesOffers,
+  FavoriteButton,
+  ShowFavoriteButton,
 };
