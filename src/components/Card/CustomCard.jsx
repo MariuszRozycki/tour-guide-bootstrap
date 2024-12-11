@@ -1,23 +1,28 @@
 import { useRef } from "react";
-import { Card, OverlayTrigger, Tooltip } from "react-bootstrap";
+import { Card, OverlayTrigger, Tooltip, Button } from "react-bootstrap";
 import { trimText, capitalizeFirstLetter, handleImageError } from "../../utils/index";
 import useElementWidth from "../../hooks/useElementWidth";
 import { useNavigateToElement } from "../../hooks/useNavigateToElement";
+import { useFavorites } from "../../context/FavoritesContext";
 import "./CustomCard.scss";
 
 const CustomCard = ({ offer }) => {
   const elementRef = useRef(null);
   const containerWidth = useElementWidth(elementRef);
   const { handleSingleOffer } = useNavigateToElement();
+  const { favorites, addFavorite, removeFavorite } = useFavorites();
+
+  const isFavorite = favorites.some((fav) => fav._id === offer._id);
 
   return (
-    <Card className='w-100 rounded-4' onClick={() => handleSingleOffer(offer._id)}>
+    <Card className='w-100 rounded-4 position-relative'>
       <Card.Img
         className='card-by-offers-type object-fit-cover rounded-4 rounded-bottom-0'
         variant='top'
         style={{ height: "180px" }}
         src={offer.imageMain}
         onError={handleImageError}
+        onClick={() => handleSingleOffer(offer._id)}
       />
       <Card.Body className='d-flex flex-column justify-content-between'>
         <div className='text-wrapper'>
@@ -38,6 +43,40 @@ const CustomCard = ({ offer }) => {
           </div>
         </div>
       </Card.Body>
+
+      <div className='position-absolute top-0 end-0 p-2 d-flex flex-column gap-2'>
+        {isFavorite ? (
+          <>
+            <OverlayTrigger placement='top' overlay={<Tooltip id={`tooltip-${offer._id}`}>Usuń z ulubionych</Tooltip>}>
+              <Button
+                className='rounded-circle'
+                variant='danger'
+                size='sm'
+                onClick={(e) => {
+                  e.stopPropagation();
+                  removeFavorite(offer._id);
+                }}
+              >
+                <i className='bi bi-trash2'></i>
+              </Button>
+            </OverlayTrigger>
+          </>
+        ) : (
+          <OverlayTrigger placement='top' overlay={<Tooltip id={`tooltip-${offer._id}`}>Dodaj do ulubionych</Tooltip>}>
+            <Button
+              className='rounded-circle'
+              variant='primary'
+              size='sm'
+              onClick={(e) => {
+                e.stopPropagation();
+                addFavorite(offer);
+              }}
+            >
+              <i className='bi bi-heart'></i>
+            </Button>
+          </OverlayTrigger>
+        )}
+      </div>
     </Card>
   );
 };

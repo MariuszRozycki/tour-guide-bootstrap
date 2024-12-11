@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
-import { Home, About, Contact } from "../pages";
+import { Home, About, Contact, FavoritesPage } from "../pages";
 import {
   RenderAllOffers,
   OffersListByType,
@@ -91,6 +91,10 @@ const router = createBrowserRouter([
       {
         path: "/search",
         element: <SearchOffer />,
+      },
+      {
+        path: "/favorites-page",
+        element: <FavoritesPage />,
       },
       {
         path: "/single-offer/:id",

@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { Button, Container, Form, Nav, Navbar, Offcanvas } from "react-bootstrap";
+import { Container, Form, Nav, Navbar, Offcanvas } from "react-bootstrap";
 import { NavLink, Link } from "react-router-dom";
 import useHandleSearch from "../../hooks/useHandleSearch";
 import { useLocation } from "react-router-dom";
 import "./CustomNav.scss";
+import ShowFavoriteButton from "../Buttons/ShowFavoriteButton/ShowFavoriteButton";
 
 function CustomNav() {
   const [show, setShow] = useState(false);
@@ -33,6 +34,7 @@ function CustomNav() {
             <Navbar.Brand as={Link} to='/'>
               Tour Guide
             </Navbar.Brand>
+            <ShowFavoriteButton />
             <Navbar.Toggle onClick={handleShow} aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               show={show}
@@ -70,9 +72,6 @@ function CustomNav() {
                       value={localSearchQuery}
                       onChange={(e) => setLocalSearchQuery(e.target.value)}
                     />
-                    <Button variant='outline-success' type='submit'>
-                      Search
-                    </Button>
                   </Form>
                 )}
               </Offcanvas.Body>

@@ -1,8 +1,9 @@
-import { Container, Row, Col, Card, Image, Button } from "react-bootstrap";
 import { useParams } from "react-router-dom";
+import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import { offersApi } from "../../../api/api";
 import { capitalizeFirstLetter, handleImageError } from "../../../utils/index";
 import useGetData from "../../../hooks/useGetData";
+import { FavoriteButton } from "../../../components";
 
 const RenderSingleOffer = () => {
   const { id } = useParams();
@@ -27,7 +28,7 @@ const RenderSingleOffer = () => {
       <Row className='g-lg-5'>
         <Col lg={4} className='mb-3'>
           <Image
-            className='w-100 h-sm-100 h-md-75 rounded-4 shadow-4 object-fit-cover'
+            className='w-100 h-sm-100 rounded-4 shadow-4 object-fit-cover'
             src={offer.imageMain}
             onError={handleImageError}
             rounded
@@ -57,7 +58,6 @@ const RenderSingleOffer = () => {
                   ))}
                 </ol>
               )}
-
               <div className='offer-details d-flex flex-column gap-1 mt-4'>
                 {offer.price40people === 0 ? (
                   <>
@@ -84,7 +84,7 @@ const RenderSingleOffer = () => {
                   </>
                 )}
               </div>
-              <Button variant='primary'>Dodaj do ulubionych</Button>
+              <FavoriteButton offer={offer} />
             </Card.Body>
           </Card>
         </Col>
