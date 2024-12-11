@@ -11,7 +11,7 @@ const CustomCard = ({ offer }) => {
   const { handleSingleOffer } = useNavigateToElement();
 
   return (
-    <Card className='w-100 border-0 shadow-lg rounded-4 ' onClick={() => handleSingleOffer(offer._id)}>
+    <Card className='w-100 rounded-4' onClick={() => handleSingleOffer(offer._id)}>
       <Card.Img
         className='card-by-offers-type object-fit-cover rounded-4 rounded-bottom-0'
         variant='top'

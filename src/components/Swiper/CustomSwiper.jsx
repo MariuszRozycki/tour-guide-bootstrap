@@ -2,9 +2,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import breakpoints from "../../styles/breakpoints";
 import { CustomCard } from "../../components";
-
 import useGetData from "../../hooks/useGetData";
 import { offersApi } from "../../api/api";
+
+import "./CustomSwiper.scss";
 
 const CustomSwiper = () => {
   const { data: offers, isLoading, isError, error } = useGetData(offersApi);
@@ -45,7 +46,7 @@ const CustomSwiper = () => {
               grabCursor
             >
               {offers.map((offer) => (
-                <SwiperSlide key={offer._id} className='slider-item rounded-4 border border-dark'>
+                <SwiperSlide key={offer._id} className='slider-item rounded-4 bg-secondary-subtle'>
                   <CustomCard offer={offer} />
                 </SwiperSlide>
               ))}

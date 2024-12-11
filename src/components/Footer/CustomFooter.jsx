@@ -22,7 +22,7 @@ const CustomFooter = () => {
                 <li>Ogrodowa 27,</li>
                 <li>05-152 Kazuń Polski</li>
                 <li>NIP: 821 173 7629</li>
-                <li>nr wpisu: jeszcze nie znam</li>
+                <li>nr wpisu: 2850 (U.M. Woj. Maz.)</li>
               </ul>
 
               <ul className='list-unstyled'>
