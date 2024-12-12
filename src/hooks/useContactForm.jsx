@@ -102,8 +102,6 @@ const useContactForm = (formID) => {
 
       const result = await response.json();
 
-      console.log("result", result);
-
       if (result.status === "mail_sent") {
         toast.success("Twoja wiadomość została wysłana!");
         setFormData({ userName: "", email: "", phone: "", subject: "", message: "" });
