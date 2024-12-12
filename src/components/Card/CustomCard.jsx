@@ -15,14 +15,13 @@ const CustomCard = ({ offer }) => {
   const isFavorite = favorites.some((fav) => fav._id === offer._id);
 
   return (
-    <Card className='w-100 rounded-4 position-relative'>
+    <Card className='w-100 rounded-4 position-relative' onClick={() => handleSingleOffer(offer._id)}>
       <Card.Img
         className='card-by-offers-type object-fit-cover rounded-4 rounded-bottom-0'
         variant='top'
         style={{ height: "180px" }}
         src={offer.imageMain}
         onError={handleImageError}
-        onClick={() => handleSingleOffer(offer._id)}
       />
       <Card.Body className='d-flex flex-column justify-content-between'>
         <div className='text-wrapper'>
