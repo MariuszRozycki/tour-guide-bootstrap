@@ -6,17 +6,15 @@ const FavoritesContext = createContext();
 
 const initializeFavorites = () => {
   const storedFavorites = loadFromStorage("favorites");
-  console.log("Initializing favorites from localStorage:", storedFavorites);
-  return storedFavorites || []; // Jeśli brak danych, zwraca pustą tablicę
+
+  return storedFavorites || [];
 };
 
 export const FavoritesProvider = ({ children }) => {
   const [favorites, dispatch] = useReducer(favoritesReducer, [], initializeFavorites);
 
-  // Zapisuj ulubione do localStorage przy każdej zmianie
   useEffect(() => {
     saveToStorage("favorites", favorites);
-    console.log("Saving to localStorage:", favorites);
   }, [favorites]);
 
   const addFavorite = (offer) => {

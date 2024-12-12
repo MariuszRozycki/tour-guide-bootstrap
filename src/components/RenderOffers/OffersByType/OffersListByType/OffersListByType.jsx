@@ -20,7 +20,6 @@ const OffersListByType = ({ mainTitle, filterCondition }) => {
     );
 
   const filteredOffers = offers.filter(filterCondition);
-  console.log("Filtered offers from OffersByType", filteredOffers);
 
   return (
     <Container>
