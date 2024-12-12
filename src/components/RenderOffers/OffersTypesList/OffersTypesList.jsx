@@ -12,7 +12,7 @@ const OffersTypesList = () => {
     { name: "Transgraniczne", type: "cross-border", imgSrc: "/../../../public/pictures/trip-categories/trip-cross-border.jpg" },
     { name: "1-dniowe", type: "one-day", imgSrc: "/pictures/trip-categories/trip-one-day.jpg" },
     { name: "3-dniowe", type: "three-days", imgSrc: "/pictures/trip-categories/trip-three-days.jpg" },
-    { name: "4-dniowe", type: "four-days", imgSrc: "/pictures/trip-categories/trip-five-days.jpg" },
+    { name: "4-dniowe", type: "four-days", imgSrc: "/pictures/trip-categories/trip-four-days.jpg" },
     { name: "5-dniowe", type: "five-days", imgSrc: "/pictures/trip-categories/trip-five-days.jpg" },
     { name: "Spływy kajakowe", type: "kayak", imgSrc: "/pictures/trip-categories/trip-kayak.jpg" },
     { name: "Autokarowe", type: "buss", imgSrc: "/pictures/trip-categories/trip-bus.jpg" },
