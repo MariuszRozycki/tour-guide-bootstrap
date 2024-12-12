@@ -58,7 +58,7 @@ const RenderSingleOffer = () => {
                   ))}
                 </ol>
               )}
-              <div className='offer-details d-flex flex-column gap-1 mt-4'>
+              {/* <div className='offer-details d-flex flex-column gap-1 mt-4'>
                 {offer.price40people === 0 ? (
                   <>
                     <p className='h4'>
@@ -83,7 +83,79 @@ const RenderSingleOffer = () => {
                     <p className='fw-6'>** cena dla 40 osób</p>
                   </>
                 )}
+              </div> */}
+              {/* <div className='offer-details d-flex flex-column gap-1 mt-4'>
+                {typeof offer.price40people === "string" || typeof offer.price45people === "string" ? (
+                  <>
+                    {typeof offer.price45people === "string" && (
+                      <p className='h4'>
+                        <i className='bi bi-tag'></i> {offer.price45people}
+                      </p>
+                    )}
+                    {typeof offer.price40people === "string" && (
+                      <p className='h4'>
+                        <i className='bi bi-tag'></i> {offer.price40people}
+                      </p>
+                    )}
+                  </>
+                ) : offer.price40people === 0 ? (
+                  <>
+                    <p className='h4'>
+                      <i className='bi bi-tag'></i> *{offer.price45people} PLN/
+                      <i className='bi bi-person-standing'></i>
+                    </p>
+                    <p className='fw-6'>* cena dla min. 45 osób</p>
+                  </>
+                ) : (
+                  <>
+                    <p className='h4'>
+                      <i className='bi bi-tag pe-2'></i>
+                      {offer.price45people} PLN/
+                      <i className='bi bi-person-standing'></i>*
+                    </p>
+                    <p className='h4 mb-4'>
+                      <i className='bi bi-tag pe-2 invisible'></i>
+                      {offer.price40people} PLN/
+                      <i className='bi bi-person-standing'></i>**
+                    </p>
+                    <p className='fw-6 mb-0'>* cena dla 45 osób</p>
+                    <p className='fw-6'>** cena dla 40 osób</p>
+                  </>
+                )}
+              </div> */}
+              <div className='offer-details d-flex flex-column gap-1 mt-4'>
+                {typeof offer.price40people === "string" || typeof offer.price45people === "string" ? (
+                  <>
+                    {typeof offer.price45people === "string" && (
+                      <p className='h4'>
+                        <i className='bi bi-tag'></i> {offer.price45people}
+                      </p>
+                    )}
+                    {typeof offer.price40people === "string" && (
+                      <p className='h4'>
+                        <i className='bi bi-tag'></i> {offer.price40people}
+                      </p>
+                    )}
+                  </>
+                ) : (
+                  <>
+                    <p className='h4'>
+                      <i className='bi bi-tag'></i> {offer.price45people} PLN/
+                      <i className='bi bi-person-standing'></i> *
+                    </p>
+                    {offer.price40people !== 0 && (
+                      <p className='h4'>
+                        <i className='bi bi-tag pe-2 invisible'></i>
+                        {offer.price40people} PLN/
+                        <i className='bi bi-person-standing'></i> **
+                      </p>
+                    )}
+                    <p className='fw-6 mb-0'>* cena dla 45 osób</p>
+                    {offer.price40people !== 0 && <p className='fw-6'>** cena dla 40 osób</p>}
+                  </>
+                )}
               </div>
+
               <FavoriteButton offer={offer} />
             </Card.Body>
           </Card>

@@ -33,11 +33,22 @@ const CustomCard = ({ offer }) => {
             <div className='slider-item-details mt-2'>
               <div className='details-description'>
                 <p className='h6 my-2'>{capitalizeFirstLetter(offer.days)}</p>
-                <p className='h6'>
-                  <i className='bi bi-tag'></i> {offer.price45people} PLN/
-                  <i className='bi bi-person-standing'></i>
-                </p>
-                <p className='fw-6'>* cena dla min. 45 osób</p>
+                {typeof offer.price45people === "string" ? (
+                  <>
+                    <p className='h6'>
+                      <i className='bi bi-tag'></i> {capitalizeFirstLetter(offer.price45people)}
+                    </p>
+                    <p className='fw-6 invisible'>* cena dla min. 45 osób</p>
+                  </>
+                ) : (
+                  <>
+                    <p className='h6'>
+                      <i className='bi bi-tag'></i> {offer.price45people} PLN/
+                      <i className='bi bi-person-standing'></i> *
+                    </p>
+                    <p className='fw-6'>* cena dla min. 45 osób</p>
+                  </>
+                )}
               </div>
             </div>
           </div>

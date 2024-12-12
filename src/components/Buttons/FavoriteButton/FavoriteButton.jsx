@@ -13,7 +13,7 @@ const FavoriteButton = ({ offer }) => {
   };
 
   return (
-    <Button variant={isFavorite(offer._id) ? "danger" : "primary"} onClick={handleToggleFavorite}>
+    <Button className='mt-4' variant={isFavorite(offer._id) ? "danger" : "primary"} onClick={handleToggleFavorite}>
       {isFavorite(offer._id) ? "Usuń z ulubionych" : "Dodaj do ulubionych"}
     </Button>
   );
