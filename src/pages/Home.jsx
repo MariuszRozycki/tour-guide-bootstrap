@@ -1,10 +1,11 @@
-import { CustomCarouselContainer, Hero } from "../components";
+import { HomeHeading, Hero, CustomSwiper } from "../components";
 
 const Home = () => {
   return (
     <>
+      <HomeHeading />
       <Hero />
-      <CustomCarouselContainer />
+      <CustomSwiper />
     </>
   );
 };

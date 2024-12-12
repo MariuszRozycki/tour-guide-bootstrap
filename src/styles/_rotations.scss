@@ -1,0 +1,19 @@
+@import "breakpoints";
+
+// Generating rotation classes for different breakpoints
+@each $breakpoint, $value in $breakpoints {
+  @media (min-width: #{$value}) {
+    .rotate-#{$breakpoint}-2 {
+      transform: rotate(2deg);
+    }
+    .rotate-#{$breakpoint}-4 {
+      transform: rotate(4deg);
+    }
+    .rotate-#{$breakpoint}-6 {
+      transform: rotate(6deg);
+    }
+    .rotate-#{$breakpoint}-8 {
+      transform: rotate(8deg);
+    }
+  }
+}

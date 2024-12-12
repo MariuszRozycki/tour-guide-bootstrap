@@ -6,6 +6,7 @@ const MainLayout = () => {
     <>
       <CustomHeader />
       <CustomBreadcrumb />
+
       <Outlet />
       <CustomFooter />
     </>

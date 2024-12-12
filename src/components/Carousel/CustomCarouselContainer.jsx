@@ -8,8 +8,6 @@ const CustomCarouselContainer = () => {
   const { data: slides, isLoading, isError, error } = useGetData(offersApi);
   const [itemsPerSlide, setItemsPerSlide] = useState(1);
 
-  console.log("slides", slides);
-
   useEffect(() => {
     const updateItemsPerSlide = () => {
       const width = window.innerWidth;

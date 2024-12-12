@@ -1,5 +1,12 @@
+import { AboutHeading, AboutContent } from "../components";
+
 const About = () => {
-  return <h1>About</h1>;
+  return (
+    <>
+      <AboutHeading />
+      <AboutContent />
+    </>
+  );
 };
 
 export default About;

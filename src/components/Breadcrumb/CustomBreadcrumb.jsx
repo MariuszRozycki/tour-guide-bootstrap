@@ -1,13 +1,23 @@
 import { Container } from "react-bootstrap";
 import Breadcrumb from "react-bootstrap/Breadcrumb";
+import { NavLink } from "react-router-dom";
 
 const CustomBreadcrumb = () => {
   return (
     <Container>
       <Breadcrumb>
-        <Breadcrumb.Item href='#'>Home</Breadcrumb.Item>
-        <Breadcrumb.Item href='https://getbootstrap.com/docs/4.0/components/breadcrumb/'>Library</Breadcrumb.Item>
-        <Breadcrumb.Item active>Data</Breadcrumb.Item>
+        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/" }}>
+          Home
+        </Breadcrumb.Item>
+        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/about" }}>
+          O mnie
+        </Breadcrumb.Item>
+        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/contact" }}>
+          Kontakt
+        </Breadcrumb.Item>
+        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/offers-types" }}>
+          Oferty
+        </Breadcrumb.Item>
       </Breadcrumb>
     </Container>
   );
