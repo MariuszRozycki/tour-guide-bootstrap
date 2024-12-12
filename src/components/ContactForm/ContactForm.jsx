@@ -144,7 +144,7 @@ const ContactForm = () => {
             <li className='fw-bold'>
               <i className='bi bi-phone-fill me-2'></i>Telefon:
             </li>
-            <li className='fw-bold'>
+            <li>
               <a className='text-dark' href='tel:+48601786363'>
                 +48 601 786 363
               </a>

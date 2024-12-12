@@ -7,7 +7,6 @@ const CustomBreadcrumb = () => {
   const { setSearchQuery } = useSearch();
 
   const handleBreadcrumbClick = () => {
-    // Tylko czyścimy wyszukiwanie
     setSearchQuery("");
   };
 

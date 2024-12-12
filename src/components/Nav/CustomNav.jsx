@@ -20,9 +20,6 @@ const CustomNav = forwardRef((_, headerRef) => {
   const handleNavLinkClick = () => {
     setSearchQuery("");
     handleClose();
-    // Po kliknięciu w linki w menu i tak przechodzimy do innej strony,
-    // więc jeśli jesteśmy na /search i input jest pusty,
-    // po prostu wrócimy na stronę docelową linku.
   };
 
   const handleInputChange = (e) => {
@@ -30,17 +27,13 @@ const CustomNav = forwardRef((_, headerRef) => {
     setSearchQuery(value);
 
     if (value.trim() !== "") {
-      // Jeśli mamy wpisaną frazę i nie jesteśmy na /search, to na /search
       if (!isOnSearchPage) {
         navigate("/search");
       }
     } else {
-      // Input pusty
-      // Jeśli jesteśmy na /search i input stał się pusty, to wróć na stronę główną
       if (isOnSearchPage || isOnSingleOfferPage) {
         navigate("/");
       }
-      // Jeśli jesteśmy już na stronie głównej i wpiszemy pustą frazę, pozostaniemy na stronie głównej.
     }
   };
 
@@ -79,7 +72,13 @@ const CustomNav = forwardRef((_, headerRef) => {
             </Nav>
 
             <OverlayTrigger placement='bottom' overlay={<Tooltip id='tooltip-search'>Wpisz miejsce wycieczki</Tooltip>}>
-              <Form className='d-flex' onSubmit={(e) => e.preventDefault()}>
+              <Form
+                className='d-flex'
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  handleClose();
+                }}
+              >
                 <Form.Control
                   type='search'
                   placeholder='Szukaj wycieczki do...'

@@ -43,7 +43,7 @@ const useHandleSearch = () => {
   const handleClearSearch = () => {
     setIsSearchActive(false);
     setPreviousLocation(null);
-    setSearchQuery(""); // Clear search query completely
+    setSearchQuery("");
     setLocalSearchQuery("");
   };
 

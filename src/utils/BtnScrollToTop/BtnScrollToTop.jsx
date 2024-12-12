@@ -6,7 +6,6 @@ const BtnScrollToTop = ({ headerRef }) => {
 
   const scrollToTop = () => {
     const headerHeight = headerRef?.current?.offsetHeight || 0;
-    console.log("headerHeight from BtnScrollToTop", headerHeight);
 
     window.scrollTo({
       top: headerHeight > 0 ? -headerHeight : 0,
