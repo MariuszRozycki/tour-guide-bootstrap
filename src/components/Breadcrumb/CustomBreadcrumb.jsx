@@ -1,29 +1,29 @@
 import { Container } from "react-bootstrap";
 import Breadcrumb from "react-bootstrap/Breadcrumb";
 import { NavLink } from "react-router-dom";
-import useHandleSearch from "../../hooks/useHandleSearch";
+import useSearch from "../../hooks/useSearch";
 
 const CustomBreadcrumb = () => {
-  const { setLocalSearchQuery, resetPreviousLocation } = useHandleSearch(); // Pobierz resetPreviousLocation
+  const { setSearchQuery } = useSearch();
 
-  const handleNavLinkClick = () => {
-    setLocalSearchQuery(""); // Zresetuj wyszukiwanie
-    resetPreviousLocation(); // Zresetuj poprzednią lokalizację
+  const handleBreadcrumbClick = () => {
+    // Tylko czyścimy wyszukiwanie
+    setSearchQuery("");
   };
 
   return (
     <Container>
       <Breadcrumb>
-        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/" }} onClick={handleNavLinkClick}>
+        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/" }} onClick={handleBreadcrumbClick}>
           Home
         </Breadcrumb.Item>
-        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/about" }} onClick={handleNavLinkClick}>
+        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/about" }} onClick={handleBreadcrumbClick}>
           O mnie
         </Breadcrumb.Item>
-        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/contact" }} onClick={handleNavLinkClick}>
+        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/contact" }} onClick={handleBreadcrumbClick}>
           Kontakt
         </Breadcrumb.Item>
-        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/offers-types" }} onClick={handleNavLinkClick}>
+        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/offers-types" }} onClick={handleBreadcrumbClick}>
           Oferty
         </Breadcrumb.Item>
       </Breadcrumb>

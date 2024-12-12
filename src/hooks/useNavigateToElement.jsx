@@ -15,9 +15,5 @@ export const useNavigateToElement = () => {
     navigate(`/offers-types/${type}`);
   };
 
-  const handleNavigateToSearch = () => {
-    navigate("/search");
-  };
-
-  return { handleSingleOffer, handleOffersByType, handleOffersType, handleNavigateToSearch };
+  return { handleSingleOffer, handleOffersByType, handleOffersType };
 };

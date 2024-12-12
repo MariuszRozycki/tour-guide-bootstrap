@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 import useSearch from "./useSearch";
-import { useNavigateToElement } from "./useNavigateToElement";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const useHandleSearch = () => {
   const { setSearchQuery } = useSearch();
-  const { handleNavigateToSearch } = useNavigateToElement();
+
   const [localSearchQuery, setLocalSearchQuery] = useState("");
   const [previousLocation, setPreviousLocation] = useState(null);
   const [isSearchActive, setIsSearchActive] = useState(false);
@@ -26,22 +25,13 @@ const useHandleSearch = () => {
 
       if (location.pathname !== "/search") {
         setIsSearchActive(true);
-        handleNavigateToSearch();
+        navigate("/search");
       }
     } else if (isSearchActive && previousLocation && location.pathname === "/search") {
       setIsSearchActive(false);
       navigate(previousLocation);
     }
-  }, [
-    localSearchQuery,
-    setSearchQuery,
-    handleNavigateToSearch,
-    previousLocation,
-    location,
-    navigate,
-    isSearchActive,
-    isOnSingleOfferPage,
-  ]);
+  }, [localSearchQuery, setSearchQuery, previousLocation, location, navigate, isSearchActive, isOnSingleOfferPage]);
 
   useEffect(() => {
     if (location.pathname !== "/search" && !isOnSingleOfferPage) {
@@ -50,6 +40,13 @@ const useHandleSearch = () => {
     }
   }, [location.pathname, isOnSingleOfferPage]);
 
+  const handleClearSearch = () => {
+    setIsSearchActive(false);
+    setPreviousLocation(null);
+    setSearchQuery(""); // Clear search query completely
+    setLocalSearchQuery("");
+  };
+
   useEffect(() => {
     if (isOnSingleOfferPage) {
       setLocalSearchQuery("");
@@ -57,7 +54,7 @@ const useHandleSearch = () => {
     }
   }, [isOnSingleOfferPage, setSearchQuery]);
 
-  return { localSearchQuery, setLocalSearchQuery };
+  return { localSearchQuery, setLocalSearchQuery, handleClearSearch };
 };
 
 export default useHandleSearch;

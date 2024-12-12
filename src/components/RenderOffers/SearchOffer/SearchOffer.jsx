@@ -17,12 +17,22 @@ const SearchOffer = () => {
       </Container>
     );
   if (isError) return <p>Błąd: {error.message}</p>;
-  if (filteredOffers?.length === 0)
+
+  if (!searchQuery.trim()) {
     return (
       <Container>
-        <p>Brak wyników dla wyszukiwania: {searchQuery}</p>
+        <p>Wpisz coś w wyszukiwarkę aby zobaczyć oferty.</p>
       </Container>
     );
+  }
+
+  if (filteredOffers?.length === 0) {
+    return (
+      <Container>
+        <p>Brak wyników dla: {searchQuery}</p>
+      </Container>
+    );
+  }
 
   return (
     <Container className='my-5'>
