@@ -3,5 +3,6 @@ import { capitalizeFirstLetter } from "./capitalizeFirstLetter/capitalizeFirstLe
 import { handleImageError } from "./handleImgError/handleImgError";
 import { loadFromStorage, saveToStorage } from "./storage/storage";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
+import BtnScrollToTop from "./BtnScrollToTop/BtnScrollToTop";
 
-export { trimText, capitalizeFirstLetter, handleImageError, loadFromStorage, saveToStorage, ScrollToTop };
+export { trimText, capitalizeFirstLetter, handleImageError, loadFromStorage, saveToStorage, ScrollToTop, BtnScrollToTop };

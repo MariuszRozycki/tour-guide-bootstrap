@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { CustomHeader, CustomFooter, CustomBreadcrumb } from "../components";
-import { ScrollToTop } from "../utils";
+import { BtnScrollToTop, ScrollToTop } from "../utils";
 import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
@@ -13,6 +13,7 @@ const MainLayout = () => {
       <CustomBreadcrumb />
       <Outlet />
       <CustomFooter />
+      <BtnScrollToTop headerRef={headerRef} />
     </>
   );
 };
