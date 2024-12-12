@@ -11,10 +11,10 @@ const ContactForm = () => {
   return (
     <Container>
       <Row className='mb-2'>
-        <Col xs={12} className='contact-img-wrapper mb-4'>
+        <Col xs={12} md={10} className='contact-img-wrapper mb-4'>
           <Image className='object-fit-cover mb-2 w-100 h-100' src='/pictures/contact-us.jpg' rounded />
         </Col>
-        <Col>
+        <Col md={10}>
           <h2 className='h3 mb-3'>Zapytaj o ofertę!</h2>
           <Form className='bg-primary-subtle p-3 rounded-4' id='form-15' action={url} method='post' onSubmit={handleSubmit}>
             <Form.Group controlId='userName' className='mb-3'>
@@ -101,7 +101,12 @@ const ContactForm = () => {
           </Form>
         </Col>
       </Row>
-      <hr className='border-primary' style={{ borderTop: "2px solid #007bff", marginTop: "20px", marginBottom: "20px" }} />
+      <Row>
+        <Col md={10}>
+          <hr className='border-primary' style={{ borderTop: "2px solid #007bff", marginTop: "20px", marginBottom: "20px" }} />
+        </Col>
+      </Row>
+
       <Row className='mb-2'>
         <Col xs={12} lg={8}>
           <ul className='list-unstyled'>
@@ -116,7 +121,7 @@ const ContactForm = () => {
             <li>Ogrodowa 27,</li>
             <li>05-152 Kazuń Polski</li>
             <li>NIP: 821 173 7629</li>
-            <li>nr wpisu: jeszcze nie znam</li>
+            <li>nr wpisu: 2850 (U.M. Woj. Maz.)</li>
           </ul>
 
           <ul className='list-unstyled'>
@@ -124,12 +129,12 @@ const ContactForm = () => {
               <i className='bi bi-envelope-paper-fill me-2'></i>Mail:
             </li>
             <li>
-              <a className='text-dark fw-bold' href='mailto:tourguide@poczta.onet.pl'>
+              <a className='text-dark' href='mailto:tourguide@poczta.onet.pl'>
                 tourguide@poczta.onet.pl
               </a>
             </li>
             <li className='me-2'>
-              <a className='text-dark fw-bold' href='mailto:info@tour-guide.pl'>
+              <a className='text-dark' href='mailto:info@tour-guide.pl'>
                 info@tour-guide.pl
               </a>
             </li>
@@ -141,7 +146,7 @@ const ContactForm = () => {
             </li>
             <li className='fw-bold'>
               <a className='text-dark' href='tel:+48601786363'>
-                <i className='bi bi-phone-fill me-2'></i>+48 601 786 363
+                +48 601 786 363
               </a>
             </li>
           </ul>

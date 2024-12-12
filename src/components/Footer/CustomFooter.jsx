@@ -13,12 +13,12 @@ const CustomFooter = () => {
               <h6 className='text-uppercase fw-bold mb-4'>Kontakt</h6>
 
               <ul className='list-unstyled'>
+                <li className='fw-bold'>Tour Guide</li>
+                <li className='fw-bold'>Tomasz Zdunek</li>
+                <li className='fw-bold mb-2'>Kraftowe Wyjazdy</li>
                 <li className='fw-bold'>
                   <i className='bi bi-house-door-fill'></i> Adres:
                 </li>
-                <li className='fw-bold'>Tour Guide</li>
-                <li className='fw-bold'>Tomasz Zdunek</li>
-                <li className='fw-bold'>Kraftowe Wyjazdy</li>
                 <li>Ogrodowa 27,</li>
                 <li>05-152 Kazuń Polski</li>
                 <li>NIP: 821 173 7629</li>
