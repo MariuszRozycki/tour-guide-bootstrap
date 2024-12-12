@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Form, Nav, Navbar, Offcanvas } from "react-bootstrap";
+import { Container, Form, Nav, Navbar, Offcanvas, OverlayTrigger, Tooltip } from "react-bootstrap";
 import { NavLink, Link } from "react-router-dom";
 import useHandleSearch from "../../hooks/useHandleSearch";
 import { useLocation } from "react-router-dom";
@@ -63,16 +63,18 @@ function CustomNav() {
                 </Nav>
 
                 {!isOnSingleOfferPage && (
-                  <Form className='d-flex' onSubmit={handleSearch}>
-                    <Form.Control
-                      type='search'
-                      placeholder='Search'
-                      className='me-2'
-                      aria-label='Search'
-                      value={localSearchQuery}
-                      onChange={(e) => setLocalSearchQuery(e.target.value)}
-                    />
-                  </Form>
+                  <OverlayTrigger placement='bottom' overlay={<Tooltip id='tooltip-search'>Wpisz miejsce wycieczki</Tooltip>}>
+                    <Form className='d-flex' onSubmit={handleSearch}>
+                      <Form.Control
+                        type='search'
+                        placeholder='Szukaj wycieczki do...'
+                        className='me-2'
+                        aria-label='Search'
+                        value={localSearchQuery}
+                        onChange={(e) => setLocalSearchQuery(e.target.value)}
+                      />
+                    </Form>
+                  </OverlayTrigger>
                 )}
               </Offcanvas.Body>
             </Navbar.Offcanvas>
