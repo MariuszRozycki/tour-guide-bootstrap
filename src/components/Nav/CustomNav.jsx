@@ -1,34 +1,46 @@
 import { forwardRef, useState } from "react";
 import { Container, Form, Nav, Navbar, Offcanvas, OverlayTrigger, Tooltip } from "react-bootstrap";
-import { NavLink, Link, useLocation } from "react-router-dom";
-import useHandleSearch from "../../hooks/useHandleSearch";
+import { NavLink, Link, useLocation, useNavigate } from "react-router-dom";
+import useSearch from "../../hooks/useSearch";
 import ShowFavoriteButton from "../Buttons/ShowFavoriteButton/ShowFavoriteButton";
 import "./CustomNav.scss";
 
 const CustomNav = forwardRef((_, headerRef) => {
-  const [show, setShow] = useState(false);
-  const { localSearchQuery, setLocalSearchQuery } = useHandleSearch();
+  const { searchQuery, setSearchQuery } = useSearch();
   const location = useLocation();
+  const navigate = useNavigate();
 
-  const isOnSingleOfferPage = location.pathname.startsWith("/single-offer/");
-
+  const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  const isOnSingleOfferPage = location.pathname.startsWith("/single-offer/");
+  const isOnSearchPage = location.pathname === "/search";
+
   const handleNavLinkClick = () => {
-    setLocalSearchQuery("");
+    setSearchQuery("");
     handleClose();
   };
 
-  const handleSearch = (e) => {
-    e.preventDefault();
-    handleClose();
+  const handleInputChange = (e) => {
+    const value = e.target.value;
+    setSearchQuery(value);
+
+    if (value.trim() !== "") {
+      if (!isOnSearchPage) {
+        navigate("/search");
+      }
+    } else {
+      if (isOnSearchPage || isOnSingleOfferPage) {
+        navigate("/");
+      }
+    }
   };
 
   return (
     <Navbar expand='md' className='bg-body-tertiary mb-3 position-sticky top-0 z-2' ref={headerRef}>
       <Container>
-        <Navbar.Brand as={Link} to='/'>
+        <Navbar.Brand as={Link} to='/' onClick={() => setSearchQuery("")}>
           Tour Guide
         </Navbar.Brand>
         <ShowFavoriteButton />
@@ -59,20 +71,24 @@ const CustomNav = forwardRef((_, headerRef) => {
               </Nav.Link>
             </Nav>
 
-            {!isOnSingleOfferPage && (
-              <OverlayTrigger placement='bottom' overlay={<Tooltip id='tooltip-search'>Wpisz miejsce wycieczki</Tooltip>}>
-                <Form className='d-flex' onSubmit={handleSearch}>
-                  <Form.Control
-                    type='search'
-                    placeholder='Szukaj wycieczki do...'
-                    className='me-2'
-                    aria-label='Search'
-                    value={localSearchQuery}
-                    onChange={(e) => setLocalSearchQuery(e.target.value)}
-                  />
-                </Form>
-              </OverlayTrigger>
-            )}
+            <OverlayTrigger placement='bottom' overlay={<Tooltip id='tooltip-search'>Wpisz miejsce wycieczki</Tooltip>}>
+              <Form
+                className='d-flex'
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  handleClose();
+                }}
+              >
+                <Form.Control
+                  type='search'
+                  placeholder='Szukaj wycieczki do...'
+                  className='me-2'
+                  aria-label='Search'
+                  value={searchQuery}
+                  onChange={handleInputChange}
+                />
+              </Form>
+            </OverlayTrigger>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
       </Container>

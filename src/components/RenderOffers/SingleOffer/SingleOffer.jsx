@@ -37,7 +37,7 @@ const RenderSingleOffer = () => {
         <Col lg={8}>
           <Card className='border-0'>
             <Card.Body className='p-0'>
-              <p className='fs-4 m-0 mb-2'>Czas trwania: {capitalizeFirstLetter(offer.days)}</p>
+              <p className='fs-4 m-0 mb-3'>Czas trwania: {capitalizeFirstLetter(offer.days)}</p>
               <h2 className='h4'>{offer.titleSub}</h2>
               <h3 className='h4'>Plan wycieczki:</h3>
               {offer.descTitle ? (
@@ -59,31 +59,38 @@ const RenderSingleOffer = () => {
                 </ol>
               )}
               <div className='offer-details d-flex flex-column gap-1 mt-4'>
-                {offer.price40people === 0 ? (
+                {typeof offer.price40people === "string" || typeof offer.price45people === "string" ? (
                   <>
-                    <p className='h4'>
-                      <i className='bi bi-tag'></i> *{offer.price45people} PLN/
-                      <i className='bi bi-person-standing'></i>
-                    </p>
-                    <p className='fw-6'>* cena dla min. 45 osób</p>
+                    {typeof offer.price45people === "string" && (
+                      <p className='h4'>
+                        <i className='bi bi-tag'></i> {capitalizeFirstLetter(offer.price45people)}
+                      </p>
+                    )}
+                    {typeof offer.price40people === "string" && (
+                      <p className='h4'>
+                        <i className='bi bi-tag'></i> {capitalizeFirstLetter(offer.price40people)}
+                      </p>
+                    )}
                   </>
                 ) : (
                   <>
                     <p className='h4'>
-                      <i className='bi bi-tag pe-2'></i>
-                      {offer.price45people} PLN/
-                      <i className='bi bi-person-standing'></i>*
+                      <i className='bi bi-tag'></i> {offer.price45people} PLN/
+                      <i className='bi bi-person-standing'></i> *
                     </p>
-                    <p className='h4 mb-4'>
-                      <i className='bi bi-tag pe-2 invisible'></i>
-                      {offer.price40people} PLN/
-                      <i className='bi bi-person-standing'></i>**
-                    </p>
+                    {offer.price40people !== 0 && (
+                      <p className='h4'>
+                        <i className='bi bi-tag pe-2 invisible'></i>
+                        {offer.price40people} PLN/
+                        <i className='bi bi-person-standing'></i> **
+                      </p>
+                    )}
                     <p className='fw-6 mb-0'>* cena dla 45 osób</p>
-                    <p className='fw-6'>** cena dla 40 osób</p>
+                    {offer.price40people !== 0 && <p className='fw-6'>** cena dla 40 osób</p>}
                   </>
                 )}
               </div>
+
               <FavoriteButton offer={offer} />
             </Card.Body>
           </Card>

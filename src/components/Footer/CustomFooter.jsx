@@ -41,7 +41,7 @@ const CustomFooter = () => {
                 <li className='fw-bold'>
                   <i className='bi bi-phone-fill'></i> Telefon:
                 </li>
-                <li className='fw-bold'>
+                <li>
                   <a href='tel:+48601786363'>+48 601 786 363</a>
                 </li>
               </ul>
@@ -72,7 +72,7 @@ const CustomFooter = () => {
       {/* Footer copyright */}
       <div className='text-center p-4' style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}>
         © 2024 Copyright:
-        <a className='text-reset fw-bold' href='#'>
+        <a className='text-reset fw-bold' href='https://github.com/MariuszRozycki' target='_blank' rel='noopener noreferrer'>
           <span className='ms-1'>Mariusz Rozycki</span>
         </a>
       </div>
