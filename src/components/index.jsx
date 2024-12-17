@@ -16,6 +16,7 @@ import { SearchOffer } from "./RenderOffers";
 import FavoriteButton from "./Buttons/FavoriteButton/FavoriteButton";
 import ShowFavoriteButton from "./Buttons/ShowFavoriteButton/ShowFavoriteButton";
 import GoBackButton from "./Buttons/GoBackButton/GoBackButton";
+import NotFound from "./NotFound/NotFound";
 import {
   RenderAllOffers,
   OffersTypesList,
@@ -68,4 +69,5 @@ export {
   FavoriteButton,
   ShowFavoriteButton,
   GoBackButton,
+  NotFound,
 };
