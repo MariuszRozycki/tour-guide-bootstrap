@@ -40,8 +40,16 @@ const CustomNav = forwardRef((_, headerRef) => {
   return (
     <Navbar expand='md' className='bg-body-tertiary mb-3 position-sticky top-0 z-2' ref={headerRef}>
       <Container>
-        <Navbar.Brand as={Link} to='/' onClick={() => setSearchQuery("")}>
-          Tour Guide
+        <Navbar.Brand
+          className='d-flex justify-content-start align-items-center'
+          as={Link}
+          to='/'
+          onClick={() => setSearchQuery("")}
+        >
+          <span className='d-inline-block me-1' style={{ width: "40px" }}>
+            <img className='w-100' src='../../../public/pictures/logo/logo.png' alt='' />
+          </span>
+          <span className='hidden-below-300'>Tour Guide</span>
         </Navbar.Brand>
         <ShowFavoriteButton />
         <Navbar.Toggle onClick={handleShow} aria-controls='offcanvasNavbar-expand-md' />

@@ -3,7 +3,8 @@ import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import { offersApi } from "../../../api/api";
 import { capitalizeFirstLetter, handleImageError } from "../../../utils/index";
 import useGetData from "../../../hooks/useGetData";
-import { FavoriteButton } from "../../../components";
+import { FavoriteButton, GoBackButton } from "../../../components";
+import "./SingleOffer.scss";
 
 const RenderSingleOffer = () => {
   const { id } = useParams();
@@ -24,7 +25,8 @@ const RenderSingleOffer = () => {
 
   return (
     <Container className='my-5'>
-      <h1 className='h2 mb-md-4'>{offer.title}</h1>
+      <GoBackButton />
+      <h1 className='h2 mt-3 mb-md-4'>{offer.title}</h1>
       <Row className='g-lg-5'>
         <Col lg={4} className='mb-3'>
           <Image
@@ -35,7 +37,7 @@ const RenderSingleOffer = () => {
           />
         </Col>
         <Col lg={8}>
-          <Card className='border-0'>
+          <Card className='single-offer border-0'>
             <Card.Body className='p-0'>
               <p className='fs-4 m-0 mb-3'>Czas trwania: {capitalizeFirstLetter(offer.days)}</p>
               <h2 className='h4'>{offer.titleSub}</h2>

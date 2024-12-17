@@ -1,4 +1,4 @@
-.btn-scroll-to-top {
+.btn-scroll-to-top-wrapper {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -15,8 +15,13 @@
     visibility: visible;
   }
 
+  // .btn-scroll-to-top {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+
   i {
     font-size: 2rem;
-    color: $danger;
   }
 }

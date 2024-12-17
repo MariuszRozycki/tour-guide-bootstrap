@@ -1,13 +1,15 @@
 import { Container, Row, Col } from "react-bootstrap";
 import useFavoritesHook from "../../../hooks/useFavorites";
 import CustomCard from "../../Card/CustomCard";
+import GoBackButton from "../../Buttons/GoBackButton/GoBackButton";
 
 const FavoritesOffers = () => {
   const { favorites } = useFavoritesHook();
 
   return (
     <Container className='my-5'>
-      <h1>Ulubione Oferty</h1>
+      <GoBackButton />
+      <h1 className='mt-2'>Ulubione Oferty</h1>
       {favorites.length === 0 ? (
         <p>Nie masz jeszcze ulubionych ofert.</p>
       ) : (

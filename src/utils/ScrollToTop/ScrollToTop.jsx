@@ -9,7 +9,6 @@ const ScrollToTop = ({ headerRef }) => {
 
     window.scrollTo({
       top: headerHeight > 0 ? -headerHeight : 0,
-      behavior: "smooth",
     });
   }, [pathname, headerRef]);
 

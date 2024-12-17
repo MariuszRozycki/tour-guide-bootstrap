@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Button } from "react-bootstrap";
 import "./BtnScrollToTop.scss";
 
 const BtnScrollToTop = ({ headerRef }) => {
@@ -29,8 +30,10 @@ const BtnScrollToTop = ({ headerRef }) => {
   }, []);
 
   return (
-    <div onClick={scrollToTop} className={`btn-scroll-to-top ${isVisible ? "visible" : ""}`}>
-      <i className='bi bi-arrow-up-circle-fill'></i>
+    <div onClick={scrollToTop} className={`btn-scroll-to-top-wrapper ${isVisible ? "visible" : ""}`}>
+      <Button className='btn-scroll-to-top btn-primary py-1 rounded-circle'>
+        <i className='bi bi-arrow-up-circle-fill'></i>
+      </Button>
     </div>
   );
 };
