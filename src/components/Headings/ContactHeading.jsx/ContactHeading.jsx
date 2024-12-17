@@ -6,7 +6,6 @@ const ContactHeading = () => {
       <Row>
         <Col md={10}>
           <h1 className='fw-semibold'>Kontakt</h1>
-          <hr className='border-primary' style={{ borderTop: "2px solid #007bff", marginTop: "10px", marginBottom: "20px" }} />
         </Col>
       </Row>
     </Container>

@@ -15,6 +15,7 @@ import ContactForm from "./ContactForm/ContactForm";
 import { SearchOffer } from "./RenderOffers";
 import FavoriteButton from "./Buttons/FavoriteButton/FavoriteButton";
 import ShowFavoriteButton from "./Buttons/ShowFavoriteButton/ShowFavoriteButton";
+import GoBackButton from "./Buttons/GoBackButton/GoBackButton";
 import {
   RenderAllOffers,
   OffersTypesList,
@@ -66,4 +67,5 @@ export {
   FavoritesOffers,
   FavoriteButton,
   ShowFavoriteButton,
+  GoBackButton,
 };

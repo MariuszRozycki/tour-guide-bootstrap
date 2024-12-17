@@ -1,4 +1,4 @@
-import { Container, Row, Col, Form, Image, Button, Spinner } from "react-bootstrap";
+import { Container, Row, Col, Form, Button, Spinner } from "react-bootstrap";
 import useContactForm from "../../hooks/useContactForm";
 import { ToastContainer } from "react-toastify";
 import "./ContactForm.scss";
@@ -11,9 +11,6 @@ const ContactForm = () => {
   return (
     <Container>
       <Row className='mb-2'>
-        <Col xs={12} md={10} className='contact-img-wrapper mb-4'>
-          <Image className='object-fit-cover mb-2 w-100 h-100' src='/pictures/contact-us.jpg' rounded />
-        </Col>
         <Col md={10}>
           <h2 className='h3 mb-3'>Zapytaj o ofertę!</h2>
           <Form className='bg-primary-subtle p-3 rounded-4' id='form-15' action={url} method='post' onSubmit={handleSubmit}>

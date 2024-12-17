@@ -9,7 +9,7 @@ const OffersTypesList = () => {
   const types = [
     { name: "Zagraniczne", type: "abroad", imgSrc: "/pictures/abroad/budapest01.jpg" },
     { name: "Krajowe", type: "domestic", imgSrc: "/pictures/trip-categories/trip-domestic.jpg" },
-    { name: "Transgraniczne", type: "cross-border", imgSrc: "/../../../public/pictures/trip-categories/trip-cross-border.jpg" },
+    { name: "Transgraniczne", type: "cross-border", imgSrc: "/pictures/trip-categories/trip-cross-border.jpg" },
     { name: "1-dniowe", type: "one-day", imgSrc: "/pictures/trip-categories/trip-one-day.jpg" },
     { name: "3-dniowe", type: "three-days", imgSrc: "/pictures/trip-categories/trip-three-days.jpg" },
     { name: "4-dniowe", type: "four-days", imgSrc: "/pictures/trip-categories/trip-four-days.jpg" },
