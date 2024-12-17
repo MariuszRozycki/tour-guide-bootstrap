@@ -47,7 +47,7 @@ const CustomNav = forwardRef((_, headerRef) => {
           onClick={() => setSearchQuery("")}
         >
           <span className='d-inline-block me-1' style={{ width: "40px" }}>
-            <img className='w-100' src='../../../public/pictures/logo/logo.png' alt='' />
+            <img className='w-100' src='/logo/logo.png' alt='' />
           </span>
           <span className='hidden-below-300'>Tour Guide</span>
         </Navbar.Brand>

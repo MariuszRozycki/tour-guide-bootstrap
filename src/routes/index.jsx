@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
-import { Home, About, Contact, FavoritesPage } from "../pages";
+import { Home, About, Contact, FavoritesPage, PageNotFound } from "../pages";
 import {
   RenderAllOffers,
   OffersListByType,
@@ -99,6 +99,10 @@ const router = createBrowserRouter([
       {
         path: "/single-offer/:id",
         element: <RenderSingleOffer />,
+      },
+      {
+        path: "*",
+        element: <PageNotFound />,
       },
     ],
   },
