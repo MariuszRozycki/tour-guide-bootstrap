@@ -31,7 +31,7 @@ const BtnScrollToTop = ({ headerRef }) => {
 
   return (
     <div onClick={scrollToTop} className={`btn-scroll-to-top-wrapper ${isVisible ? "visible" : ""}`}>
-      <Button className='btn-scroll-to-top btn-primary py-1 rounded-circle'>
+      <Button className='btn-scroll-to-top btn-primary py-1 rounded'>
         <i className='bi bi-arrow-up-circle-fill'></i>
       </Button>
     </div>
