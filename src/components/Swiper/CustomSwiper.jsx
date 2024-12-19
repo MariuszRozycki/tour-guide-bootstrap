@@ -4,6 +4,7 @@ import breakpoints from "../../styles/breakpoints";
 import { CustomCard } from "../../components";
 import useGetData from "../../hooks/useGetData";
 import { offersApi } from "../../api/api";
+import "../../../node_modules/swiper/swiper-bundle.min.css";
 import "./CustomSwiper.scss";
 
 const CustomSwiper = () => {
