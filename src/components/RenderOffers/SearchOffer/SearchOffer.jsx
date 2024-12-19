@@ -39,7 +39,7 @@ const SearchOffer = () => {
       <h1>Szukane oferty:</h1>
       <Row className='g-3'>
         {filteredOffers.map((offer) => (
-          <Col key={offer._id} sm={6} md={4} lg={3}>
+          <Col key={offer._id.$oid} sm={6} md={4} lg={3}>
             <CustomCard offer={offer} />
           </Col>
         ))}

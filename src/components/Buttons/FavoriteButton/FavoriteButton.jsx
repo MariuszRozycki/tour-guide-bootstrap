@@ -5,16 +5,16 @@ const FavoriteButton = ({ offer }) => {
   const { addFavorite, removeFavorite, isFavorite } = useFavoritesHook();
 
   const handleToggleFavorite = () => {
-    if (isFavorite(offer._id)) {
-      removeFavorite(offer._id);
+    if (isFavorite(offer._id.$oid)) {
+      removeFavorite(offer._id.$oid);
     } else {
       addFavorite(offer);
     }
   };
 
   return (
-    <Button className='mt-4' variant={isFavorite(offer._id) ? "danger" : "primary"} onClick={handleToggleFavorite}>
-      {isFavorite(offer._id) ? "Usuń z ulubionych" : "Dodaj do ulubionych"}
+    <Button className='mt-4' variant={isFavorite(offer._id.$oid) ? "danger" : "primary"} onClick={handleToggleFavorite}>
+      {isFavorite(offer._id.$oid) ? "Usuń z ulubionych" : "Dodaj do ulubionych"}
     </Button>
   );
 };
