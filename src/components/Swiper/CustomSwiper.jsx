@@ -37,7 +37,8 @@ const CustomSwiper = () => {
               <Swiper
                 spaceBetween={10}
                 slidesPerView={1.2}
-                loop={false}
+                loop={true}
+                lazy={{ loadOnTransitionStart: true }}
                 breakpoints={{
                   [breakpoints.sm]: { slidesPerView: 2.2 },
                   [breakpoints.md]: { slidesPerView: 2.2 },

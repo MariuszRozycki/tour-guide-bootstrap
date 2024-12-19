@@ -1,8 +1,7 @@
 .swiper {
-  overflow: hidden;
-  touch-action: pan-y;
+  height: 100%; /* lub inna wartość */
 }
-
 .swiper-slide {
-  will-change: transform;
+  width: auto; /* Dostosuj szerokość do potrzeb */
+  height: auto;
 }

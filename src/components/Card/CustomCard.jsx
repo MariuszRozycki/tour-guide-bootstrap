@@ -17,11 +17,12 @@ const CustomCard = ({ offer }) => {
   return (
     <Card className='w-100 rounded-4 position-relative' onClick={() => handleSingleOffer(offer._id.$oid)}>
       <Card.Img
-        className='card-by-offers-type object-fit-cover rounded-4 rounded-bottom-0'
+        className='card-by-offers-type object-fit-cover rounded-4 rounded-bottom-0 swiper-lazy'
         variant='top'
         style={{ height: "180px" }}
         src={offer.imageMain}
         onError={handleImageError}
+        loading='lazy'
       />
       <Card.Body className='d-flex flex-column justify-content-between'>
         <div className='text-wrapper'>
