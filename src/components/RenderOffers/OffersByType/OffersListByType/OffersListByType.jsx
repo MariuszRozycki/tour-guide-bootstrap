@@ -26,7 +26,7 @@ const OffersListByType = ({ mainTitle, filterCondition }) => {
       <h1 className='mb-3'>{mainTitle}</h1>
       <Row className='g-3'>
         {filteredOffers.map((offer) => (
-          <Col col={12} sm={6} md={4} lg={3} key={offer._id}>
+          <Col col={12} sm={6} md={4} lg={3} key={offer._id.$oid}>
             <CustomCard offer={offer} />
           </Col>
         ))}

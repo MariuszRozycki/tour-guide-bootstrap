@@ -12,10 +12,10 @@ const CustomCard = ({ offer }) => {
   const { handleSingleOffer } = useNavigateToElement();
   const { favorites, addFavorite, removeFavorite } = useFavorites();
 
-  const isFavorite = favorites.some((fav) => fav._id === offer._id);
+  const isFavorite = favorites.some((fav) => fav._id.$oid === offer._id.$oid);
 
   return (
-    <Card className='w-100 rounded-4 position-relative' onClick={() => handleSingleOffer(offer._id)}>
+    <Card className='w-100 rounded-4 position-relative' onClick={() => handleSingleOffer(offer._id.$oid)}>
       <Card.Img
         className='card-by-offers-type object-fit-cover rounded-4 rounded-bottom-0'
         variant='top'
@@ -25,7 +25,7 @@ const CustomCard = ({ offer }) => {
       />
       <Card.Body className='d-flex flex-column justify-content-between'>
         <div className='text-wrapper'>
-          <OverlayTrigger placement='top' overlay={<Tooltip id={`tooltip-${offer._id}`}>{offer.title}</Tooltip>}>
+          <OverlayTrigger placement='top' overlay={<Tooltip id={`tooltip-${offer._id.$oid}`}>{offer.title}</Tooltip>}>
             <Card.Title className='h6'>{containerWidth < 315 ? trimText(offer.title, 27) : offer.title}</Card.Title>
           </OverlayTrigger>
           <div>
@@ -57,14 +57,14 @@ const CustomCard = ({ offer }) => {
       <div className='position-absolute top-0 end-0 p-2 d-flex flex-column gap-2'>
         {isFavorite ? (
           <>
-            <OverlayTrigger placement='top' overlay={<Tooltip id={`tooltip-${offer._id}`}>Usuń z ulubionych</Tooltip>}>
+            <OverlayTrigger placement='top' overlay={<Tooltip id={`tooltip-${offer._id.$oid}`}>Usuń z ulubionych</Tooltip>}>
               <Button
                 className='rounded-circle'
                 variant='danger'
                 size='sm'
                 onClick={(e) => {
                   e.stopPropagation();
-                  removeFavorite(offer._id);
+                  removeFavorite(offer._id.$oid);
                 }}
               >
                 <i className='bi bi-trash2'></i>
@@ -72,7 +72,7 @@ const CustomCard = ({ offer }) => {
             </OverlayTrigger>
           </>
         ) : (
-          <OverlayTrigger placement='top' overlay={<Tooltip id={`tooltip-${offer._id}`}>Dodaj do ulubionych</Tooltip>}>
+          <OverlayTrigger placement='top' overlay={<Tooltip id={`tooltip-${offer._id.$oid}`}>Dodaj do ulubionych</Tooltip>}>
             <Button
               className='rounded-circle'
               variant='primary'

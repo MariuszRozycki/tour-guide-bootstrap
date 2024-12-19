@@ -7,7 +7,7 @@ const FavoritesOffers = () => {
   const { favorites } = useFavoritesHook();
 
   return (
-    <Container className='my-5'>
+    <Container>
       <GoBackButton />
       <h1 className='mt-2'>Ulubione Oferty</h1>
       {favorites.length === 0 ? (
@@ -15,7 +15,7 @@ const FavoritesOffers = () => {
       ) : (
         <Row className='g-3'>
           {favorites.map((offer) => (
-            <Col key={offer._id} sm={6} md={4} lg={3}>
+            <Col key={offer._id.$oid} sm={6} md={4} lg={3}>
               <CustomCard offer={offer} />
             </Col>
           ))}

@@ -8,7 +8,7 @@ import "./SingleOffer.scss";
 
 const RenderSingleOffer = () => {
   const { id } = useParams();
-  const { data: offer, isLoading, isError, error } = useGetData(offersApi, id);
+  const { data: allOffers, isLoading, isError, error } = useGetData(offersApi);
 
   if (isLoading)
     return (
@@ -19,12 +19,22 @@ const RenderSingleOffer = () => {
   if (isError)
     return (
       <Container>
-        <p>Error loading data: {error.message}</p>
+        <p>Error: {error.message}</p>
       </Container>
     );
 
+  const offer = allOffers.find((o) => o._id.$oid === id);
+
+  if (!offer || !offer.description || !Array.isArray(offer.description)) {
+    return (
+      <Container>
+        <p>Brak danych o ofercie lub niepoprawna struktura danych.</p>
+      </Container>
+    );
+  }
+
   return (
-    <Container className='my-5'>
+    <Container>
       <GoBackButton />
       <h1 className='h2 mt-3 mb-md-4'>{offer.title}</h1>
       <Row className='g-lg-5'>
@@ -92,7 +102,6 @@ const RenderSingleOffer = () => {
                   </>
                 )}
               </div>
-
               <FavoriteButton offer={offer} />
             </Card.Body>
           </Card>

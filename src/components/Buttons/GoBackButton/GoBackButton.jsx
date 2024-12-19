@@ -10,11 +10,9 @@ const GoBackButton = () => {
   };
 
   return (
-    <>
-      <Button className='btn-go-back' onClick={goBack}>
-        <i className='bi bi-backspace-fill'></i>Poprzednia strona
-      </Button>
-    </>
+    <Button className='btn-go-back mb-3' onClick={goBack}>
+      <i className='bi bi-backspace-fill'></i>Poprzednia strona
+    </Button>
   );
 };
 
