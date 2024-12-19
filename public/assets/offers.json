@@ -1,1137 +1,1135 @@
-[{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a6a"
+[
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a6a"
+    },
+    "title": "TATRY I SŁOWACJA",
+    "days": "5 dni",
+    "titleSub": "Pensjonat w Murzasichlu lub Małem Cichem, wyżywienie 2X ewentualnie + prowiant",
+    "description": [
+      "Kraków, m.in.: Wawel, Rynek, Planty",
+      "Pieniny: zamek w Niedzicy, spacer Drogą Pienińską (Cerveny Klasztor - Szczawnica)",
+      "Spisz: Jaskinia Bielańska, kurorty podtatrzańskie, elektriczka, spacer do Popradzkiego Plesa",
+      "Orava: Aquapark w Oravicach, zamek Orawski, skansen w Zubercu",
+      "Ojcowski PN: Jaskinia Łokietka, zamek na Pieskowej Skale i w Ojcowie"
+    ],
+    "imageMain": "/pictures/cross-border/slov-orava-castle01.jpg",
+    "price45people": 1089,
+    "price40people": 1159,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "cross-border"
   },
-  "title": "TATRY I SŁOWACJA",
-  "days": "5 dni",
-  "titleSub": "Pensjonat w Murzasichlu lub Małem Cichem, wyżywienie 2X ewentualnie + prowiant",
-  "description": [
-    "Kraków, m.in.: Wawel, Rynek, Planty",
-    "Pieniny: zamek w Niedzicy, spacer Drogą Pienińską (Cerveny Klasztor - Szczawnica)",
-    "Spisz: Jaskinia Bielańska, kurorty podtatrzańskie, elektriczka, spacer do Popradzkiego Plesa",
-    "Orava: Aquapark w Oravicach, zamek Orawski, skansen w Zubercu",
-    "Ojcowski PN: Jaskinia Łokietka, zamek na Pieskowej Skale i w Ojcowie"
-  ],
-  "imageMain": "/pictures/cross-border/slov-orava-castle01.jpg",
-  "price45people": 1089,
-  "price40people": 1159,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "cross-border"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a7d"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a7d"
+    },
+    "title": "SPŁYWY KAJAKOWE - WKRA",
+    "days": "1 dzień",
+    "descTitle": "Na Mazowszu mamy kilka rzek idealnych na kajakową przygodę.",
+    "description": [
+      "Idealna wydaje się być Wkra bo blisko, bezpiecznie, spokojnie a dojechać można pociągiem z Warszawy do Pomiechówka.",
+      "Poza tym polecam Bzurę i Pilicę albo Liwiec. Bug i Wisła może przerażać majestatem…",
+      "Ważne: zawsze podczas spływu towarzyszy nam kilku ratowników/ instruktorów a odpocząć możemy przy ognisku z kiełbaskami"
+    ],
+    "imageMain": "/pictures/kayak/splyw-wkra.jpg",
+    "price45people": 129,
+    "price40people": 149,
+    "typeOfTrip": "kayak",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "SPŁYWY KAJAKOWE - WKRA",
-  "days": "1 dzień",
-  "descTitle": "Na Mazowszu mamy kilka rzek idealnych na kajakową przygodę.",
-  "description": [
-    "Idealna wydaje się być Wkra bo blisko, bezpiecznie, spokojnie a dojechać można pociągiem z Warszawy do Pomiechówka.",
-    "Poza tym polecam Bzurę i Pilicę albo Liwiec. Bug i Wisła może przerażać majestatem…",
-    "Ważne: zawsze podczas spływu towarzyszy nam kilku ratowników/ instruktorów a odpocząć możemy przy ognisku z kiełbaskami"
-  ],
-  "imageMain": "/pictures/kayak/splyw-wkra.jpg",
-  "price45people": 129,
-  "price40people": 149,
-  "typeOfTrip": "kayak",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a7e"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a7e"
+    },
+    "title": "SPŁYWY KAJAKOWE - PILICA",
+    "days": "1 dzień",
+    "descTitle": "Na Mazowszu mamy kilka rzek idealnych na przygodę w kajaku.",
+    "description": [
+      "Pilica, największy lewy dopływ Wisły, najpiękniejsza na odcinku Spalskiego PK. Dlaczego by nie skusić się na ten spływ?",
+      "Zawsze podczas spływu towarzyszy nam kilku ratowników/ instruktorów a odpocząć możemy przy ognisku z kiełbaskami."
+    ],
+    "imageMain": "/pictures/kayak/splyw-pilica.jpg",
+    "price45people": 169,
+    "price40people": 199,
+    "typeOfTrip": "kayak",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "SPŁYWY KAJAKOWE - PILICA",
-  "days": "1 dzień",
-  "descTitle": "Na Mazowszu mamy kilka rzek idealnych na przygodę w kajaku.",
-  "description": [
-    "Pilica, największy lewy dopływ Wisły, najpiękniejsza na odcinku Spalskiego PK. Dlaczego by nie skusić się na ten spływ?",
-    "Zawsze podczas spływu towarzyszy nam kilku ratowników/ instruktorów a odpocząć możemy przy ognisku z kiełbaskami"
-  ],
-  "imageMain": "/pictures/kayak/splyw-pilica.jpg",
-  "price45people": 169,
-  "price40people": 199,
-  "typeOfTrip": "kayak",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a81"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a81"
+    },
+    "title": "PUSZCZA KAMPINOSKA I NIE TYLKO",
+    "days": "1 dzień",
+    "description": [
+      "Puszcza Kampinoska to nie tylko lasy i mokradła...To również pamiątki po przedwojennych mieszkańcach tych terenów: Menonnitach i Żydach. Zobaczymy zarośnięty cmentarz poniemiecki, jeden z wielu fortów okalających Twierdzę Modlin oraz palmirski cmentarz"
+    ],
+    "imageMain": "/pictures/domestic/agro01.jpg",
+    "price45people": 129,
+    "price40people": 149,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "PUSZCZA KAMPINOSKA I NIE TYLKO",
-  "days": "1 dzień",
-  "description": [
-    "Puszcza Kampinoska to nie tylko lasy i mokradła...To również pamiątki po przedwojennych mieszkańcach tych terenów: Menonnitach i Żydach. Zobaczymy zarośnięty cmentarz poniemiecki, jeden z wielu fortów okalających Twierdzę Modlin oraz palmirski cmentarz"
-  ],
-  "imageMain": "/pictures/domestic/agro01.jpg",
-  "price45people": 129,
-  "price40people": 149,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a91"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a91"
+    },
+    "title": "CIECHANÓW, GOŁOTCZYZNA, OPINOGÓRA",
+    "days": "1 dzień",
+    "descTitle": "Niedoceniany region a ma sporo do zaoferowania… W końcu Doda się tu wychowała.",
+    "description": [
+      "A tak na poważnie, idealny kierunek dla licealistów- na maturze może się przydać!",
+      "CIECHANÓW- zamek książąt mazowieckich z XIV w.",
+      "GOŁOTCZYZNA- Muzeum Szlachty Mazowieckiej",
+      "OPINOGÓRA- Muzeum Romantyzmu"
+    ],
+    "imageMain": "/pictures/ciechanow/ciechanow01.jpg",
+    "price45people": 149,
+    "price40people": 175,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "CIECHANÓW, GOŁOTCZYZNA, OPINOGÓRA",
-  "days": "1 dzień",
-  "descTitle": "Niedoceniany region a ma sporo do zaoferowania… W końcu Doda się tu wychowała.",
-  "description": [
-    "A tak na poważnie, idealny kierunek dla licealistów- na maturze może się przydać!",
-    "CIECHANÓW- zamek książąt mazowieckich z XIV w.",
-    "GOŁOTCZYZNA- Muzeum Szlachty Mazowieckiej",
-    "OPINOGÓRA- Muzeum Romantyzmu"
-  ],
-  "imageMain": "/pictures/ciechanow/ciechanow01.jpg",
-  "price45people": 149,
-  "price40people": 175,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a92"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a92"
+    },
+    "title": "PODLASIE",
+    "days": "1 dzień",
+    "descTitle": "Wycieczka idealna w formie 3 dniówki ale w wersji okrojonej też się da, bo dojazd niezły.",
+    "description": [
+      "TYKOCIN- kameralne miasteczko nad Narwią z ciekawą zabudową, wieloma zabytkami (min. Alumnat, Synagoga i Kirkut, odbudowany zamek, plac Czarnieckiego) zwiedzimy z przewodnikiem.",
+      "PENTOWO- miejsce magiczne nie tylko dlatego, że jest letnią rezydencją dla kilkudziesięciu bocianich rodzin",
+      "STRĘKOWA GÓRA- bunkier obronny nad rozlewiskami Narwi, wrzesień ‘39",
+      "CARSKA DROGA- kultowa droga bita przez mokradła i lasy Biebrzańskiego PN. Kilka wież widokowych i kładek spacerowych.",
+      "Możliwość lekcji edukacyjnej z pracownikiem parku albo",
+      "SUPRAŚL- perełka w środku Puszczy Knyszyńskiej ma do zaoferowania kresową architekturę, cerkiew bizantyjską i kultowe Muzeum Ikon.",
+      "Trudno zobaczyć wszystko w mniej niż 2 godziny…"
+    ],
+    "imageMain": "/pictures/podlasie/podlasie01.jpg",
+    "price45people": 159,
+    "price40people": 186,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "PODLASIE",
-  "days": "1 dzień",
-  "descTitle": "Wycieczka idealna w formie 3 dniówki ale w wersji okrojonej też się da, bo dojazd niezły.",
-  "description": [
-    "TYKOCIN- kameralne miasteczko nad Narwią z ciekawą zabudową, wieloma zabytkami (min. Alumnat, Synagoga i Kirkut, odbudowany zamek, plac Czarnieckiego) zwiedzimy z przewodnikiem.",
-    "PENTOWO- miejsce magiczne nie tylko dlatego, że jest letnią rezydencją dla kilkudziesięciu bocianich rodzin",
-    "STRĘKOWA GÓRA- bunkier obronny nad rozlewiskami Narwi, wrzesień ‘39",
-    "CARSKA DROGA- kultowa droga bita przez mokradła i lasy Biebrzańskiego PN. Kilka wież widokowych i kładek spacerowych.",
-    "Możliwość lekcji edukacyjnej z pracownikiem parku albo",
-    "SUPRAŚL- perełka w środku Puszczy Knyszyńskiej ma do zaoferowania kresową architekturę, cerkiew bizantyjską i kultowe Muzeum Ikon.",
-    "Trudno zobaczyć wszystko w mniej niż 2 godziny…"
-  ],
-  "imageMain": "/pictures/podlasie/podlasie01.jpg",
-  "price45people": 159,
-  "price40people": 186,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a93"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a93"
+    },
+    "title": "PLAŻA I NIE TYLKO",
+    "days": "1 dzień",
+    "descTitle": "Drogi mamy coraz lepsze więc może jednodniowy wypad na plażę? Z północnej części Warszawy i Mazowsza to tylko 330 km czyli 4.5 godziny jazdy. Dwóch kierowców i damy radę.",
+    "description": [
+      "MIERZEJA- na pewno trzeba pobyczyć się na plaży- po to przyjechaliśmy!",
+      "Dla chętnych Muzeum Zalewu Wiślanego, OK. Stuthoff, latarnia morska w Krynicy Morskiej, przekop na Mierzei Wiślanej"
+    ],
+    "imageMain": "/pictures/beach/beach01.jpg",
+    "price45people": 199,
+    "price40people": 239,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "PLAŻA I NIE TYLKO",
-  "days": "1 dzień",
-  "descTitle": "Drogi mamy coraz lepsze więc może jednodniowy wypad na plażę? Z północnej części Warszawy i Mazowsza to tylko 330 km czyli 4.5 godziny jazdy. Dwóch kierowców i damy radę.",
-  "description": [
-    "MIERZEJA- na pewno trzeba pobyczyć się na plaży- po to przyjechaliśmy!",
-    "Dla chętnych Muzeum Zalewu Wiślanego, OK. Stuthoff, latarnia morska w Krynicy Morskiej, przekop na Mierzei Wiślanej"
-  ],
-  "imageMain": "/pictures/beach/beach01.jpg",
-  "price45people": 199,
-  "price40people": 239,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a96"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a96"
+    },
+    "title": "PŁOCK",
+    "days": "1 dzień",
+    "descTitle": "Mało kto wie ale kiedyś tu była stolica… a w Katedrze spoczywają szczątki dwóch królów. Dziś wszyscy kojarzą miasto tylko z rafinerią...",
+    "description": [
+      "ZOO- kameralny ogród zoologiczny położony na skarpie wiślanej (szczególnie polecany młodszym) albo Muzeum Secesji (przyda się do matury więc idealne dla starszych). Oczywiście spacer po starej części miasta: Katedra, widok na Wisłę, Liceum Małachowskiego, rynek. W drodze powrotnej warto zahaczyć jeden z wielu cmentarzy mennonickich (świadectwo wielokulturowości przedwojennej Polski) albo zatrzymać się w Czerwińsku (opactwo romańskie)"
+    ],
+    "imageMain": "/pictures/plock/plock01.jpg",
+    "price45people": 149,
+    "price40people": 179,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "PŁOCK",
-  "days": "1 dzień",
-  "descTitle": "Mało kto wie ale kiedyś tu była stolica… a w Katedrze spoczywają szczątki dwóch królów. Dziś wszyscy kojarzą miasto tylko z rafinerią...",
-  "description": [
-    "ZOO- kameralny ogród zoologiczny położony na skarpie wiślanej (szczególnie polecany młodszym) albo Muzeum Secesji (przyda się do matury więc idealne dla starszych). Oczywiście spacer po starej części miasta: Katedra, widok na Wisłę, Liceum Małachowskiego, rynek. W drodze powrotnej warto zahaczyć jeden z wielu cmentarzy mennonickich (świadectwo wielokulturowości przedwojennej Polski) albo zatrzymać się w Czerwińsku (opactwo romańskie)"
-  ],
-  "imageMain": "/pictures/plock/plock01.jpg",
-  "price45people": 149,
-  "price40people": 179,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a9b"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a9b"
+    },
+    "title": "SZWECJA",
+    "days": "4 dni",
+    "titleSub": "Kabiny na promie i hotel w Karlskronie, wyżywienie 2 x dziennie ",
+    "description": [
+      "Przejazd do Gdyni (rejs nocny, nocleg w kabinach)- jeśli rano wyjedziemy możemy pozwiedzać Trójmiasto, jest czas, czemu nie?",
+      "Kalmar- Zamek i Stare Miasto, wyspa Olandia: latarnia Lange Jan, Eketorp- rez. archeologiczny, płaskowyż Stora Alvaret",
+      "Karlskrona: Muzeum Marynarki Wojennej, rejs na wyspę Aspoo- dla chętnych, zakupy, rejs do Gdyni",
+      "Powrót przez Malbork lub Toruń"
+    ],
+    "imageMain": "/pictures/abroad/sweden01.jpg",
+    "price45people": 1339,
+    "price40people": 1589,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "four-days",
+    "destinationType": "abroad"
   },
-  "title": "SZWECJA",
-  "days": "4 dni",
-  "titleSub": "Kabiny na promie i hotel w Karlskronie, wyżywienie 2 x dziennie ",
-  "description": [
-    "Przejazd do Gdyni (rejs nocny, nocleg w kabinach)- jeśli rano wyjedziemy możemy pozwiedzać Trójmiasto, jest czas, czemu nie?",
-    "Kalmar- Zamek i Stare Miasto, wyspa Olandia: latarnia Lange Jan, Eketorp- rez. archeologiczny, płaskowyż Stora Alvaret",
-    "Karlskrona: Muzeum Marynarki Wojennej, rejs na wyspę Aspoo- dla chętnych, zakupy, rejs do Gdyni",
-    "Powrót przez Malbork lub Toruń"
-  ],
-  "imageMain": "/pictures/abroad/sweden01.jpg",
-  "price45people": 1339,
-  "price40people": 1589,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "four-days",
-  "destinationType": "abroad"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a9f"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a9f"
+    },
+    "title": "MIERZEJA WIŚLANA",
+    "days": "weekend",
+    "descTitle": "Doskonały kierunek! Dojazd coraz lepszy, plaże piękne nie tylko latem a i zwiedzać jest co.",
+    "description": [
+      "Wyjazd to zwykle popołudniowe godziny piątkowe, przejazd bezpośrednio do hotelu, zakwaterowanie, wieczorny obiad i tzw. zajęcia w podgrupach.",
+      "Sobotnie śniadanie, normalnie o 7.30, wyjazd do Trójmiasta godzinę poźniej. Tam zwiedzanie z przewodnikiem gdańskiego Głównego Miasta, Sopotu i ewentualnie Gdyni.",
+      "Powrót wieczorem i biesiada (może być z tańcami i muzyką).",
+      "W niedzielę poźniejsze śniadanie i zwiedzanie mierzei, do wyboru: Krynica Morska (latarnia), przekop, Kąty Rybackie (rez. kormoranów), KL Stuthoff.",
+      "Wyjazd po obiedzie, powrót wieczorem."
+    ],
+    "imageMain": "/pictures/domestic/mierzeja-wislana02.jpg",
+    "price45people": 739,
+    "price40people": 798,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "weekend",
+    "destinationType": "domestic"
   },
-  "title": "MIERZEJA WIŚLANA",
-  "days": "weekend",
-  "descTitle": "Doskonały kierunek! Dojazd coraz lepszy, plaże piękne nie tylko latem a i zwiedzać jest co.",
-  "description": [
-    "Wyjazd to zwykle popołudniowe godziny piątkowe, przejazd bezpośrednio do hotelu, zakwaterowanie, wieczorny obiad i tzw. zajęcia w podgrupach.",
-    "Sobotnie śniadanie, normalnie o 7.30, wyjazd do Trójmiasta godzinę poźniej. Tam zwiedzanie z przewodnikiem gdańskiego Głównego Miasta, Sopotu i ewentualnie Gdyni.",
-    "Powrót wieczorem i biesiada (może być z tańcami i muzyką).",
-    "W niedzielę poźniejsze śniadanie i zwiedzanie mierzei, do wyboru: Krynica Morska (latarnia), przekop, Kąty Rybackie (rez. kormoranów), KL Stuthoff.",
-    "Wyjazd po obiedzie, powrót wieczorem."
-  ],
-  "imageMain": "/pictures/domestic/mierzeja-wislana02.jpg",
-  "price45people": 739,
-  "price40people": 798,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "weekend",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a63"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a63"
+    },
+    "title": "BESKIDY ZACHODNIE",
+    "days": "5 dni",
+    "titleSub": "Pensjonat w Węgierskiej Górce lub Zwardoniu, wyżywienie 2X + prowiant",
+    "description": [
+      "Kopalnia Srebra w Tarnowskich Górach",
+      "Mała Fatra (SK) i spacer Janosikowymi Dierami (wąwozy, wodospady, kładki), wizyta w Terchovej- miejscu urodzin prawdziwego J.J.",
+      "Koniaków: Izba Regionalna, Istebna: Chata u Kawuloka, Ochodzita",
+      "Spacer na Rachowiec lub wizyta w Wiśle, Ustroniu",
+      "Browar w Żywcu lub SFA w Bielsku-Białej"
+    ],
+    "imageMain": "/pictures/cross-border/beskidy-zachodnie.jpg",
+    "price45people": 1049,
+    "price40people": 1111,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "cross-border"
   },
-  "title": "BESKIDY ZACHODNIE",
-  "days": "5 dni",
-  "titleSub": "Pensjonat w Węgierskiej Górce lub Zwardoniu, wyżywienie 2X + prowiant",
-  "description": [
-    "Kopalnia Srebra w Tarnowskich Górach",
-    "Mała Fatra (SK) i spacer Janosikowymi Dierami (wąwozy, wodospady, kładki), wizyta w Terchovej- miejscu urodzin prawdziwego J.J.",
-    "Koniaków: Izba Regionalna, Istebna: Chata u Kawuloka, Ochodzita",
-    "Spacer na Rachowiec lub wizyta w Wiśle, Ustroniu",
-    "Browar w Żywcu lub SFA w Bielsku-Białej"
-  ],
-  "imageMain": "/pictures/cross-border/beskidy-zachodnie.jpg",
-  "price45people": 1049,
-  "price40people": 1111,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "cross-border"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a64"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a64"
+    },
+    "title": "BIESZCZADY",
+    "days": "5 dni",
+    "titleSub": "Hotel/pensjonat w okolicach Jez. Solińskiego, wyżywienie 3X lub dwa plus prowiant",
+    "description": [
+      "Lublin- Stare Miasto z przewodnikiem (do 3 godzin), Kamień Leski- piękna wychodnia skalna tuż przed Bieszczadami",
+      "Spacer po okolicy- szczyt Wierchy, zwiedzanie dawnej cerkwi w Górzance",
+      "Wielka Pętla, m.in.: Cisna - Siekierezada, Majdan - kolejka, wejście na Połoninę Wetlińską, Ustrzyki Górne, Wołosate, Czarna",
+      "Polańczyk Zdrój, rejs statkiem po Jez. Solińskim, korona zapory",
+      "Sanok: Muzeum Historyczne lub Skansen"
+    ],
+    "imageMain": "/pictures/domestic/bieszczady01.jpg",
+    "price45people": 1058,
+    "price40people": 1179,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "domestic"
   },
-  "title": "BIESZCZADY",
-  "days": "5 dni",
-  "titleSub": "Hotel/pensjonat w okolicach Jez. Solińskiego, wyżywienie 3X lub dwa plus prowiant",
-  "description": [
-    "Lublin- Stare Miasto z przewodnikiem (do 3 godzin), Kamień Leski- piękna wychodnia skalna tuż przed Bieszczadami",
-    "Spacer po okolicy- szczyt Wierchy, zwiedzanie dawnej cerkwi w Górzance",
-    "Wielka Pętla, m.in.: Cisna - Siekierezada, Majdan - kolejka, wejście na Połoninę Wetlińską, Ustrzyki Górne, Wołosate, Czarna",
-    "Polańczyk Zdrój, rejs statkiem po Jez. Solińskim, korona zapory",
-    "Sanok: Muzeum Historyczne lub Skansen"
-  ],
-  "imageMain": "/pictures/domestic/bieszczady01.jpg",
-  "price45people": 1058,
-  "price40people": 1179,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a68"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a68"
+    },
+    "title": "SPAŁA, JURA, KRAKÓW",
+    "days": "5 dni",
+    "titleSub": "OW w Spale i pensjonat na Jurze, wyżywienie 2X + prowiant",
+    "description": [
+      "Tomaszów Maz: rez. Niebieskie Źródła, Groty Nagórzyckie, Skansen Rzeki Pilicy",
+      "Spacer po Spale: COS, Grota, Myśliwska, drewniany kościółek, sosny na szczudłach, schron kolejowy w Konewce",
+      "Inowłódz: romański kościół św. Idziego, Zamek Królewski",
+      "Zamki w Ogrodzieńcu, Olsztynie, Bobolicach i Mirowie",
+      "Kraków- spacer z przewodnikiem: rynek, Wawel itd"
+    ],
+    "imageMain": "/pictures/domestic/krakow01.jpg",
+    "price45people": 1079,
+    "price40people": 1143,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "domestic"
   },
-  "title": "SPAŁA, JURA, KRAKÓW",
-  "days": "5 dni",
-  "titleSub": "OW w Spale i pensjonat na Jurze, wyżywienie 2X + prowiant",
-  "description": [
-    "Tomaszów Maz: rez. Niebieskie Źródła, Groty Nagórzyckie, Skansen Rzeki Pilicy",
-    "Spacer po Spale: COS, Grota, Myśliwska, drewniany kościółek, sosny na szczudłach, schron kolejowy w Konewce",
-    "Inowłódz: romański kościół św. Idziego, Zamek Królewski",
-    "Zamki w Ogrodzieńcu, Olsztynie, Bobolicach i Mirowie",
-    "Kraków- spacer z przewodnikiem: rynek, Wawel itd"
-  ],
-  "imageMain": "/pictures/domestic/krakow01.jpg",
-  "price45people": 1079,
-  "price40people": 1143,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a6b"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a6b"
+    },
+    "title": "WARMIA i MAZURY",
+    "days": "5 dni",
+    "titleSub": "OW/pensjonat w okolicach Giżycka, wyżywienie 2X + prowiant",
+    "description": [
+      "Park Dzikich Zwierząt w Kadzidłowie",
+      "Twierdza Boyen, rejs statkiem, po jez. Niegocin lub Tajty, wzgórze i krzyż św. Brunnona",
+      "Zamek w Reszlu, Sanktuarium w św. Lipce, Bezławki, Wilczy Szaniec",
+      "Wiadukty w Kruklankach, Bunkry Himmlera w Pozezdrzu, pałac w Sztynorcie, śluzy na Kanale Mazurskim",
+      "Zamek w Rynie"
+    ],
+    "imageMain": "/pictures/domestic/reszel.jpg",
+    "price45people": 1034,
+    "price40people": 1098,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "domestic"
   },
-  "title": "WARMIA i MAZURY",
-  "days": "5 dni",
-  "titleSub": "OW/pensjonat w okolicach Giżycka, wyżywienie 2X + prowiant",
-  "description": [
-    "Park Dzikich Zwierząt w Kadzidłowie",
-    "Twierdza Boyen, rejs statkiem, po jez. Niegocin lub Tajty, wzgórze i krzyż św. Brunnona",
-    "Zamek w Reszlu, Sanktuarium w św. Lipce, Bezławki, Wilczy Szaniec",
-    "Wiadukty w Kruklankach, Bunkry Himmlera w Pozezdrzu, pałac w Sztynorcie, śluzy na Kanale Mazurskim",
-    "Zamek w Rynie"
-  ],
-  "imageMain": "/pictures/domestic/reszel.jpg",
-  "price45people": 1034,
-  "price40people": 1098,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a6e"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a6e"
+    },
+    "title": "KOTLINA KŁODZKA i CZECHY",
+    "days": "5 dni",
+    "titleSub": "OW/ hotel w Kotlinie Kłodzkiej, wyżywienie 2X",
+    "description": [
+      "Wrocław- spacer z przewodnikiem",
+      "Wyjazd do Skalnego Miasta (spacer wraz z rejsem po jeziorku)",
+      "Wyjazd do Pragi Czeskiej",
+      "Kopalnia węgla kamiennego w Nowej Rudzie, sztolnie Walim lub Osówka, zamek Grodno lub zamiast tego: Szczeliniec, Kaplica Czaszek, Wambierzyce",
+      "Wrocław- Hala Stulecia i ZOO"
+    ],
+    "imageMain": "/pictures/cross-border/praha01.jpg",
+    "price45people": 1267,
+    "price40people": 1345,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "cross-border"
   },
-  "title": "KOTLINA KŁODZKA i CZECHY",
-  "days": "5 dni",
-  "titleSub": "OW/ hotel w Kotlinie Kłodzkiej, wyżywienie 2X",
-  "description": [
-    "Wrocław- spacer z przewodnikiem",
-    "Wyjazd do Skalnego Miasta (spacer wraz z rejsem po jeziorku)",
-    "Wyjazd do Pragi Czeskiej",
-    "Kopalnia węgla kamiennego w Nowej Rudzie, sztolnie Walim lub Osówka, zamek Grodno lub zamiast tego: Szczeliniec, Kaplica Czaszek, Wambierzyce",
-    "Wrocław- Hala Stulecia i ZOO"
-  ],
-  "imageMain": "/pictures/cross-border/praha01.jpg",
-  "price45people": 1267,
-  "price40people": 1345,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "cross-border"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a73"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a73"
+    },
+    "title": "ROZTOCZE",
+    "days": "3 dni",
+    "titleSub": "OW/pensjonat w Krasnobrodzie lub Zwierzyńcu, wyżywienie 2x + prowiant",
+    "description": [
+      "Muzeum rowerów w Gołębiu, Lublin: zamek i Stare Miasto (ew. Majdanek)",
+      "Rezerwaty: szumy na Tanwii, Czartowe Pole, skansen w Guciowie, Zwierzyniec, Górecka Kościelne",
+      "Stare Miasto w Zamościu, Kozłówka: zamek Zamoyskich"
+    ],
+    "imageMain": "/pictures/domestic/roztocze-tanwia.jpg",
+    "price45people": 609,
+    "price40people": 669,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "three-days",
+    "destinationType": "domestic"
   },
-  "title": "ROZTOCZE",
-  "days": "3 dni",
-  "titleSub": "OW/pensjonat w Krasnobrodzie lub Zwierzyńcu, wyżywienie 2x + prowiant",
-  "description": [
-    "Muzeum rowerów w Gołębiu, Lublin: zamek i Stare Miasto (ew. Majdanek)",
-    "Rezerwaty: szumy na Tanwii, Czartowe Pole, skansen w Guciowie, Zwierzyniec, Górecka Kościelne",
-    "Stare Miasto w Zamościu, Kozłówka: zamek Zamoyskich"
-  ],
-  "imageMain": "/pictures/domestic/roztocze-tanwia.jpg",
-  "price45people": 609,
-  "price40people": 669,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "three-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a76"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a76"
+    },
+    "title": "WROCŁAW",
+    "days": "3 dni",
+    "titleSub": "Hostel w centrum lub pensjonat na peryferiach, wyżywienie 2X",
+    "description": [
+      "ZOO+ Afrykanarium, Hala Stulecia",
+      "Hydropolis, Panorama Racławicka, stadion miejski",
+      "Stare Miasto, Ostrów Tumski z przewodnikiem"
+    ],
+    "imageMain": "/pictures/domestic/wroclaw-old-town.jpg",
+    "price45people": 745,
+    "price40people": 819,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "three-days",
+    "destinationType": "domestic"
   },
-  "title": "WROCŁAW",
-  "days": "3 dni",
-  "titleSub": "Hostel w centrum lub pensjonat na peryferiach, wyżywienie 2X",
-  "description": [
-    "ZOO+ Afrykanarium, Hala Stulecia",
-    "Hydropolis, Panorama Racławicka, stadion miejski",
-    "Stare Miasto, Ostrów Tumski z przewodnikiem"
-  ],
-  "imageMain": "/pictures/domestic/wroclaw-old-town.jpg",
-  "price45people": 745,
-  "price40people": 819,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "three-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a78"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a78"
+    },
+    "title": "JURA i MAŁOPOLSKA",
+    "days": "3 dni",
+    "titleSub": "OW lub pensjonat w Podlesicach, wyżywienie 2X + prowiant",
+    "description": [
+      "Zamek w Olsztynie, rez. Sokole Góry, Zamki Mirów i Bobolice ew. Jasna Góra",
+      "Kraków i Ojcowski PN (spacer po Starym Mieście i Wawelu, Zamek na Pieskowej Skale)",
+      "Zamek w Ogrodzieńcu, spacer Doliną Wiercicy (skałki, zamki, groty)"
+    ],
+    "imageMain": "/pictures/domestic/ojcow.jpg",
+    "price45people": 628,
+    "price40people": 682,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "three-days",
+    "destinationType": "domestic"
   },
-  "title": "JURA i MAŁOPOLSKA",
-  "days": "3 dni",
-  "titleSub": "OW lub pensjonat w Podlesicach, wyżywienie 2X + prowiant",
-  "description": [
-    "Zamek w Olsztynie, rez. Sokole Góry, Zamki Mirów i Bobolice ew. Jasna Góra",
-    "Kraków i Ojcowski PN (spacer po Starym Mieście i Wawelu, Zamek na Pieskowej Skale)",
-    "Zamek w Ogrodzieńcu, spacer Doliną Wiercicy (skałki, zamki, groty)"
-  ],
-  "imageMain": "/pictures/domestic/ojcow.jpg",
-  "price45people": 628,
-  "price40people": 682,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "three-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a7a"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a7a"
+    },
+    "title": "LUBELSZCZYZNA",
+    "days": "3 dni",
+    "titleSub": "Pensjonat lub hotelik w Puławach lub Kazimierzu Dolnym, wyżywienie 2X + prowiant",
+    "description": [
+      "Pałac w Kozłówce, Lublin - Stare Miasto, Nałęczów - park zdrojowy",
+      "Janowiec- skansen i Zamek Firlejów, Sandomierz: Brama Opatowska, Rynek, wąwóz, zbrojownia, podziemia, kościół św. Jakuba",
+      "Kazimierz Dolny: rynek, góra Trzech Krzyży, zamek i baszta, spichlerze, Puławy- pałac i park, Muzeum Nietypowych Rowerów w Gołębiu"
+    ],
+    "imageMain": "/pictures/domestic/lublin.jpg",
+    "price45people": 578,
+    "price40people": 649,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "three-days",
+    "destinationType": "domestic"
   },
-  "title": "LUBELSZCZYZNA",
-  "days": "3 dni",
-  "titleSub": "Pensjonat lub hotelik w Puławach lub Kazimierzu Dolnym, wyżywienie 2X + prowiant",
-  "description": [
-    "Pałac w Kozłówce, Lublin - Stare Miasto, Nałęczów - park zdrojowy",
-    "Janowiec- skansen i Zamek Firlejów, Sandomierz: Brama Opatowska, Rynek, wąwóz, zbrojownia, podziemia, kościół św. Jakuba",
-    "Kazimierz Dolny: rynek, góra Trzech Krzyży, zamek i baszta, spichlerze, Puławy- pałac i park, Muzeum Nietypowych Rowerów w Gołębiu"
-  ],
-  "imageMain": "/pictures/domestic/lublin.jpg",
-  "price45people": 578,
-  "price40people": 649,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "three-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a7f"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a7f"
+    },
+    "title": "SPŁYWY KAJAKOWE - BZURA",
+    "days": "1 dzień",
+    "descTitle": "Na Mazowszu mamy kilka rzek idealnych na przygodę w kajaku. Bzura obok Wkry nadaje się idealnie",
+    "description": ["Najciekawszy odcinek to Sochaczew- Brochów ew. Ujście do Wisły"],
+    "imageMain": "/pictures/kayak/splyw-bzura.jpg",
+    "price45people": 169,
+    "price40people": 175,
+    "typeOfTrip": "kayak",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "SPŁYWY KAJAKOWE - BZURA",
-  "days": "1 dzień",
-  "descTitle": "Na Mazowszu mamy kilka rzek idealnych na przygodę w kajaku. Bzura obok Wkry nadaje się idealnie",
-  "description": [
-    "Najciekawszy odcinek to Sochaczew- Brochów ew. Ujście do Wisły"
-  ],
-  "imageMain": "/pictures/kayak/splyw-bzura.jpg",
-  "price45people": 169,
-  "price40people": 175,
-  "typeOfTrip": "kayak",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a82"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a82"
+    },
+    "title": "WARSZAWA",
+    "days": "1 dzień",
+    "descTitle": "Naturalnie ta propozycja nie jest skierowana dla Warszawiaków... jeżeli jednak, jesteś z Warszawy i chcesz lepiej poznać swoje miasto, to również zapraszam, zorganizuję dla Ciebie \"city tour\" po Twoim mieście.",
+    "description": [
+      "Warto dojechać koleją i poruszać się komunikacją i metrem.",
+      "A zobaczyć jest co: spacer po Starówce z przewodnikiem, PKiN- taras widokowy, stadion, Łazienki, Muzea."
+    ],
+    "imageMain": "/pictures/warszawa/warszawa01.jpg",
+    "price45people": "zapytaj, skalkulujemy!",
+    "price40people": 0,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "WARSZAWA",
-  "days": "1 dzień",
-  "descTitle": "Naturalnie ta propozycja nie jest skierowana dla Warszawiaków... jeżeli jednak, jesteś z Warszawy i chcesz lepiej poznać swoje miasto, to również zapraszam, zorganizuję dla Ciebie \"city tour\" po Twoim mieście.",
-  "description": [
-    "Warto dojechać koleją i poruszać się komunikacją i metrem.",
-    "A zobaczyć jest co: spacer po Starówce z przewodnikiem, PKiN- taras widokowy, stadion, Łazienki, Muzea."
-  ],
-  "imageMain": "/pictures/warszawa/warszawa01.jpg",
-  "price45people": "zapytaj, skalkulujemy!",
-  "price40people": 0,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "675b1d31d8bf161ed0627e4d"
+  {
+    "_id": {
+      "$oid": "675b1d31d8bf161ed0627e4d"
+    },
+    "title": "TWIERDZA MODLIN i OKOLICE",
+    "description": [
+      "Twierdza Modlin ma wiele tajemnic, wszystkich przewodnik nam nie pokaże ale najpiękniejszy widok na Mazowszu na pewno! Zajrzymy na terminal lotniska i cmentarz mennonicki w Sadach. Uwaga: do Twierdzy można dojechać PKP co obniża znacznie koszty!"
+    ],
+    "imageMain": "/pictures/not-found/not-found.png",
+    "price45people": 146,
+    "price40people": 168,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic",
+    "days": "1 dzień"
   },
-  "title": "TWIERDZA MODLIN i OKOLICE",
-  "description": [
-    "Twierdza Modlin ma wiele tajemnic, wszystkich przewodnik nam nie pokaże ale najpiękniejszy widok na Mazowszu na pewno! Zajrzymy na terminal lotniska i cmentarz mennonicki w Sadach. Uwaga: do Twierdzy można dojechać PKP co obniża znacznie koszty!"
-  ],
-  "imageMain": "/pictures/not-found/not-found.png",
-  "price45people": 146,
-  "price40people": 168,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic",
-  "days": "1 dzień"
-},
-{
-  "_id": {
-    "$oid": "675b1d31d8bf161ed0627e4e"
+  {
+    "_id": {
+      "$oid": "675b1d31d8bf161ed0627e4e"
+    },
+    "title": "PUSZCZA KAMPINOSKA",
+    "days": "1 dzień",
+    "descTitle": "Co z tego, że blisko skoro nieznana? A ciekawych zakątków tu sporo.",
+    "description": [
+      "PALMIRY- Miejsce Pamięci Palmiry i cmentarz pomordowanej inteligencji warszawskiej",
+      "FORTY MODLIŃSKIE w Dębinie lub Cybulicach- fortyfikacje będące satelitami twierdzy Modlin, jedne z wielu a nieźle zachowane",
+      "CMENTARZ MENNONICKI w Sadach lub Śladowie",
+      "LOTNISKO Modlin- niby nic ale radzi sobie lepiej od większego i droższego Warszawa Radom",
+      "No i tradycyjnie spacer po puszczy, choćby krótki… może łosie się pokażą?"
+    ],
+    "imageMain": "/pictures/kampinos/kampinos.jpg",
+    "price45people": 169,
+    "price40people": 187,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "PUSZCZA KAMPINOSKA",
-  "days": "1 dzień",
-  "descTitle": "Co z tego, że blisko skoro nieznana? A ciekawych zakątków tu sporo.",
-  "description": [
-    "PALMIRY- Miejsce Pamięci Palmiry i cmentarz pomordowanej inteligencji warszawskiej",
-    "FORTY MODLIŃSKIE w Dębinie lub Cybulicach- fortyfikacje będące satelitami twierdzy Modlin, jedne z wielu a nieźle zachowane",
-    "CMENTARZ MENNONICKI w Sadach lub Śladowie",
-    "LOTNISKO Modlin- niby nic ale radzi sobie lepiej od większego i droższego Warszawa Radom",
-    "No i tradycyjnie spacer po puszczy, choćby krótki… może łosie się pokażą?"
-  ],
-  "imageMain": "/pictures/kampinos/kampinos.jpg",
-  "price45people": 169,
-  "price40people": 187,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a95"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a95"
+    },
+    "title": "DROHICZYN, GRABARKA, MIELNIK",
+    "days": "1 dzień",
+    "description": [
+      "Zapraszam na fantastyczny przełom Bugu czyli południowe Podlasie. Mamy tu ciekawe historyczne miasteczka i miejsca kultu religijnego: prawosławnego i unickiego. Warto tu przyjechać!"
+    ],
+    "imageMain": "/pictures/tomek-sea.webp",
+    "price45people": 167,
+    "price40people": 187,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "DROHICZYN, GRABARKA, MIELNIK",
-  "days": "1 dzień",
-  "description": [
-    "Zapraszam na fantastyczny przełom Bugu czyli południowe Podlasie. Mamy tu ciekawe historyczne miasteczka i miejsca kultu religijnego: prawosławnego i unickiego. Warto tu przyjechać!"
-  ],
-  "imageMain": "/pictures/tomek-sea.webp",
-  "price45people": 167,
-  "price40people": 187,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224aa1"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224aa1"
+    },
+    "title": "PODLASIE",
+    "days": "weekend",
+    "descTitle": "Dla koneserów ciszy i spokoju…dojazd świetny, ludzie mili. Tu jako bazę preferuję Tykocin lub Supraśl, czasem Białystok. W okolicy dwa parki narodowe i jeden krajobrazowy.",
+    "description": [
+      "Wyjazd tradycyjnie w piątek po południu, przejazd do hotelu, zakwaterowanie, posiłek i relaks.",
+      "W sobotę po śniadaniu spacer po Tykocinie z przewodnikiem (rynek, synagoga, zamek), wizyta w Wiosce Bocianiej (Pentowo), Strękowa Góra (bunkier Raginisa) i przejazd przez Biebrzański PN.",
+      "Powrót wczesnym wieczorem, relaks i biesiada (do wyboru: grillowi, w Sali, z muzyką lub bez).",
+      "W niedzielę śniadanie, wykwaterowanie i wyjazd do Supraśla (cerkiew bizantyjska lub/ i Muzeum Ikon),",
+      "Kruszynian (Tatarzy podlascy: meczet i mizar z Dżamilem). Powrót do domu w godzinach wieczornych."
+    ],
+    "imageMain": "/pictures/podlasie/podlasie02.jpg",
+    "price45people": 579,
+    "price40people": 645,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "weekend",
+    "destinationType": "domestic"
   },
-  "title": "PODLASIE",
-  "days": "weekend",
-  "descTitle": "Dla koneserów ciszy i spokoju…dojazd świetny, ludzie mili. Tu jako bazę preferuję Tykocin lub Supraśl, czasem Białystok. W okolicy dwa parki narodowe i jeden krajobrazowy.",
-  "description": [
-    "Wyjazd tradycyjnie w piątek po południu, przejazd do hotelu, zakwaterowanie, posiłek i relaks.",
-    "W sobotę po śniadaniu spacer po Tykocinie z przewodnikiem (rynek, synagoga, zamek), wizyta w Wiosce Bocianiej (Pentowo), Strękowa Góra (bunkier Raginisa) i przejazd przez Biebrzański PN.",
-    "Powrót wczesnym wieczorem, relaks i biesiada (do wyboru: grillowi, w Sali, z muzyką lub bez).",
-    "W niedzielę śniadanie, wykwaterowanie i wyjazd do Supraśla (cerkiew bizantyjska lub/ i Muzeum Ikon),",
-    "Kruszynian (Tatarzy podlascy: meczet i mizar z Dżamilem). Powrót do domu w godzinach wieczornych."
-  ],
-  "imageMain": "/pictures/podlasie/podlasie02.jpg",
-  "price45people": 579,
-  "price40people": 645,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "weekend",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a65"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a65"
+    },
+    "title": "KARKONOSZE",
+    "days": "5 dni",
+    "titleSub": "Hotel w Przesiece lub Karpaczu, wyżywienie 2X + prowiant",
+    "description": [
+      "Wrocław: (spacer z przewodnikiem)",
+      "Pieszo: zamek Chojnik, wodospad Podgórnej, Złoty Widok",
+      "Świątynia Vang, spacer w Karkonoszach",
+      "Wodospady Szklarki i Kamieńczyka, Chata Walońska, skała 'Chybotek', Szklarska Poręba",
+      "Park miniatur w Kowarach, zamek Książ lub: Sokoliki, zamek Bolków i Świny"
+    ],
+    "imageMain": "/pictures/domestic/karkonosze01.jpg",
+    "price45people": 1045,
+    "price40people": 1124,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "domestic"
   },
-  "title": "KARKONOSZE",
-  "days": "5 dni",
-  "titleSub": "Hotel w Przesiece lub Karpaczu, wyżywienie 2X + prowiant",
-  "description": [
-    "Wrocław: (spacer z przewodnikiem)",
-    "Pieszo: zamek Chojnik, wodospad Podgórnej, Złoty Widok",
-    "Świątynia Vang, spacer w Karkonoszach",
-    "Wodospady Szklarki i Kamieńczyka, Chata Walońska, skała 'Chybotek', Szklarska Poręba",
-    "Park miniatur w Kowarach, zamek Książ lub: Sokoliki, zamek Bolków i Świny"
-  ],
-  "imageMain": "/pictures/domestic/karkonosze01.jpg",
-  "price45people": 1045,
-  "price40people": 1124,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a6d"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a6d"
+    },
+    "title": "MIERZEJA WIŚLANA",
+    "days": "5 dni",
+    "titleSub": "Pensjonat nad morzem w Kątach Rybackich, wyżywienie 3X",
+    "description": [
+      "rez. źródła Łyny, olsztyniecki skansen lub Huta Szkła lub Toruń: planetarium, Muzeum Piernika",
+      "Rez. kormoranów, KL Stuthoff, prelekcja o bursztynie",
+      "Trójmiasto: plan do uzgodnienia",
+      "Latarnia morska w Krynicy, rejs statkiem. Muzeum Zalewu",
+      "Zamek w Malborku lub: Frombork (Wzgórze Zamkowe z planetarium, katedra, dzwonnica)"
+    ],
+    "imageMain": "/pictures/domestic/mierzeja_wislana01.jpg",
+    "price45people": 1027,
+    "price40people": 1098,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "domestic"
   },
-  "title": "MIERZEJA WIŚLANA",
-  "days": "5 dni",
-  "titleSub": "Pensjonat nad morzem w Kątach Rybackich, wyżywienie 3X",
-  "description": [
-    "rez. źródła Łyny, olsztyniecki skansen lub Huta Szkła lub Toruń: planetarium, Muzeum Piernika",
-    "Rez. kormoranów, KL Stuthoff, prelekcja o bursztynie",
-    "Trójmiasto: plan do uzgodnienia",
-    "Latarnia morska w Krynicy, rejs statkiem. Muzeum Zalewu",
-    "Zamek w Malborku lub: Frombork (Wzgórze Zamkowe z planetarium, katedra, dzwonnica)"
-  ],
-  "imageMain": "/pictures/domestic/mierzeja_wislana01.jpg",
-  "price45people": 1027,
-  "price40people": 1098,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "675b1d31d8bf161ed0627e4f"
+  {
+    "_id": {
+      "$oid": "675b1d31d8bf161ed0627e4f"
+    },
+    "title": "PUSZCZA KAMPINOSKA",
+    "days": "3 dni",
+    "titleSub": "OW w Kampinoskim PN (część zachodnia), wyżywienie 3x lub 2x + ognisko z kiełbaskami",
+    "description": [
+      "Dojazd własny rowerem lub autokarem, na miejscu zajecia integracyjne i artystyczne",
+      "Spacer lub rajd rowerowy śladami Mennonitów, zajecia z końmi, plastykiem, leśnikiem, olimpiada sportowa, przejażdżka bryczką itd. ",
+      "Warowny kościół w Brochowie i dwór w Tułowicach, powrot"
+    ],
+    "additionallyDesc": "W cenie brak kosztow dodatkowych i dojazdu!",
+    "imageMain": "/pictures/kampinos/kampinos.jpg",
+    "price45people": "zapytaj, skalkulujemy!",
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "three-days",
+    "destinationType": "domestic"
   },
-  "title": "PUSZCZA KAMPINOSKA",
-  "days": "3 dni",
-  "titleSub": "OW w Kampinoskim PN (część zachodnia), wyżywienie 3x lub 2x + ognisko z kiełbaskami",
-  "description": [
-    "Dojazd własny rowerem lub autokarem, na miejscu zajecia integracyjne i artystyczne",
-    "Spacer lub rajd rowerowy śladami Mennonitów, zajecia z końmi, plastykiem, leśnikiem, olimpiada sportowa, przejażdżka bryczką itd. ",
-    "Warowny kościół w Brochowie i dwór w Tułowicach, powrot"
-  ],
-  "additionallyDesc": "W cenie brak kosztow dodatkowych i dojazdu!",
-  "imageMain": "/pictures/kampinos/kampinos.jpg",
-  "price45people": "zapytaj, skalkulujemy!",
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "three-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a72"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a72"
+    },
+    "title": "PODLASIE",
+    "days": "3 dni",
+    "titleSub": "Hotel/pensjonat w Tykocinie lub Supraślu, wyzywienie 2X + prowiant",
+    "description": [
+      "Białowieża: rez. pokazowy żubrów, Muzeum BPN, cerkiew, Dęby Królewskie",
+      "Tykocin, m.in.: Dom Talmudyczny, Wielka Synagoga, zamek, Pętowo - wioska bociania, bunkier kpt. W. Raginisa k. Wizny, Biebrzański PN - zajęcia edukacyjne, twierdza Osowiec",
+      "Muzeum Ikon w Supraślu, Silvarium, Kruszyniany - zwiedzanie Minaretu i Mizaru"
+    ],
+    "imageMain": "/pictures/podlasie/podlasie02.jpg",
+    "price45people": 599,
+    "price40people": 649,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "three-days",
+    "destinationType": "domestic"
   },
-  "title": "PODLASIE",
-  "days": "3 dni",
-  "titleSub": "Hotel/pensjonat w Tykocinie lub Supraślu, wyzywienie 2X + prowiant",
-  "description": [
-    "Białowieża: rez. pokazowy żubrów, Muzeum BPN, cerkiew, Dęby Królewskie",
-    "Tykocin, m.in.: Dom Talmudyczny, Wielka Synagoga, zamek, Pętowo - wioska bociania, bunkier kpt. W. Raginisa k. Wizny, Biebrzański PN - zajęcia edukacyjne, twierdza Osowiec",
-    "Muzeum Ikon w Supraślu, Silvarium, Kruszyniany - zwiedzanie Minaretu i Mizaru"
-  ],
-  "imageMain": "/pictures/podlasie/podlasie02.jpg",
-  "price45people": 599,
-  "price40people": 649,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "three-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a74"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a74"
+    },
+    "title": "SPAŁA",
+    "days": "3 dni",
+    "titleSub": "OW w Spale, wyżywienie 2X + prowiant",
+    "description": [
+      "Tomaszów Maz: rez. Niebieskie Źródła, groty lessowe, Skansen Rzeki Pilicy, rez. pokazowy żubrów w Smardzewicach",
+      "Spacer po Spale: COS, Grota Myśliwska, drewniany kościółek, sosny na szczudłach, schron kolejowy w Konewce, prelekcja o Spale i okolicach",
+      "Inowłódz: romański kościół św. Idziego, Zamek Królewski lub Rogów: przejazd kolejką wąskotorową, muzeum kolei"
+    ],
+    "additionallyDesc": "Proponujemy rozważyć kilkugodzinny spływ kajakowy Pilicą na odcinku Tomaszów - Inowłódz",
+    "imageMain": "/pictures/domestic/spala.jpg",
+    "price45people": 575,
+    "price40people": 639,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "three-days",
+    "destinationType": "domestic"
   },
-  "title": "SPAŁA",
-  "days": "3 dni",
-  "titleSub": "OW w Spale, wyżywienie 2X + prowiant",
-  "description": [
-    "Tomaszów Maz: rez. Niebieskie Źródła, groty lessowe, Skansen Rzeki Pilicy, rez. pokazowy żubrów w Smardzewicach",
-    "Spacer po Spale: COS, Grota Myśliwska, drewniany kościółek, sosny na szczudłach, schron kolejowy w Konewce, prelekcja o Spale i okolicach",
-    "Inowłódz: romański kościół św. Idziego, Zamek Królewski lub Rogów: przejazd kolejką wąskotorową, muzeum kolei"
-  ],
-  "additionallyDesc": "Proponujemy rozważyć kilkugodzinny spływ kajakowy Pilicą na odcinku Tomaszów - Inowłódz",
-  "imageMain": "/pictures/domestic/spala.jpg",
-  "price45people": 575,
-  "price40people": 639,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "three-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a77"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a77"
+    },
+    "title": "BIAŁOWIEŻA",
+    "days": "3 dni",
+    "titleSub": "Pensjonacik w Białowieży lub w okolicach jez. Siemianówka, wyżywienie 2X + prowiant",
+    "description": [
+      "Drohiczyn, Prawosławne Sanktuarium w Grabarce, bunkry linii Mołotowa koło Mielnika",
+      "Białowieża: rez. pokazowy żubrów, Muzeum BPN, cerkiew, Dęby Królewskie, Ośrodek Edukacji Leśnej Jagiellońskie, Stara Białowieża",
+      "Rez. ścisły BPN z przewodnikiem, Miejsce Mocy, skansen, Hajnówka"
+    ],
+    "imageMain": "/pictures/domestic/bialowieza.jpg",
+    "price45people": 628,
+    "price40people": 692,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "three-days",
+    "destinationType": "domestic"
   },
-  "title": "BIAŁOWIEŻA",
-  "days": "3 dni",
-  "titleSub": "Pensjonacik w Białowieży lub w okolicach jez. Siemianówka, wyżywienie 2X + prowiant",
-  "description": [
-    "Drohiczyn, Prawosławne Sanktuarium w Grabarce, bunkry linii Mołotowa koło Mielnika",
-    "Białowieża: rez. pokazowy żubrów, Muzeum BPN, cerkiew, Dęby Królewskie, Ośrodek Edukacji Leśnej Jagiellońskie, Stara Białowieża",
-    "Rez. ścisły BPN z przewodnikiem, Miejsce Mocy, skansen, Hajnówka"
-  ],
-  "imageMain": "/pictures/domestic/bialowieza.jpg",
-  "price45people": 628,
-  "price40people": 692,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "three-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a80"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a80"
+    },
+    "title": "SPAŁA I OKOLICE",
+    "days": "1 dzień",
+    "descTitle": "Spała to kameralne miasteczko w środku lasu nad Pilicą, której walory docenili carowie Rosyjscy i potem polscy prezydenci.",
+    "description": [
+      "Warto zajrzeć do drewnianego kościółka (inspirowanego zakopiańskim), COSu, zobaczyć pomnik Żubra, sosny na szczudłach, ławeczkę Mościckiego.",
+      "Nieopodal w Konewce zwiedzimy bunkier kolejowy z czasów II wojny światowej.",
+      "W Tomaszowie Maz. warto pospacerować po rez „niebieskie źródła” i zwiedzić Skansen rzeki Pilicy oraz pstryknąć fotkę z zalewem sulejowskim.",
+      "W nadpilickim Inowłodzu koniecznie dotknąć romańskich murów kolegiaty i zamku kazimierzowskiego.",
+      "Po zwiedzaniu polecamy pizzę w kultowej pizzerii olimpijskiej (dziś zabujana).",
+      "Problem w tym, że wszystkiego nie da się zobaczyć w jeden dzień - trzeba wybierać albo przyjechać na dłużej."
+    ],
+    "imageMain": "/pictures/spala/spala01.jpg",
+    "price45people": 178,
+    "price40people": 196,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "SPAŁA I OKOLICE",
-  "days": "1 dzień",
-  "descTitle": "Spała to kameralne miasteczko w środku lasu nad Pilicą, której walory docenili carowie Rosyjscy i potem polscy prezydenci.",
-  "description": [
-    "Warto zajrzeć do drewnianego kościółka (inspirowanego zakopiańskim), COSu, zobaczyć pomnik Żubra, sosny na szczudłach, ławeczkę Mościckiego.",
-    "Nieopodal w Konewce zwiedzimy bunkier kolejowy z czasów II wojny światowej.",
-    "W Tomaszowie Maz. warto pospacerować po rez „niebieskie źródła” i zwiedzić Skansen rzeki Pilicy oraz pstryknąć fotkę z zalewem sulejowskim.",
-    "W nadpilickim Inowłodzu koniecznie dotknąć romańskich murów kolegiaty i zamku kazimierzowskiego.",
-    "Po zwiedzaniu polecamy pizzę w kultowej pizzerii olimpijskiej (dziś zabujana).",
-    "Problem w tym, że wszystkiego nie da się zobaczyć w jeden dzień - trzeba wybierać albo przyjechać na dłużej."
-  ],
-  "imageMain": "/pictures/spala/spala01.jpg",
-  "price45people": 178,
-  "price40people": 196,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "675b1d31d8bf161ed0627e50"
+  {
+    "_id": {
+      "$oid": "675b1d31d8bf161ed0627e50"
+    },
+    "title": "SIERPC, CZERWIŃSK, MODLIN",
+    "days": "1 dzień",
+    "description": [
+      "Architektura przede wszystkim: w sierpeckim skansenie stare chałupy, w Czerwińsku romański klasztor a w Modlinie XIX w. twierdza rosyjska"
+    ],
+    "imageMain": "/pictures/tomek-sea.webp",
+    "price45people": 158,
+    "price40people": 189,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "SIERPC, CZERWIŃSK, MODLIN",
-  "days": "1 dzień",
-  "description": [
-    "Architektura przede wszystkim: w sierpeckim skansenie stare chałupy, w Czerwińsku romański klasztor a w Modlinie XIX w. twierdza rosyjska"
-  ],
-  "imageMain": "/pictures/tomek-sea.webp",
-  "price45people": 158,
-  "price40people": 189,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a8d"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a8d"
+    },
+    "title": "ŻELAZOWA WOLA, GRANICA",
+    "days": "1 dzień",
+    "description": [
+      "Skoro Japończycy tak chętnie odwiedzają ten dworek to i my powinniśmy...Chopin był jeden!I zajrzeć do lasu przy okazji"
+    ],
+    "imageMain": "/pictures/tomek-sea.webp",
+    "price45people": 158,
+    "price40people": 177,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "ŻELAZOWA WOLA, GRANICA",
-  "days": "1 dzień",
-  "description": [
-    "Skoro Japończycy tak chętnie odwiedzają ten dworek to i my powinniśmy...Chopin był jeden!I zajrzeć do lasu przy okazji"
-  ],
-  "imageMain": "/pictures/tomek-sea.webp",
-  "price45people": 158,
-  "price40people": 177,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a8e"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a8e"
+    },
+    "title": "ŁÓDŹ",
+    "days": "1 dzień",
+    "descTitle": "Jeszcze niedawno drugie największe miasto w Polsce. Miasto nieobojętne nikomu, więc trzeba zobaczyć. Dojazd rewelacyjny z każdej strony.",
+    "description": [
+      "ZOO- Orientarium obok wrocławskiego Afrykarium najciekawsze pawilony w polskich ogrodach zoologicznych.",
+      "Spacer po ul. Piotrkowskiej, Księżym Młynie z przewodnikiem a dla chętnych Muzeum Kinematografii lub Pałac Izraela Poznańskiego.",
+      "Posiłek w Manufakturze"
+    ],
+    "imageMain": "/pictures/lodz/lodz01.jpg",
+    "price45people": 148,
+    "price40people": 169,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "ŁÓDŹ",
-  "days": "1 dzień",
-  "descTitle": "Jeszcze niedawno drugie największe miasto w Polsce. Miasto nieobojętne nikomu, więc trzeba zobaczyć. Dojazd rewelacyjny z każdej strony.",
-  "description": [
-    "ZOO- Orientarium obok wrocławskiego Afrykarium najciekawsze pawilony w polskich ogrodach zoologicznych.",
-    "Spacer po ul. Piotrkowskiej, Księżym Młynie z przewodnikiem a dla chętnych Muzeum Kinematografii lub Pałac Izraela Poznańskiego.",
-    "Posiłek w Manufakturze"
-  ],
-  "imageMain": "/pictures/lodz/lodz01.jpg",
-  "price45people": 148,
-  "price40people": 169,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a97"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a97"
+    },
+    "title": "FARMA ILUZJI",
+    "days": "1 dzień",
+    "description": ["Dla młodszych dzieciaków temat obowiązkowy! Starsi też nie będą się nudzić. Zabawa na cały dzień"],
+    "imageMain": "/pictures/tomek-sea.webp",
+    "price45people": 178,
+    "price40people": 199,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "FARMA ILUZJI",
-  "days": "1 dzień",
-  "description": [
-    "Dla młodszych dzieciaków temat obowiązkowy! Starsi też nie będą się nudzić. Zabawa na cały dzień"
-  ],
-  "imageMain": "/pictures/tomek-sea.webp",
-  "price45people": 178,
-  "price40people": 199,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a9a"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a9a"
+    },
+    "title": "KRAJE BAŁTYCKIE",
+    "days": "5 dni",
+    "titleSub": "Łotwa -2 noce: hotel w Rydze lub Jurmali, Estonia -2 noce: hotel w Parnawie lub Tallinie, wyżywienie 2X",
+    "description": [
+      "Przyjazd do hotelu na Łotwie",
+      "Ryga: Stare Miasto, Pałac Kulturą. Jurmala - Łotewski Sopot",
+      "Wyspy Muhu i Saaremma: skansen Koguva, Kuressaare: Zamek Krzyżacki, krater meteorytu w Kaali, Angla: wzgórze wiatraków",
+      "Tallin: Stare Miasto",
+      "Powrót do Polski"
+    ],
+    "imageMain": "/pictures/abroad/latvia01.jpg",
+    "price45people": 1499,
+    "price40people": 1780,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "abroad"
   },
-  "title": "KRAJE BAŁTYCKIE",
-  "days": "5 dni",
-  "titleSub": "Łotwa -2 noce: hotel w Rydze lub Jurmali, Estonia -2 noce: hotel w Parnawie lub Tallinie, wyżywienie 2X",
-  "description": [
-    "Przyjazd do hotelu na Łotwie",
-    "Ryga: Stare Miasto, Pałac Kulturą. Jurmala - Łotewski Sopot",
-    "Wyspy Muhu i Saaremma: skansen Koguva, Kuressaare: Zamek Krzyżacki, krater meteorytu w Kaali, Angla: wzgórze wiatraków",
-    "Tallin: Stare Miasto",
-    "Powrót do Polski"
-  ],
-  "imageMain": "/pictures/abroad/latvia01.jpg",
-  "price45people": 1499,
-  "price40people": 1780,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "abroad"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a9e"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a9e"
+    },
+    "title": "LITWA",
+    "days": "3 dni",
+    "titleSub": "Hotel w Wilnie, wyżywienie 2X",
+    "description": [
+      "Druskienniki: spacer po uzdrowisku z przewodnikiem,ewentualnie Muzeum Komunizmu w Grutas",
+      "Wilno z przewodnikiem (plan do uzgodnienia)",
+      "Troki: zamek i ulica Karaimów"
+    ],
+    "imageMain": "/pictures/abroad/vilnius01.jpg",
+    "price45people": 679,
+    "price40people": 735,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "three-days",
+    "destinationType": "abroad"
   },
-  "title": "LITWA",
-  "days": "3 dni",
-  "titleSub": "Hotel w Wilnie, wyżywienie 2X",
-  "description": [
-    "Druskienniki: spacer po uzdrowisku z przewodnikiem,ewentualnie Muzeum Komunizmu w Grutas",
-    "Wilno z przewodnikiem (plan do uzgodnienia)",
-    "Troki: zamek i ulica Karaimów"
-  ],
-  "imageMain": "/pictures/abroad/vilnius01.jpg",
-  "price45people": 679,
-  "price40people": 735,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "three-days",
-  "destinationType": "abroad"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224aa3"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224aa3"
+    },
+    "title": "KRAKÓW I OKOLICE",
+    "days": "weekend",
+    "descTitle": "Jedno z najpiękniejszych miast Europy, które przyciąga miliony turystów z całego świata. Każdy zna i chętnie wraca… Wpisane na listę UNESCO, tak samo jak kopalnia soli w Wieliczce",
+    "description": [
+      "W piątek wyjazd po południu, przejazd do hotelu (Kraków lub nieopodal), obiad i relaks.",
+      "Po sobotnim śniadaniu intensywne zwiedzanie Krakowa z przewodnikiem:",
+      "Wawel (katedra, katakumby, dzwon Zygmunta itd.), rynek i Stare Miasto (min Collegium Maius, planty, sukiennice).",
+      "Powrót do hotelu i obiad (ewentualna biesiada zależy od rodzaju hotelu, w którym zamieszkamy).",
+      "W niedzielny poranek, śniadanie i wykwaterowanie a potem do wyboru- zwiedzanie Kazimierza (słynny okrąglak, synagoga i kirkut)",
+      "albo kopalnia w Wieliczce",
+      "albo wyjazd do Ojcowskiego PN,",
+      "ostatecznie KL Auschwitz- Birkenau.",
+      "Powrót wieczorem"
+    ],
+    "imageMain": "/dist/pictures/krakow/krakow01.jpg",
+    "price45people": 689,
+    "price40people": 749,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "weekend",
+    "destinationType": "domestic"
   },
-  "title": "KRAKÓW I OKOLICE",
-  "days": "weekend",
-  "descTitle": "Jedno z najpiękniejszych miast Europy, które przyciąga miliony turystów z całego świata. Każdy zna i chętnie wraca… Wpisane na listę UNESCO, tak samo jak kopalnia soli w Wieliczce",
-  "description": [
-    "W piątek wyjazd po południu, przejazd do hotelu (Kraków lub nieopodal), obiad i relaks.",
-    "Po sobotnim śniadaniu intensywne zwiedzanie Krakowa z przewodnikiem:",
-    "Wawel (katedra, katakumby, dzwon Zygmunta itd.), rynek i Stare Miasto (min Collegium Maius, planty, sukiennice).",
-    "Powrót do hotelu i obiad (ewentualna biesiada zależy od rodzaju hotelu, w którym zamieszkamy).",
-    "W niedzielny poranek, śniadanie i wykwaterowanie a potem do wyboru- zwiedzanie Kazimierza (słynny okrąglak, synagoga i kirkut)",
-    "albo kopalnia w Wieliczce",
-    "albo wyjazd do Ojcowskiego PN,",
-    "ostatecznie KL Auschwitz- Birkenau.",
-    "Powrót wieczorem"
-  ],
-  "imageMain": "/dist/pictures/krakow/krakow01.jpg",
-  "price45people": 689,
-  "price40people": 749,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "weekend",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a66"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a66"
+    },
+    "title": "KOTLINA KŁODZKA",
+    "days": "5 dni",
+    "titleSub": "Hotel/ OW gdzieś w Kotlinie Kłodzkiej, wyzywienie 2X + prowiant",
+    "description": [
+      "Wrocław: miejska gra terenowa na Starym Mieście lub stadion, ew. Panorama Racławicka",
+      "Góry Stołowe: Wambierzyce, Szczeliniec, Kaplica Czaszek, Droga Stu Zakrętów",
+      "Kopalnia w Nowej Rudzie, podziemia w Walimiu lub Osówce, wejście na Wielką Sowę",
+      "Twierdza w Srebrnej Górze lub Kłodzku, papiernia w Dusznikach",
+      "Kopalnia Złota w Złotym Stoku lub: zamek Książ, Świdnica - kościół Pokoju"
+    ],
+    "imageMain": "/pictures/domestic/kotlina-klodzka-castle01.jpg",
+    "price45people": 1136,
+    "price40people": 1198,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "domestic"
   },
-  "title": "KOTLINA KŁODZKA",
-  "days": "5 dni",
-  "titleSub": "Hotel/ OW gdzieś w Kotlinie Kłodzkiej, wyzywienie 2X + prowiant",
-  "description": [
-    "Wrocław: miejska gra terenowa na Starym Mieście lub stadion, ew. Panorama Racławicka",
-    "Góry Stołowe: Wambierzyce, Szczeliniec, Kaplica Czaszek, Droga Stu Zakrętów",
-    "Kopalnia w Nowej Rudzie, podziemia w Walimiu lub Osówce, wejście na Wielką Sowę",
-    "Twierdza w Srebrnej Górze lub Kłodzku, papiernia w Dusznikach",
-    "Kopalnia Złota w Złotym Stoku lub: zamek Książ, Świdnica - kościół Pokoju"
-  ],
-  "imageMain": "/pictures/domestic/kotlina-klodzka-castle01.jpg",
-  "price45people": 1136,
-  "price40people": 1198,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a67"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a67"
+    },
+    "title": "POMORZE ZACHODNIE",
+    "days": "5 dni",
+    "titleSub": "OW/Pensjonat w Kołobrzegu lub okolicy, wyżywienie 2X + prowiant",
+    "description": [
+      "Toruń: zwiedzanie, w tym: Muzeum Piernika, Planetarium",
+      "Latarnia morska w Gąskach, Aquapark i park linowy w Ustroniu",
+      "Zabawa w CAW Bastion oraz Western City - Zieleniewo, latarnia morska w Kołobrzegu, dawne lotnisko UW Podczele - Bagicz",
+      "Woliński PN: zagroda żubrów, klif Gosań, latarnia Kikut i Niechorze, Międzyzdroje, park miniatur latarni morskich",
+      "Muzeum Mydła i Brudu - Bydgoszcz"
+    ],
+    "imageMain": "/pictures/domestic/lighthouse01.jpg",
+    "price45people": 1099,
+    "price40people": 1169,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "domestic"
   },
-  "title": "POMORZE ZACHODNIE",
-  "days": "5 dni",
-  "titleSub": "OW/Pensjonat w Kołobrzegu lub okolicy, wyżywienie 2X + prowiant",
-  "description": [
-    "Toruń: zwiedzanie, w tym: Muzeum Piernika, Planetarium",
-    "Latarnia morska w Gąskach, Aquapark i park linowy w Ustroniu",
-    "Zabawa w CAW Bastion oraz Western City - Zieleniewo, latarnia morska w Kołobrzegu, dawne lotnisko UW Podczele - Bagicz",
-    "Woliński PN: zagroda żubrów, klif Gosań, latarnia Kikut i Niechorze, Międzyzdroje, park miniatur latarni morskich",
-    "Muzeum Mydła i Brudu - Bydgoszcz"
-  ],
-  "imageMain": "/pictures/domestic/lighthouse01.jpg",
-  "price45people": 1099,
-  "price40people": 1169,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a69"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a69"
+    },
+    "title": "TATRY POLSKIE",
+    "days": "5 dni",
+    "titleSub": "Pensjonat w Murzasichlu lub Małem Cichem, wyżywienie 2X + prowiant",
+    "description": [
+      "Muzeum Czynu Powstańczego, zamek w Chęcinach lub Kraków, m.in.: Wawel, Rynek, Planty",
+      "Zakopane: Gubałówka (kolejką lub pieszo), cmentarzyk, Krupówki, skocznia, prelekcja w Izbie Regionalnej",
+      "Spacer w Tatrach (cel do uzgodnienia)",
+      "Spacer w Tatrach (j.w.) lub aquapark",
+      "Ojcowski PN: Jaskinia Łokietka, zamek na Pieskowej Skale i w Ojcowie lub Kopalnia Soli w Wieliczce"
+    ],
+    "imageMain": "/pictures/domestic/polana-kalatowki.jpg",
+    "price45people": 1045,
+    "price40people": 1113,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "domestic"
   },
-  "title": "TATRY POLSKIE",
-  "days": "5 dni",
-  "titleSub": "Pensjonat w Murzasichlu lub Małem Cichem, wyżywienie 2X + prowiant",
-  "description": [
-    "Muzeum Czynu Powstańczego, zamek w Chęcinach lub Kraków, m.in.: Wawel, Rynek, Planty",
-    "Zakopane: Gubałówka (kolejką lub pieszo), cmentarzyk, Krupówki, skocznia, prelekcja w Izbie Regionalnej",
-    "Spacer w Tatrach (cel do uzgodnienia)",
-    "Spacer w Tatrach (j.w.) lub aquapark",
-    "Ojcowski PN: Jaskinia Łokietka, zamek na Pieskowej Skale i w Ojcowie lub Kopalnia Soli w Wieliczce"
-  ],
-  "imageMain": "/pictures/domestic/polana-kalatowki.jpg",
-  "price45people": 1045,
-  "price40people": 1113,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a6c"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a6c"
+    },
+    "title": "SUWALSZCZYZNA, LITWA",
+    "days": "5 dni",
+    "titleSub": "Pensjonat w okolicach Suwałk, wyżywienie 2X + prowiant",
+    "description": [
+      "'Wizna- Polskie Termopile', Tykocin, Biebrzanski PN",
+      "Suwalski PK oraz Wigierski PN (temat do przedyskutowania- tam jest co robić!)",
+      "Wilno (śladami polskości) i Troki (zamek i ulica Karaimów)",
+      "Druskienniki i Grutas (Muzeum Komunizmu)",
+      "'Litewski' Puńsk i Sejny, Sanktuarium w Studzienicznej, śluzy na Kanale Augustowskim lub Białowieski PN"
+    ],
+    "imageMain": "/pictures/cross-border/lithuania01.jpg",
+    "price45people": 1049,
+    "price40people": 1125,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "cross-border"
   },
-  "title": "SUWALSZCZYZNA, LITWA",
-  "days": "5 dni",
-  "titleSub": "Pensjonat w okolicach Suwałk, wyżywienie 2X + prowiant",
-  "description": [
-    "'Wizna- Polskie Termopile', Tykocin, Biebrzanski PN",
-    "Suwalski PK oraz Wigierski PN (temat do przedyskutowania- tam jest co robić!)",
-    "Wilno (śladami polskości) i Troki (zamek i ulica Karaimów)",
-    "Druskienniki i Grutas (Muzeum Komunizmu)",
-    "'Litewski' Puńsk i Sejny, Sanktuarium w Studzienicznej, śluzy na Kanale Augustowskim lub Białowieski PN"
-  ],
-  "imageMain": "/pictures/cross-border/lithuania01.jpg",
-  "price45people": 1049,
-  "price40people": 1125,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "cross-border"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a70"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a70"
+    },
+    "title": "POMORZE ŚRODKOWE",
+    "days": "5 dni",
+    "titleSub": "OW/pensjonat we Władysławowie, wyżywienie Je + prowiant",
+    "description": [
+      "Toruń: zwiedzanie, w tym: Muzeum Piernika, Planetarium",
+      "Słowiński PN, w tym wydma Czołpińska i latarnia morska, skansen w Klukach, góra Rokowół",
+      "Trójmiasto, np: Centrum Hewelianum, CN Experyment, Oceanarium lub Kaszuby: Szymbark, Wieżyca, Droga Kaszubska",
+      "Półwysep Helski: Fokarium, bunkry, Muzeum Rybołówstwa, Jastarnia, Chałupy",
+      "Drezyny w Kolbudach lub malborski zamek"
+    ],
+    "imageMain": "/pictures/domestic/torun02.jpg",
+    "price45people": 1085,
+    "price40people": 1179,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "domestic"
   },
-  "title": "POMORZE ŚRODKOWE",
-  "days": "5 dni",
-  "titleSub": "OW/pensjonat we Władysławowie, wyżywienie Je + prowiant",
-  "description": [
-    "Toruń: zwiedzanie, w tym: Muzeum Piernika, Planetarium",
-    "Słowiński PN, w tym wydma Czołpińska i latarnia morska, skansen w Klukach, góra Rokowół",
-    "Trójmiasto, np: Centrum Hewelianum, CN Experyment, Oceanarium lub Kaszuby: Szymbark, Wieżyca, Droga Kaszubska",
-    "Półwysep Helski: Fokarium, bunkry, Muzeum Rybołówstwa, Jastarnia, Chałupy",
-    "Drezyny w Kolbudach lub malborski zamek"
-  ],
-  "imageMain": "/pictures/domestic/torun02.jpg",
-  "price45people": 1085,
-  "price40people": 1179,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a75"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a75"
+    },
+    "title": "SZLAK PIASTOWSKI",
+    "days": "3 dni",
+    "titleSub": "Hotel/ OW na Pojezierzu Gnieźnieńskim, wyżywienie 2X + prowiant",
+    "description": [
+      "Kruszwica: Mysia Wieża, rejs statkiem po jez. Gopło, Kolegiata romańska, Strzelno: Xll-wieczny kościół św. Prokopa",
+      "Biskupin: rez. archeologiczny, przejazd kolejką wąskotorową, muzeum kolei wąskotorowej, Gniezno: katedra oraz Muzeum Powstania Państwa Polskiego, Ostrów Lednicki - Muzeum Pierwszych Piastów",
+      "Powidz - zwiedzanie lotniska NATO lub Bazylika w Licheniu"
+    ],
+    "imageMain": "/pictures/domestic/piastowie.jpg",
+    "price45people": 545,
+    "price40people": 587,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "three-days",
+    "destinationType": "domestic"
   },
-  "title": "SZLAK PIASTOWSKI",
-  "days": "3 dni",
-  "titleSub": "Hotel/ OW na Pojezierzu Gnieźnieńskim, wyżywienie 2X + prowiant",
-  "description": [
-    "Kruszwica: Mysia Wieża, rejs statkiem po jez. Gopło, Kolegiata romańska, Strzelno: Xll-wieczny kościół św. Prokopa",
-    "Biskupin: rez. archeologiczny, przejazd kolejką wąskotorową, muzeum kolei wąskotorowej, Gniezno: katedra oraz Muzeum Powstania Państwa Polskiego, Ostrów Lednicki - Muzeum Pierwszych Piastów",
-    "Powidz - zwiedzanie lotniska NATO lub Bazylika w Licheniu"
-  ],
-  "imageMain": "/pictures/domestic/piastowie.jpg",
-  "price45people": 545,
-  "price40people": 587,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "three-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a79"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a79"
+    },
+    "title": "TORUŃ",
+    "days": "3 dni",
+    "titleSub": "Pensjonat lub hotelik w Toruniu lub okolicach, wyżywienie 2X + prowiant",
+    "description": [
+      "Skansen Wsi Mazowieckiej w Sierpcu, zamek w Golubiu Dobrzyniu",
+      "Toruń: Stare Miasto, Planetarium, Muzeum Piernika i Kopernika, Zamek Krzyżacki, Obserwatorium Astronomiczne w Piwnicach",
+      "Muzeum Mydła i Brudu w Bydgoszczy, Ciechocinek - kurort i tężnie, spacer po starym Płocku"
+    ],
+    "imageMain": "/pictures/domestic/torun03.jpg",
+    "price45people": 538,
+    "price40people": 576,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "three-days",
+    "destinationType": "domestic"
   },
-  "title": "TORUŃ",
-  "days": "3 dni",
-  "titleSub": "Pensjonat lub hotelik w Toruniu lub okolicach, wyżywienie 2X + prowiant",
-  "description": [
-    "Skansen Wsi Mazowieckiej w Sierpcu, zamek w Golubiu Dobrzyniu",
-    "Toruń: Stare Miasto, Planetarium, Muzeum Piernika i Kopernika, Zamek Krzyżacki, Obserwatorium Astronomiczne w Piwnicach",
-    "Muzeum Mydła i Brudu w Bydgoszczy, Ciechocinek - kurort i tężnie, spacer po starym Płocku"
-  ],
-  "imageMain": "/pictures/domestic/torun03.jpg",
-  "price45people": 538,
-  "price40people": 576,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "three-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a7b"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a7b"
+    },
+    "title": "MIERZEJA WIŚLANA",
+    "days": "3 dni",
+    "titleSub": "Pensjonat nad morzem w Kątach Rybackich, wyżywienie 2X + prowiant",
+    "description": [
+      "Rez. źródła Łyny, pola Grunwaldu lub Toruń: Planetarium, Muzeum Piernika",
+      "Rez. kormoranów, KL Stuthoff, prelekcja o bursztynie lub Trójmiasto: plan do uzgodnienia lub latarnia morska, rejs statkiem, Muzeum Zalewu",
+      "Zamek w Malborku lub Frombork: katedra, dzwonnica lub: skansen i Huta Szkła Artystycznego w Olsztynku"
+    ],
+    "imageMain": "/pictures/domestic/mierzeja-wislana02.jpg",
+    "price45people": 530,
+    "price40people": 587,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "three-days",
+    "destinationType": "domestic"
   },
-  "title": "MIERZEJA WIŚLANA",
-  "days": "3 dni",
-  "titleSub": "Pensjonat nad morzem w Kątach Rybackich, wyżywienie 2X + prowiant",
-  "description": [
-    "Rez. źródła Łyny, pola Grunwaldu lub Toruń: Planetarium, Muzeum Piernika",
-    "Rez. kormoranów, KL Stuthoff, prelekcja o bursztynie lub Trójmiasto: plan do uzgodnienia lub latarnia morska, rejs statkiem, Muzeum Zalewu",
-    "Zamek w Malborku lub Frombork: katedra, dzwonnica lub: skansen i Huta Szkła Artystycznego w Olsztynku"
-  ],
-  "imageMain": "/pictures/domestic/mierzeja-wislana02.jpg",
-  "price45people": 530,
-  "price40people": 587,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "three-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a7c"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a7c"
+    },
+    "days": "3 dni",
+    "title": "SUWALSZCZYZNA",
+    "titleSub": "Pensjonat w okolicach Suwałk, wyżywienie 2X + prowiant",
+    "description": [
+      "'Wizna- Polskie Termopile', Tykocin, min: Dom Talmudyczny, Wielka Synagoga, zamek, Biebrzański PN",
+      "Kolej wąskotorowa, klasztor Kamedułów nad Wigrami, rez. Głazowisko Bachanowo, jez. Hańcza, wiadukty w Stańczykach, 'trójstyk' granic, Góra Cisowa i Zamkowa, molenna w Wodziłkach",
+      "'Litewski' Puńsk i Sejny, Sanktuarium w Studzienicznej, śluzy na Kanale Augustowskim"
+    ],
+    "imageMain": "/pictures/domestic/suwalszczyzna-polskie-termopile.jpg",
+    "price45people": 480,
+    "price40people": 530,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "three-days",
+    "destinationType": "domestic"
   },
-  "days": "3 dni",
-  "title": "SUWALSZCZYZNA",
-  "titleSub": "Pensjonat w okolicach Suwałk, wyżywienie 2X + prowiant",
-  "description": [
-    "'Wizna- Polskie Termopile', Tykocin, min: Dom Talmudyczny, Wielka Synagoga, zamek, Biebrzański PN",
-    "Kolej wąskotorowa, klasztor Kamedułów nad Wigrami, rez. Głazowisko Bachanowo, jez. Hańcza, wiadukty w Stańczykach, 'trójstyk' granic, Góra Cisowa i Zamkowa, molenna w Wodziłkach",
-    "'Litewski' Puńsk i Sejny, Sanktuarium w Studzienicznej, śluzy na Kanale Augustowskim"
-  ],
-  "imageMain": "/pictures/domestic/suwalszczyzna-polskie-termopile.jpg",
-  "price45people": 480,
-  "price40people": 530,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "three-days",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a83"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a83"
+    },
+    "title": "TORUŃ",
+    "days": "1 dzień",
+    "descTitle": "To miasto broni się pod każdym względem: dobry dojazd niemal z każdej strony, ogrom zabytków, ciekawa oferta edukacyjna i prestiż UNESCO",
+    "description": [
+      "Gotyk na dotyk… Dom Kopernika, Krzywa wieża, rynek z ratuszem, pozostałości zamku krzyżackiego, mury miejskie, kameralne uliczki- oczywiście z przewodnikiem. A poza tym: Planetarium, Muzeum Piernika a może Młyn Wiedzy lub rejs po Wiśle?"
+    ],
+    "imageMain": "/pictures/torun/torun01.jpg",
+    "price45people": 149,
+    "price40people": 179,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "TORUŃ",
-  "days": "1 dzień",
-  "descTitle": "To miasto broni się pod każdym względem: dobry dojazd niemal z każdej strony, ogrom zabytków, ciekawa oferta edukacyjna i prestiż UNESCO",
-  "description": [
-    "Gotyk na dotyk… Dom Kopernika, Krzywa wieża, rynek z ratuszem, pozostałości zamku krzyżackiego, mury miejskie, kameralne uliczki- oczywiście z przewodnikiem. A poza tym: Planetarium, Muzeum Piernika a może Młyn Wiedzy lub rejs po Wiśle?"
-  ],
-  "imageMain": "/pictures/torun/torun01.jpg",
-  "price45people": 149,
-  "price40people": 179,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a84"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a84"
+    },
+    "title": "LUBLIN",
+    "days": "1 dzień",
+    "descTitle": "Miasto niedoceniane… niestety. Dojazd bardzo dobry, Stare Miasto z klimatem, nawiązania historyczne do Litwy i Wilna, Majdanek, cebularz.",
+    "description": [
+      "Na pewno szwędanie się po wąskich uliczkach Starego Miasta z przewodnikiem to tzw. \"must have\".",
+      "Zerknąć na dziedziniec zamkowy, zobaczyć panoramę miasta też warto.",
+      "Pomachać Wilniakom przez „portal”- tylko w Lublinie!",
+      "Lubisz kulinaria? To koniecznie Muzeum Cebularza- upieczesz własny placek. Majdanek jednak dla nie dla wszystkich…"
+    ],
+    "imageMain": "/pictures/lublin/lublin01.jpg",
+    "price45people": 149,
+    "price40people": 184,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "LUBLIN",
-  "days": "1 dzień",
-  "descTitle": "Miasto niedoceniane… niestety. Dojazd bardzo dobry, Stare Miasto z klimatem, nawiązania historyczne do Litwy i Wilna, Majdanek, cebularz.",
-  "description": [
-    "Na pewno szwędanie się po wąskich uliczkach Starego Miasta z przewodnikiem to tzw. \"must have\".",
-    "Zerknąć na dziedziniec zamkowy, zobaczyć panoramę miasta też warto.",
-    "Pomachać Wilniakom przez „portal”- tylko w Lublinie!",
-    "Lubisz kulinaria? To koniecznie Muzeum Cebularza- upieczesz własny placek. Majdanek jednak dla nie dla wszystkich…"
-  ],
-  "imageMain": "/pictures/lublin/lublin01.jpg",
-  "price45people": 149,
-  "price40people": 184,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "675b1d31d8bf161ed0627e51"
+  {
+    "_id": {
+      "$oid": "675b1d31d8bf161ed0627e51"
+    },
+    "title": "DZIAŁDOWO, NIDZICA, ŁYNA",
+    "days": "1 dzień",
+    "description": [
+      "Śladem Krzyżaków- Muzeum Państwa Krzyżackiego w Działdowie, Zamek w Nidzicy i spacer po fantastycznym rezerwacie, jedynym takim"
+    ],
+    "imageMain": "/pictures/tomek-sea.webp",
+    "price45people": 159,
+    "price40people": 178,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "DZIAŁDOWO, NIDZICA, ŁYNA",
-  "days": "1 dzień",
-  "description": [
-    "Śladem Krzyżaków- Muzeum Państwa Krzyżackiego w Działdowie, Zamek w Nidzicy i spacer po fantastycznym rezerwacie, jedynym takim"
-  ],
-  "imageMain": "/pictures/tomek-sea.webp",
-  "price45people": 159,
-  "price40people": 178,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a87"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a87"
+    },
+    "title": "KAZIMIERSKI PRZEŁOM WISŁY",
+    "days": "1 dzień",
+    "descTitle": "Wycieczka polecana szczególnie zamieszkałym w południowej części woj. mazowieckiego. Będzie taniej i sensowniej. Trudno zobaczyć wszystko w ciągu kilku godzin więc trzeba wybierać…a może pojechać na dwa lub 3 dni?",
+    "description": [
+      "KAZIMIERZ DOLNY - perełka wśród nadwiślańskich miasteczek. Trzeba koniecznie wejść na Górę Trzech Krzyży, zamek i basztę-widok na przełom Wisły fantastyczny- pospacerować brukowanymi uliczkami i nadrzecznymi bulwarami. A gdyby komuś było mało niech rozważy wizytę w wąwozie (jednym z wielu) i żydowskim cmentarzu.",
+      "NAŁĘCZÓW - jedyne uzdrowisko w kraju specjalizujące się w chorobach złamanych serc… Cisza, spokój, świeże powietrze i zdrowe wody do picia.",
+      "GOŁĄB - domek loretański z XVII w ale przede wszystkim Muzeum Nietypowych Rowerów. Każdy ma dziś rower ale na pewno inny!",
+      "DĘBLIN - Muzeum Sił Powietrznych czyli tak zwane must have",
+      "JANOWIEC - zamek Firlejów i kameralny skansen"
+    ],
+    "imageMain": "/dist/pictures/kazimierz-dolny/kazimierz-dolny01.jpg",
+    "price45people": 147,
+    "price40people": 165,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "one-day",
+    "destinationType": "domestic"
   },
-  "title": "KAZIMIERSKI PRZEŁOM WISŁY",
-  "days": "1 dzień",
-  "descTitle": "Wycieczka polecana szczególnie zamieszkałym w południowej części woj. mazowieckiego. Będzie taniej i sensowniej. Trudno zobaczyć wszystko w ciągu kilku godzin więc trzeba wybierać…a może pojechać na dwa lub 3 dni?",
-  "description": [
-    "KAZIMIERZ DOLNY - perełka wśród nadwiślańskich miasteczek. Trzeba koniecznie wejść na Górę Trzech Krzyży, zamek i basztę-widok na przełom Wisły fantastyczny- pospacerować brukowanymi uliczkami i nadrzecznymi bulwarami. A gdyby komuś było mało niech rozważy wizytę w wąwozie (jednym z wielu) i żydowskim cmentarzu.",
-    "NAŁĘCZÓW - jedyne uzdrowisko w kraju specjalizujące się w chorobach złamanych serc… Cisza, spokój, świeże powietrze i zdrowe wody do picia.",
-    "GOŁĄB - domek loretański z XVII w ale przede wszystkim Muzeum Nietypowych Rowerów. Każdy ma dziś rower ale na pewno inny!",
-    "DĘBLIN - Muzeum Sił Powietrznych czyli tak zwane must have",
-    "JANOWIEC - zamek Firlejów i kameralny skansen"
-  ],
-  "imageMain": "/dist/pictures/kazimierz-dolny/kazimierz-dolny01.jpg",
-  "price45people": 147,
-  "price40people": 165,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "one-day",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "675b1d31d8bf161ed0627e52"
+  {
+    "_id": {
+      "$oid": "675b1d31d8bf161ed0627e52"
+    },
+    "title": "BERLIN",
+    "days": "4 dni",
+    "titleSub": "Hotel *** w Słubicach, wyżywienie 2X",
+    "description": [
+      "Poznań: Stare Miasto, Frankfurt nad Odrą",
+      "Berlin z przewodnikiem: Mur Berliński, Reichstag, Brama Brandenburska, Alexanderplatz, Aleja pod Lipami, wieża telewizyjna",
+      "Poczdam: Sanssouci (pałac i park) lub Babelsberg (studio filmowe) lub Berlin: Muzeum Pergameńskie, Checkpoint Charlie, Muzeum Muru Berlińskiego, Charlottenburg",
+      "Tropical Island, powrót do Polski"
+    ],
+    "imageMain": "/pictures/abroad/berlin01.jpg",
+    "price45people": 1045,
+    "price40people": 1098,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "four-days",
+    "destinationType": "abroad"
   },
-  "title": "BERLIN",
-  "days": "4 dni",
-  "titleSub": "Hotel *** w Słubicach, wyżywienie 2X",
-  "description": [
-    "Poznań: Stare Miasto, Frankfurt nad Odrą",
-    "Berlin z przewodnikiem: Mur Berliński, Reichstag, Brama Brandenburska, Alexanderplatz, Aleja pod Lipami, wieża telewizyjna",
-    "Poczdam: Sanssouci (pałac i park) lub Babelsberg (studio filmowe) lub Berlin: Muzeum Pergameńskie, Checkpoint Charlie, Muzeum Muru Berlińskiego, Charlottenburg",
-    "Tropical Island, powrót do Polski"
-  ],
-  "imageMain": "/pictures/abroad/berlin01.jpg",
-  "price45people": 1045,
-  "price40people": 1098,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "four-days",
-  "destinationType": "abroad"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a99"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a99"
+    },
+    "title": "CZECHY, SAKSONIA",
+    "days": "4 dni",
+    "titleSub": "Hotel/pensjonat w Decinie (Czechy) lub okolicach, wyżywienie 2X",
+    "description": [
+      "Wrocław - spacer po mieście z przewodnikiem",
+      "Czechy: Hrensko i Pravcicka Brama, rejs łodzią przełomem potoku Kamenice, Niemcy: kolejka Karnitztal, wodospad Lichtencheimer, Bad Sandau, skały Bastei",
+      "Drezno i Pirna",
+      "Zamek w Stolpen"
+    ],
+    "imageMain": "/pictures/abroad/czech01.jpg",
+    "price45people": 875,
+    "price40people": 959,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "four-days",
+    "destinationType": "abroad"
   },
-  "title": "CZECHY, SAKSONIA",
-  "days": "4 dni",
-  "titleSub": "Hotel/pensjonat w Decinie (Czechy) lub okolicach, wyżywienie 2X",
-  "description": [
-    "Wrocław - spacer po mieście z przewodnikiem",
-    "Czechy: Hrensko i Pravcicka Brama, rejs łodzią przełomem potoku Kamenice, Niemcy: kolejka Karnitztal, wodospad Lichtencheimer, Bad Sandau, skały Bastei",
-    "Drezno i Pirna",
-    "Zamek w Stolpen"
-  ],
-  "imageMain": "/pictures/abroad/czech01.jpg",
-  "price45people": 875,
-  "price40people": 959,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "four-days",
-  "destinationType": "abroad"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a9c"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a9c"
+    },
+    "title": "SŁOWACJA",
+    "days": "5 dni",
+    "titleSub": "Hotel w Jasnej w Dolinie Demanowskiej, wyżywienie 2X",
+    "description": [
+      "Muzeum Wsi Orawskiej w Zubercu lub baseny termalne w Oravicach",
+      "Liptowski Mikulasz - Więzienie Janosika, Choczańskie Wierchy: doliny Prosiecka i Kwaczańska i zabytkowa wies Velke Borove",
+      "Spacer po grani Niskich Tatr (wjazd kolejką na Chopok)",
+      "Jaskinia Slobody lub Lodowa, Vrbickie Jezioro, Tatralandia lub baseny w Beszeniowej",
+      "Zamek Orawski lub wieś Vlkolinec"
+    ],
+    "imageMain": "/pictures/abroad/slov-orava-castle01.jpg",
+    "price45people": 1170,
+    "price40people": 1250,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "abroad"
   },
-  "title": "SŁOWACJA",
-  "days": "5 dni",
-  "titleSub": "Hotel w Jasnej w Dolinie Demanowskiej, wyżywienie 2X",
-  "description": [
-    "Muzeum Wsi Orawskiej w Zubercu lub baseny termalne w Oravicach",
-    "Liptowski Mikulasz - Więzienie Janosika, Choczańskie Wierchy: doliny Prosiecka i Kwaczańska i zabytkowa wies Velke Borove",
-    "Spacer po grani Niskich Tatr (wjazd kolejką na Chopok)",
-    "Jaskinia Slobody lub Lodowa, Vrbickie Jezioro, Tatralandia lub baseny w Beszeniowej",
-    "Zamek Orawski lub wieś Vlkolinec"
-  ],
-  "imageMain": "/pictures/abroad/slov-orava-castle01.jpg",
-  "price45people": 1170,
-  "price40people": 1250,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "abroad"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224a9d"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224a9d"
+    },
+    "title": "TRZY STOLICE",
+    "days": "5 dni",
+    "titleSub": "Hotel/pensjonat w Bratysławie lub okolicach, wyżywienie 2x",
+    "description": [
+      "Przejazd na Słowację",
+      "Bratysława: zamek Devin, Stare Miasto, Parlament, Pałac Prezydencki itd.",
+      "Budapeszt: plan do uzgodnienia",
+      "Wiedeń: plan do uzgodnienia (architektura, Mozart, Habsburgowie itd.)",
+      "Powrót i zwiedzanie morawskiej jaskini Punkevni"
+    ],
+    "imageMain": "/pictures/abroad/budapest01.jpg",
+    "price45people": 1342,
+    "price40people": 1398,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "five-days",
+    "destinationType": "abroad"
   },
-  "title": "TRZY STOLICE",
-  "days": "5 dni",
-  "titleSub": "Hotel/pensjonat w Bratysławie lub okolicach, wyżywienie 2x",
-  "description": [
-    "Przejazd na Słowację",
-    "Bratysława: zamek Devin, Stare Miasto, Parlament, Pałac Prezydencki itd.",
-    "Budapeszt: plan do uzgodnienia",
-    "Wiedeń: plan do uzgodnienia (architektura, Mozart, Habsburgowie itd.)",
-    "Powrót i zwiedzanie morawskiej jaskini Punkevni"
-  ],
-  "imageMain": "/pictures/abroad/budapest01.jpg",
-  "price45people": 1342,
-  "price40people": 1398,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "five-days",
-  "destinationType": "abroad"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224aa0"
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224aa0"
+    },
+    "title": "LUBLIN",
+    "days": "weekend",
+    "descTitle": "Miasto zdecydowanie warte odwiedzenia, dojazd świetny.",
+    "description": [
+      "Piątek to w zasadzie tylko przejazd i zakwaterowanie w hotelu, obiad i czas wolny.",
+      "Następnego dnia przejazd do Lublina i zwiedzanie miasta z przewodnikiem (3 godziny powinno wystarczyć chyba, że zdecydujecie się na Majdanek wtedy nieco dłużej) i czas wolny dla siebie.",
+      "Powrót do hotelu, biesiada (może być z kapelą, DJem lub bez).",
+      "W niedzielę późniejszy wyjazd do Nałęczowa i Kazimierza Dolnego (niby każdy zna ale zawsze warto wrócić i cieszyć się urokiem klimatycznego miasteczka).",
+      "Powrót wieczorem."
+    ],
+    "imageMain": "/pictures/lublin/lublin02.jpg",
+    "price45people": 579,
+    "price40people": 612,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "weekend",
+    "destinationType": "domestic"
   },
-  "title": "LUBLIN",
-  "days": "weekend",
-  "descTitle": "Miasto zdecydowanie warte odwiedzenia, dojazd świetny.",
-  "description": [
-    "Piątek to w zasadzie tylko przejazd i zakwaterowanie w hotelu, obiad i czas wolny.",
-    "Następnego dnia przejazd do Lublina i zwiedzanie miasta z przewodnikiem (3 godziny powinno wystarczyć chyba, że zdecydujecie się na Majdanek wtedy nieco dłużej) i czas wolny dla siebie.",
-    "Powrót do hotelu, biesiada (może być z kapelą, DJem lub bez).",
-    "W niedzielę późniejszy wyjazd do Nałęczowa i Kazimierza Dolnego (niby każdy zna ale zawsze warto wrócić i cieszyć się urokiem klimatycznego miasteczka).",
-    "Powrót wieczorem."
-  ],
-  "imageMain": "/pictures/lublin/lublin02.jpg",
-  "price45people": 579,
-  "price40people": 612,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "weekend",
-  "destinationType": "domestic"
-},
-{
-  "_id": {
-    "$oid": "673efad2cca66b2311224aa2"
-  },
-  "title": "TATRY",
-  "days": "weekend",
-  "descTitle": "Kultowe Podhale…zawsze przyciąga zwłaszcza, że 400 km da się pokonać już w stosunkowo krótkim czasie. Opcji tej wycieczki jest bardzo dużo bo region ma naprawdę dużo do zaoferowania: góry, termy, przełom Dunajca itd .",
-  "description": [
-    "Wersja wiele razy sprawdzona poniżej:",
-    "Wyjazd po południu z Mazowsza, przejazd pod Tatry, zakwaterowanie, posiłek i zasłużony odpoczynek.",
-    "Sobotę widzę tak: po śniadaniu wyjazd do Zakopanego i zwiedzanie z pilotem lub przewodnikiem: wjazd lub wejście na Gubałówkę, omówienie panoramy Tatr, wizyta na cmentarzu na Pękowym Brzyzku, starym kościółku, Krupówki (sugeruję czas wolny) i stocznie narciarskie.",
-    "Bardzo polecam prelekcję w Izbie Regionalnej (godzinna pogadanka o historii, geografii i kulturze regionu).",
-    "Powrót na biesiadę- koniecznie z kapelą góralską, może być przy ognisku lub w salce biesiadnej.",
-    "W niedzielę wyjazd po śniadaniu w Pieniny, tam spływ tratwami lub spacer Drogą Pienińską po stronie słowackiej (9-11 km).",
-    "Powrót do domu w godzinach wieczornych."
-  ],
-  "imageMain": "/pictures/tatry/tatry01.jpg",
-  "price45people": 599,
-  "price40people": 632,
-  "typeOfTrip": "buss-trip",
-  "lengthOfTrip": "weekend",
-  "destinationType": "domestic"
-}]
+  {
+    "_id": {
+      "$oid": "673efad2cca66b2311224aa2"
+    },
+    "title": "TATRY",
+    "days": "weekend",
+    "descTitle": "Kultowe Podhale…zawsze przyciąga zwłaszcza, że 400 km da się pokonać już w stosunkowo krótkim czasie. Opcji tej wycieczki jest bardzo dużo bo region ma naprawdę dużo do zaoferowania: góry, termy, przełom Dunajca itd .",
+    "description": [
+      "Wersja wiele razy sprawdzona poniżej:",
+      "Wyjazd po południu z Mazowsza, przejazd pod Tatry, zakwaterowanie, posiłek i zasłużony odpoczynek.",
+      "Sobotę widzę tak: po śniadaniu wyjazd do Zakopanego i zwiedzanie z pilotem lub przewodnikiem: wjazd lub wejście na Gubałówkę, omówienie panoramy Tatr, wizyta na cmentarzu na Pękowym Brzyzku, starym kościółku, Krupówki (sugeruję czas wolny) i stocznie narciarskie.",
+      "Bardzo polecam prelekcję w Izbie Regionalnej (godzinna pogadanka o historii, geografii i kulturze regionu).",
+      "Powrót na biesiadę- koniecznie z kapelą góralską, może być przy ognisku lub w salce biesiadnej.",
+      "W niedzielę wyjazd po śniadaniu w Pieniny, tam spływ tratwami lub spacer Drogą Pienińską po stronie słowackiej (9-11 km).",
+      "Powrót do domu w godzinach wieczornych."
+    ],
+    "imageMain": "/pictures/tatry/tatry01.jpg",
+    "price45people": 599,
+    "price40people": 632,
+    "typeOfTrip": "buss-trip",
+    "lengthOfTrip": "weekend",
+    "destinationType": "domestic"
+  }
+]
