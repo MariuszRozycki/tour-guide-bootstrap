@@ -4,7 +4,6 @@ import breakpoints from "../../styles/breakpoints";
 import { CustomCard } from "../../components";
 import useGetData from "../../hooks/useGetData";
 import { offersApi } from "../../api/api";
-
 import "./CustomSwiper.scss";
 
 const CustomSwiper = () => {
@@ -33,24 +32,28 @@ const CustomSwiper = () => {
         </Row>
         <Row>
           <Col>
-            <Swiper
-              spaceBetween={10}
-              slidesPerView={1.1}
-              loop={true}
-              breakpoints={{
-                [breakpoints.sm]: { slidesPerView: 2.2 },
-                [breakpoints.md]: { slidesPerView: 2.2 },
-                [breakpoints.lg]: { slidesPerView: 3.2 },
-                [breakpoints.xl]: { slidesPerView: 4.2 },
-              }}
-              grabCursor
-            >
-              {offers.map((offer) => (
-                <SwiperSlide key={offer._id.$oid} className='slider-item rounded-4 bg-secondary-subtle'>
-                  <CustomCard offer={offer} />
-                </SwiperSlide>
-              ))}
-            </Swiper>
+            {offers && offers.length > 0 ? (
+              <Swiper
+                spaceBetween={10}
+                slidesPerView={1.2}
+                loop={true}
+                breakpoints={{
+                  [breakpoints.sm]: { slidesPerView: 2.2 },
+                  [breakpoints.md]: { slidesPerView: 2.2 },
+                  [breakpoints.lg]: { slidesPerView: 3.2 },
+                  [breakpoints.xl]: { slidesPerView: 4.2 },
+                }}
+                grabCursor
+              >
+                {offers.map((offer) => (
+                  <SwiperSlide key={offer._id.$oid} className='slider-item rounded-4 bg-secondary-subtle'>
+                    <CustomCard offer={offer} />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            ) : (
+              <p>Loading offers...</p>
+            )}
           </Col>
         </Row>
       </Container>
