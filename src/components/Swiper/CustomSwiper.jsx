@@ -193,13 +193,12 @@ const CustomSwiper = () => {
                 spaceBetween={10}
                 slidesPerView={1.2}
                 loop={true}
-                lazy={{ loadOnTransitionStart: true }}
                 touchReleaseOnEdges={true}
                 speed={3000}
-                autoplay={{
-                  delay: 4000,
-                  disableOnInteraction: false,
-                }}
+                // autoplay={{
+                //   delay: 4000,
+                //   disableOnInteraction: false,
+                // }}
                 modules={[Autoplay]}
                 threshold={1}
                 cssMode={false}
