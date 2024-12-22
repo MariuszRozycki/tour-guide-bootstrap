@@ -84,12 +84,7 @@ const CustomSwiper = () => {
                         />
                         <Card.Body className='d-flex flex-column justify-content-between'>
                           <div className='text-wrapper'>
-                            <OverlayTrigger
-                              placement='top'
-                              overlay={<Tooltip id={`tooltip-${offer._id.$oid}`}>{offer.title}</Tooltip>}
-                            >
-                              <Card.Title className='h6'>{trimText(offer.title, 27)}</Card.Title>
-                            </OverlayTrigger>
+                            <Card.Title className='h6'>{trimText(offer.title, 27)}</Card.Title>
                             <div className='slider-item-details mt-2'>
                               <div className='details-description'>
                                 <p className='h6 my-2'>{capitalizeFirstLetter(offer.days)}</p>
@@ -115,39 +110,29 @@ const CustomSwiper = () => {
                         </Card.Body>
                         <div className='position-absolute top-0 end-0 p-2 d-flex flex-column gap-2'>
                           {isFavorite ? (
-                            <OverlayTrigger
-                              placement='top'
-                              overlay={<Tooltip id={`tooltip-${offer._id.$oid}`}>Usuń z ulubionych</Tooltip>}
+                            <Button
+                              className='rounded-circle'
+                              variant='danger'
+                              size='sm'
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                removeFavorite(offer._id.$oid);
+                              }}
                             >
-                              <Button
-                                className='rounded-circle'
-                                variant='danger'
-                                size='sm'
-                                onClick={(e) => {
-                                  e.stopPropagation();
-                                  removeFavorite(offer._id.$oid);
-                                }}
-                              >
-                                <i className='bi bi-trash2'></i>
-                              </Button>
-                            </OverlayTrigger>
+                              <i className='bi bi-trash2'></i>
+                            </Button>
                           ) : (
-                            <OverlayTrigger
-                              placement='top'
-                              overlay={<Tooltip id={`tooltip-${offer._id.$oid}`}>Dodaj do ulubionych</Tooltip>}
+                            <Button
+                              className='rounded-circle'
+                              variant='primary'
+                              size='sm'
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                addFavorite(offer);
+                              }}
                             >
-                              <Button
-                                className='rounded-circle'
-                                variant='primary'
-                                size='sm'
-                                onClick={(e) => {
-                                  e.stopPropagation();
-                                  addFavorite(offer);
-                                }}
-                              >
-                                <i className='bi bi-heart'></i>
-                              </Button>
-                            </OverlayTrigger>
+                              <i className='bi bi-heart'></i>
+                            </Button>
                           )}
                         </div>
                       </Card>
