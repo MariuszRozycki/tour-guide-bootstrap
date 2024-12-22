@@ -194,11 +194,11 @@ const CustomSwiper = () => {
                 slidesPerView={1.2}
                 loop={true}
                 touchReleaseOnEdges={true}
-                speed={3000}
-                // autoplay={{
-                //   delay: 4000,
-                //   disableOnInteraction: false,
-                // }}
+                speed={1500}
+                autoplay={{
+                  delay: 3000,
+                  disableOnInteraction: false,
+                }}
                 modules={[Autoplay]}
                 threshold={1}
                 cssMode={false}
@@ -211,8 +211,8 @@ const CustomSwiper = () => {
                 grabCursor
               >
                 {offers.map((offer) => (
-                  <SwiperSlide key={offer._id.$oid} className='slider-item rounded-4 bg-secondary-subtle'>
-                    <div className='swiper-zoom-container'>
+                  <SwiperSlide key={offer._id.$oid} className='border-0 slider-item rounded-4'>
+                    <div className='swiper-zoom-container border-0'>
                       <CustomCard offer={offer} />
                     </div>
                   </SwiperSlide>
