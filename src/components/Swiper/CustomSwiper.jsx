@@ -47,6 +47,7 @@ const CustomSwiper = () => {
                   disableOnInteraction: false,
                 }}
                 modules={[Autoplay]}
+                threshold={5}
                 breakpoints={{
                   [breakpoints.sm]: { slidesPerView: 2.2 },
                   [breakpoints.md]: { slidesPerView: 2.2 },

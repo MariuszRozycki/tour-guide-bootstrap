@@ -1,3 +1,7 @@
+.swiper-wrapper {
+  touch-action: pan-y;
+}
+
 .swiper {
   height: 100%;
   -webkit-overflow-scrolling: touch;
