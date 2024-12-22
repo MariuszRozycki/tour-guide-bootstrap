@@ -58,14 +58,11 @@ const CustomSwiper = () => {
                 }}
                 grabCursor
               >
-                {/* <SwiperSlide key={offer._id.$oid} className='slider-item rounded-4 bg-secondary-subtle'>
+                {offers.map((offer) => (
+                  <SwiperSlide key={offer._id.$oid} className='slider-item rounded-4 bg-secondary-subtle'>
                     <div className='swiper-zoom-container'>
                       <CustomCard offer={offer} />
                     </div>
-                  </SwiperSlide> */}
-                {offers.map((offer) => (
-                  <SwiperSlide key={offer._id.$oid}>
-                    <div style={{ height: "200px", backgroundColor: "#ddd" }}>Test Slide</div>
                   </SwiperSlide>
                 ))}
               </Swiper>
