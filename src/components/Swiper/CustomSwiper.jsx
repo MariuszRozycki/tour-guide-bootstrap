@@ -195,7 +195,7 @@ const CustomSwiper = () => {
                 loop={true}
                 lazy={{ loadOnTransitionStart: true }}
                 touchReleaseOnEdges={true}
-                speed={2000}
+                speed={1000}
                 autoplay={{
                   delay: 3000,
                   disableOnInteraction: false,
