@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 import breakpoints from "../../styles/breakpoints";
 import { CustomCard } from "../../components";
 import useGetData from "../../hooks/useGetData";
@@ -39,6 +40,13 @@ const CustomSwiper = () => {
                 slidesPerView={1.2}
                 loop={true}
                 lazy={{ loadOnTransitionStart: true }}
+                touchReleaseOnEdges={true}
+                speed={600}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+                modules={[Autoplay]}
                 breakpoints={{
                   [breakpoints.sm]: { slidesPerView: 2.2 },
                   [breakpoints.md]: { slidesPerView: 2.2 },
@@ -49,7 +57,9 @@ const CustomSwiper = () => {
               >
                 {offers.map((offer) => (
                   <SwiperSlide key={offer._id.$oid} className='slider-item rounded-4 bg-secondary-subtle'>
-                    <CustomCard offer={offer} />
+                    <div className='swiper-zoom-container'>
+                      <CustomCard offer={offer} />
+                    </div>
                   </SwiperSlide>
                 ))}
               </Swiper>
