@@ -1,15 +1,7 @@
-.swiper-wrapper {
-  touch-action: pan-y;
-}
-
 .swiper {
   height: 100%;
-  // -webkit-overflow-scrolling: touch;
-
-  .card,
-  .card-body {
-    border: none;
-  }
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
 }
 
 .swiper-slide {
