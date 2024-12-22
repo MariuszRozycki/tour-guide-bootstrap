@@ -41,14 +41,15 @@ const CustomSwiper = () => {
                 loop={true}
                 lazy={{ loadOnTransitionStart: true }}
                 touchReleaseOnEdges={true}
-                speed={1000}
+                speed={900}
                 autoplay={{
-                  delay: 2500,
+                  delay: 3000,
                   disableOnInteraction: false,
                 }}
                 modules={[Autoplay]}
-                threshold={10}
+                threshold={8}
                 cssMode={false}
+                preventInteractionOnTransition={true}
                 breakpoints={{
                   [breakpoints.sm]: { slidesPerView: 2.2 },
                   [breakpoints.md]: { slidesPerView: 2.2 },

@@ -10,6 +10,7 @@
   width: auto;
   height: auto;
   will-change: transform;
+  transition: transform 0.8s ease;
 }
 
 .swiper-zoom-container {
