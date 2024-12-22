@@ -4,7 +4,7 @@
 
 .swiper {
   height: 100%;
-  -webkit-overflow-scrolling: touch;
+  // -webkit-overflow-scrolling: touch;
 
   .card,
   .card-body {
@@ -15,8 +15,10 @@
 .swiper-slide {
   width: auto;
   height: auto;
-  will-change: transform;
   transition: transform 0.8s ease;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
 }
 
 .swiper-zoom-container {
