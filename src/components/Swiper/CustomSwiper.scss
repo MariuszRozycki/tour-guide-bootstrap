@@ -1,7 +1,9 @@
 .swiper {
-  height: 100%; /* lub inna wartość */
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 .swiper-slide {
-  width: auto; /* Dostosuj szerokość do potrzeb */
+  width: auto;
   height: auto;
+  will-change: transform;
 }
