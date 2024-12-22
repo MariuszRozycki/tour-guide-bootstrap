@@ -191,7 +191,7 @@ const CustomSwiper = () => {
             {offers && offers.length > 0 ? (
               <Swiper
                 spaceBetween={10}
-                slidesPerView={1.2}
+                slidesPerView={1}
                 loop={true}
                 touchReleaseOnEdges={true}
                 speed={1500}
@@ -200,7 +200,7 @@ const CustomSwiper = () => {
                   disableOnInteraction: false,
                 }}
                 modules={[Autoplay]}
-                threshold={1}
+                threshold={8}
                 cssMode={false}
                 breakpoints={{
                   [breakpoints.sm]: { slidesPerView: 2.2 },
