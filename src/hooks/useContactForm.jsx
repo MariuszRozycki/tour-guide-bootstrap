@@ -93,6 +93,10 @@ const useContactForm = (formID) => {
     formDataObject.append("your-message", formData.message);
     formDataObject.append("_wpcf7_unit_tag", `form-${formID}`);
 
+    console.log("FormData to send: ", Object.fromEntries(formDataObject.entries()));
+    console.log("URL: ", e.target.action);
+    console.log("Method: ", e.target.method);
+
     try {
       const response = await fetch(action, {
         method,
@@ -100,6 +104,8 @@ const useContactForm = (formID) => {
       });
 
       const result = await response.json();
+
+      console.log("API Response: ", result);
 
       if (result.status === "mail_sent") {
         toast.success("Twoja wiadomość została wysłana!");
