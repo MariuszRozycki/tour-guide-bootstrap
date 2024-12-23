@@ -21,7 +21,7 @@ const useContactForm = (formID) => {
   const [isLoading, setIsLoading] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
 
-  const url = `https://tour-guide.pl/wp-json/contact-form-7/v1/contact-forms/${formID}/feedback`;
+  const url = `https://wordpress.tour-guide.pl/wp-json/contact-form-7/v1/contact-forms/${formID}/feedback`;
 
   const checkLength = (value, len) => value.trim().length > len;
 
