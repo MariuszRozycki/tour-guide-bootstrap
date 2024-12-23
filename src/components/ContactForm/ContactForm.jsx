@@ -40,8 +40,6 @@ const ContactForm = () => {
               <Form.Control.Feedback type='invalid'>{errors.email}</Form.Control.Feedback>
             </Form.Group>
 
-            <Form.Control type='text' name='honeypot-field' style={{ display: "none" }} readOnly />
-
             <Form.Group controlId='phone' className='mb-3'>
               <Form.Label>Twój numer telefonu:</Form.Label>
               <Form.Control

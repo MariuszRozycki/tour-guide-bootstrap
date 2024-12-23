@@ -88,7 +88,6 @@ const useContactForm = (formID) => {
 
     formDataObject.append("your-name", formData.userName);
     formDataObject.append("your-email", formData.email);
-    formDataObject.append("honeypot-field", "");
     formDataObject.append("your-phone", formData.phone);
     formDataObject.append("your-subject", formData.subject);
     formDataObject.append("your-message", formData.message);
