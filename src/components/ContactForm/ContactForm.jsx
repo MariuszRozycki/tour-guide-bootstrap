@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { Container, Row, Col, Form, Button, Spinner } from "react-bootstrap";
+import ReCAPTCHA from "react-google-recaptcha";
 import useContactForm from "../../hooks/useContactForm";
 import { ToastContainer } from "react-toastify";
 import "./ContactForm.scss";
@@ -7,13 +9,20 @@ import "react-toastify/dist/ReactToastify.css";
 const ContactForm = () => {
   const formID = "6";
   const { formData, errors, isLoading, isSuccess, handleChange, handleSubmit, url } = useContactForm(formID);
+  const [recaptchaToken, setRecaptchaToken] = useState(null);
 
   return (
     <Container>
       <Row className='mb-2'>
         <Col md={10}>
           <h2 className='h3 mb-3'>Zapytaj o ofertę!</h2>
-          <Form className='bg-primary-subtle p-3 rounded-4' id={`form-${formID}`} action={url} method='post' onSubmit={handleSubmit}>
+          <Form
+            className='bg-primary-subtle p-3 rounded-4'
+            id={`form-${formID}`}
+            action={url}
+            method='post'
+            onSubmit={(e) => handleSubmit(e, recaptchaToken)}
+          >
             <Form.Group controlId='userName' className='mb-3'>
               <Form.Label>Twoje imię:</Form.Label>
               <Form.Control
@@ -79,6 +88,14 @@ const ContactForm = () => {
               />
               <Form.Control.Feedback type='invalid'>{errors.message}</Form.Control.Feedback>
             </Form.Group>
+
+            <ReCAPTCHA
+              sitekey='6LdjvaMqAAAAALXGgg_2w9B4DpiAnDenvfjXoz-K'
+              onChange={(value) => {
+                setRecaptchaToken(value);
+                console.log("reCAPTCHA Token: ", value); // Logowanie tokena
+              }}
+            />
 
             <div className='d-flex justify-content-center align-items-center mb-3'>
               {isLoading ? (

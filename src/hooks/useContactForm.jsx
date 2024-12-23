@@ -73,8 +73,13 @@ const useContactForm = (formID) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e, recaptchaToken) => {
     e.preventDefault();
+
+    if (!recaptchaToken) {
+      toast.error("Proszę zaznaczyć reCAPTCHA przed wysłaniem formularza.");
+      return;
+    }
 
     if (!validateForm()) {
       return;
@@ -91,6 +96,7 @@ const useContactForm = (formID) => {
     formDataObject.append("your-phone", formData.phone);
     formDataObject.append("your-subject", formData.subject);
     formDataObject.append("your-message", formData.message);
+    formDataObject.append("g-recaptcha-response", recaptchaToken || "");
     formDataObject.append("_wpcf7_unit_tag", `form-${formID}`);
 
     console.log("FormData to send: ", Object.fromEntries(formDataObject.entries()));
