@@ -19,7 +19,6 @@ const ContactForm = () => {
     const handleReCaptchaVerify = async () => {
       const token = await executeRecaptcha("contactFormSubmit");
       setRecaptchaToken(token);
-      console.log("reCAPTCHA Token: ", token); // Logowanie tokena
     };
     handleReCaptchaVerify();
   }, [executeRecaptcha]);
