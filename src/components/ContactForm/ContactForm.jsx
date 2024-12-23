@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Container, Row, Col, Form, Button, Spinner } from "react-bootstrap";
-import ReCAPTCHA from "react-google-recaptcha";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 import useContactForm from "../../hooks/useContactForm";
 import { ToastContainer } from "react-toastify";
 import "./ContactForm.scss";
@@ -9,7 +9,20 @@ import "react-toastify/dist/ReactToastify.css";
 const ContactForm = () => {
   const formID = "6";
   const { formData, errors, isLoading, isSuccess, handleChange, handleSubmit, url } = useContactForm(formID);
+  const { executeRecaptcha } = useGoogleReCaptcha();
   const [recaptchaToken, setRecaptchaToken] = useState(null);
+
+  useEffect(() => {
+    if (!executeRecaptcha) {
+      return;
+    }
+    const handleReCaptchaVerify = async () => {
+      const token = await executeRecaptcha("contactFormSubmit");
+      setRecaptchaToken(token);
+      console.log("reCAPTCHA Token: ", token); // Logowanie tokena
+    };
+    handleReCaptchaVerify();
+  }, [executeRecaptcha]);
 
   return (
     <Container>
@@ -88,14 +101,6 @@ const ContactForm = () => {
               />
               <Form.Control.Feedback type='invalid'>{errors.message}</Form.Control.Feedback>
             </Form.Group>
-
-            <ReCAPTCHA
-              sitekey='6LdjvaMqAAAAALXGgg_2w9B4DpiAnDenvfjXoz-K'
-              onChange={(value) => {
-                setRecaptchaToken(value);
-                console.log("reCAPTCHA Token: ", value); // Logowanie tokena
-              }}
-            />
 
             <div className='d-flex justify-content-center align-items-center mb-3'>
               {isLoading ? (
