@@ -5,7 +5,7 @@ import "./ContactForm.scss";
 import "react-toastify/dist/ReactToastify.css";
 
 const ContactForm = () => {
-  const formID = "6";
+  const formID = "form-6";
   const { formData, errors, isLoading, isSuccess, handleChange, handleSubmit, url } = useContactForm(formID);
 
   return (
