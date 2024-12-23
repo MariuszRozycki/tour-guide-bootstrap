@@ -49,7 +49,7 @@ const CustomNav = forwardRef((_, headerRef) => {
           <span className='d-inline-block me-1' style={{ width: "40px" }}>
             <img className='w-100' src='/logo/logo.png' alt='' />
           </span>
-          <span className='hidden-below-300'>Tour Guide</span>
+          <span className='hidden-below-300 fw-semibold'>TourGuide</span>
         </Navbar.Brand>
         <ShowFavoriteButton />
         <Navbar.Toggle onClick={handleShow} aria-controls='offcanvasNavbar-expand-md' />
