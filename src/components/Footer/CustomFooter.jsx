@@ -59,8 +59,8 @@ const CustomFooter = () => {
                   sugestie.
                 </li>
                 <li>
-                  - imprezy 3 dniowe i niektóre zagraniczne to idealne kierunki na integracyjne wyjazdy weekendowe np dla seniorów,
-                  nauczycieli, firm.
+                  - imprezy 3 dniowe i niektóre zagraniczne to idealne kierunki na integracyjne wyjazdy weekendowe na przykład: dla
+                  seniorów, nauczycieli, firm.
                 </li>
               </ul>
             </Col>
