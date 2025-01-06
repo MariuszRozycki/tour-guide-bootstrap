@@ -7,6 +7,7 @@ const OffersTypesList = () => {
   const { handleOffersType } = useNavigateToElement();
 
   const types = [
+    { name: "Dla Seniora", type: "senior", imgSrc: "/pictures/trip-categories/senior-tour.jpg" },
     { name: "Zagraniczne", type: "abroad", imgSrc: "/pictures/abroad/budapest01.jpg" },
     { name: "Krajowe", type: "domestic", imgSrc: "/pictures/trip-categories/trip-domestic.jpg" },
     { name: "Transgraniczne", type: "cross-border", imgSrc: "/pictures/trip-categories/trip-cross-border.jpg" },
@@ -16,12 +17,12 @@ const OffersTypesList = () => {
     { name: "5-dniowe", type: "five-days", imgSrc: "/pictures/trip-categories/trip-five-days.jpg" },
     { name: "Spływy kajakowe", type: "kayak", imgSrc: "/pictures/trip-categories/trip-kayak.jpg" },
     { name: "Autokarowe", type: "buss", imgSrc: "/pictures/trip-categories/trip-bus.jpg" },
-    { name: "Weekndowe", type: "weekend", imgSrc: "/pictures/trip-categories/trip-weekend.jpg" },
+    { name: "Weekendowe", type: "weekend", imgSrc: "/pictures/trip-categories/trip-weekend.jpg" },
   ];
 
   return (
     <Container>
-      <h1>Oferty wg typu</h1>
+      <h1>Oferty według typu</h1>
       <Row className='g-2'>
         {types.map((type, index) => (
           <Col className='card-by-offers-type' sm={6} md={4} lg={3} key={`${Math.random()}${index}`}>

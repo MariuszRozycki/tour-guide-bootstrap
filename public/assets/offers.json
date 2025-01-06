@@ -176,7 +176,7 @@
       "$oid": "673efad2cca66b2311224a9f"
     },
     "title": "MIERZEJA WIŚLANA",
-    "days": "weekend",
+    "days": "3 dni (do uzgodnienia)",
     "descTitle": "Doskonały kierunek! Dojazd coraz lepszy, plaże piękne nie tylko latem a i zwiedzać jest co.",
     "description": [
       "Wyjazd to zwykle popołudniowe godziny piątkowe, przejazd bezpośrednio do hotelu, zakwaterowanie, wieczorny obiad i tzw. zajęcia w podgrupach.",
@@ -189,7 +189,7 @@
     "price45people": 739,
     "price40people": 798,
     "typeOfTrip": "buss-trip",
-    "lengthOfTrip": "weekend",
+    "lengthOfTrip": "weekend&senior",
     "destinationType": "domestic"
   },
   {
@@ -464,7 +464,7 @@
       "$oid": "673efad2cca66b2311224aa1"
     },
     "title": "PODLASIE",
-    "days": "weekend",
+    "days": "3 dni (do uzgodnienia)",
     "descTitle": "Dla koneserów ciszy i spokoju…dojazd świetny, ludzie mili. Tu jako bazę preferuję Tykocin lub Supraśl, czasem Białystok. W okolicy dwa parki narodowe i jeden krajobrazowy.",
     "description": [
       "Wyjazd tradycyjnie w piątek po południu, przejazd do hotelu, zakwaterowanie, posiłek i relaks.",
@@ -477,7 +477,7 @@
     "price45people": 579,
     "price40people": 645,
     "typeOfTrip": "buss-trip",
-    "lengthOfTrip": "weekend",
+    "lengthOfTrip": "weekend&senior",
     "destinationType": "domestic"
   },
   {
@@ -731,7 +731,7 @@
       "$oid": "673efad2cca66b2311224aa3"
     },
     "title": "KRAKÓW I OKOLICE",
-    "days": "weekend",
+    "days": "3 dni (do uzgodnienia)",
     "descTitle": "Jedno z najpiękniejszych miast Europy, które przyciąga miliony turystów z całego świata. Każdy zna i chętnie wraca… Wpisane na listę UNESCO, tak samo jak kopalnia soli w Wieliczce",
     "description": [
       "W piątek wyjazd po południu, przejazd do hotelu (Kraków lub nieopodal), obiad i relaks.",
@@ -748,7 +748,7 @@
     "price45people": 689,
     "price40people": 749,
     "typeOfTrip": "buss-trip",
-    "lengthOfTrip": "weekend",
+    "lengthOfTrip": "weekend&senior",
     "destinationType": "domestic"
   },
   {
@@ -1093,7 +1093,7 @@
       "$oid": "673efad2cca66b2311224aa0"
     },
     "title": "LUBLIN",
-    "days": "weekend",
+    "days": "3 dni (do uzgodnienia)",
     "descTitle": "Miasto zdecydowanie warte odwiedzenia, dojazd świetny.",
     "description": [
       "Piątek to w zasadzie tylko przejazd i zakwaterowanie w hotelu, obiad i czas wolny.",
@@ -1106,7 +1106,7 @@
     "price45people": 579,
     "price40people": 612,
     "typeOfTrip": "buss-trip",
-    "lengthOfTrip": "weekend",
+    "lengthOfTrip": "weekend&senior",
     "destinationType": "domestic"
   },
   {
@@ -1114,7 +1114,7 @@
       "$oid": "673efad2cca66b2311224aa2"
     },
     "title": "TATRY",
-    "days": "weekend",
+    "days": "3 dni (do uzgodnienia)",
     "descTitle": "Kultowe Podhale…zawsze przyciąga zwłaszcza, że 400 km da się pokonać już w stosunkowo krótkim czasie. Opcji tej wycieczki jest bardzo dużo bo region ma naprawdę dużo do zaoferowania: góry, termy, przełom Dunajca itd .",
     "description": [
       "Wersja wiele razy sprawdzona poniżej:",
@@ -1129,7 +1129,7 @@
     "price45people": 599,
     "price40people": 632,
     "typeOfTrip": "buss-trip",
-    "lengthOfTrip": "weekend",
+    "lengthOfTrip": "weekend&senior",
     "destinationType": "domestic"
   }
 ]

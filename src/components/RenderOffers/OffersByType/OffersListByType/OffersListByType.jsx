@@ -1,9 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { offersApi } from "../../../../api/api";
 import useGetData from "../../../../hooks/useGetData";
+import { GoBackButton } from "../../../../components";
 import { CustomCard } from "../../../../components";
 
-const OffersListByType = ({ mainTitle, filterCondition }) => {
+const OffersListByType = ({ title, message, filterCondition }) => {
   const { data: offers, isLoading, isError, error } = useGetData(offersApi);
 
   if (isLoading)
@@ -23,7 +24,9 @@ const OffersListByType = ({ mainTitle, filterCondition }) => {
 
   return (
     <Container>
-      <h1 className='mb-3'>{mainTitle}</h1>
+      <GoBackButton />
+      <h1 className='mb-3'>{title}</h1>
+      {message ? <p className='fs-4 text-danger fw-semibold'>{message}</p> : null}
       <Row className='g-3'>
         {filteredOffers.map((offer) => (
           <Col col={12} sm={6} md={4} lg={3} key={offer._id.$oid}>

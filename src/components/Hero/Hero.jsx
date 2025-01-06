@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Card, Button } from "react-bootstrap";
 import { useNavigateToElement } from "../../hooks/useNavigateToElement";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./Hero.scss";
 
 const Hero = () => {
   const { handleOffersByType } = useNavigateToElement();
@@ -11,8 +12,8 @@ const Hero = () => {
     <section className='hero-section'>
       <Container>
         <div className='row g-0 d-flex align-items-center'>
-          <div className='col-md-7 mb-4 mb-xl-0 d-flex flex-column justify-content-center'>
-            <img className='w-100 rounded' src='/pictures/lublin/lublin02.jpg' alt='' />
+          <div className='hero-img-wrapper col-md-7 mb-4 mb-xl-0 d-flex flex-column justify-content-center'>
+            <img className='w-100 rounded' src='/pictures/home/tomek-home.jpg' alt='Tomasz Zdunek' />
             <Button
               variant='danger'
               className='w-100 w-sm-50 mx-auto mx-sm-0 shadow-lg rounded-pill mt-3'
@@ -26,8 +27,10 @@ const Hero = () => {
             <Card.Body>
               <Card.Title className='fw-bold'>Witaj</Card.Title>
               <Card.Text className='fs-5'>
-                Tour Guide to kraftowe wyjazdy, ktore dostarcza Ci niezapomnianych wrazen. Pozwol nam sie sobie przedstawic.
+                Nazywam się Tomasz Zdunek. Od ponad 26 lat łączę moją życiową pasję podróżniczą z działalnością zawodową zgodnie z
+                zasadą Konfucjusza “Wybierz pracę, którą kochasz, a nie przepracujesz ani jednego dnia więcej w Twoim życiu”.
               </Card.Text>
+
               <Link to='/about'>
                 <Button variant='primary rounded-pill shadow-lg'>Przeczytaj wiecej</Button>
               </Link>

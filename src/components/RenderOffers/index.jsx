@@ -15,6 +15,7 @@ import {
   OneDayOffers,
   ThreeDaysOffers,
   WeekendOffers,
+  SeniorOffers,
 } from "./OffersByType";
 
 export {
@@ -34,4 +35,5 @@ export {
   WeekendOffers,
   SearchOffer,
   FavoritesOffers,
+  SeniorOffers,
 };

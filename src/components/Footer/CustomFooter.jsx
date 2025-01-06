@@ -54,14 +54,13 @@ const CustomFooter = () => {
                   <i className='bi bi-patch-question-fill'></i> Warto pamiętać:
                 </li>
                 <li>- ceny na stronie i w folderze są kalkulowane ze środkowej Polski.</li>
-                <li>- że nie da się zorganizować dobrej 5 dniowej wycieczki za 700 PLN…tanio już było, przed pandemią</li>
                 <li>
                   - programy proponowane są najczęściej wybierane przez klientów. Jeśli macie Państwo własne pomysły prosimy o
-                  sugestie
+                  sugestie.
                 </li>
                 <li>
                   - imprezy 3 dniowe i niektóre zagraniczne to idealne kierunki na integracyjne wyjazdy weekendowe np dla seniorów,
-                  nauczycieli, firm
+                  nauczycieli, firm.
                 </li>
               </ul>
             </Col>

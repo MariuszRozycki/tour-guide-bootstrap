@@ -33,6 +33,7 @@ import {
   ThreeDaysOffers,
   WeekendOffers,
   FavoritesOffers,
+  SeniorOffers,
 } from "./RenderOffers";
 
 export {
@@ -70,4 +71,5 @@ export {
   ShowFavoriteButton,
   GoBackButton,
   NotFound,
+  SeniorOffers,
 };

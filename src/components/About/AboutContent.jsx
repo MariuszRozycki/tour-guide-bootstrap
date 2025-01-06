@@ -7,19 +7,19 @@ const AboutContent = () => {
       <Container>
         <Row className='mb-4 mb-md-5'>
           <Col className='about-content-img-wrapper pe-lg-0 mb-3' xs={12} md={8}>
-            <Image src='/pictures/about/about-torun.jpg' className='rounded-4' />
+            <Image src='/pictures/about/tomek-about.jpg' alt='Tomek Zdunek cycle' className='rounded-4' />
           </Col>
           <Col xs={12}>
             <Card className='about-card  mt-lg-3 rounded-4 border-0 shadow-lg bg-primary-subtle'>
               <Card.Body>
                 <Card.Text className='fs-5'>
-                  Nazywam się <span className='fw-bold'>Tomasz Zdunek</span> i jestem właścicielem małej firmy{" "}
-                  <span className='fw-bold'>TourGuide</span>. Turystyka jest moja pasja od zawsze. Skończyłem „turystyke i rekreacje”
-                  na warszawskim AWF i już jako student pilotowałem wycieczki. Rok pracowałem w Almaturze Warszawa, gdzie nauczyłem
-                  się organizacji wycieczek. Po kilku latach pracy pod obcym szyldem założyłem swoje biuro, które fajnie się
-                  rozwijało do pandemii…tysiące zadowolonych klientów, życie w rozjazdach, było dobrze…Przyszła zaraza i legendarna
-                  pomoc panstwa ale…. Po 4 latach wracam do zawodowej pasji! Proszę zaufać mi ponownie…ćwierć wieku doświadczenia o
-                  czymś świadczy.
+                  Nazywam się <span className='fw-bold'>Tomasz Zdunek</span>. Od ponad 26 lat łączę moją życiową pasję podróżniczą z
+                  działalnością zawodową zgodnie z zasadą Konfucjusza “Wybierz pracę, którą kochasz, a nie przepracujesz ani jednego
+                  dnia więcej w Twoim życiu”.
+                </Card.Text>
+                <Card.Text className='fs-5'>
+                  W 2008 roku zostałem operatorem turystycznym jako BIURO PODROZY TOURGUIDE z zasięgiem działania w Polsce oraz
+                  krajach sąsiednich.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -27,16 +27,40 @@ const AboutContent = () => {
         </Row>
         <Row className='mb-5'>
           <Col className='about-content-img-wrapper pe-lg-0 mb-2 mb-md-0' xs={12} md={4} lg={5}>
-            <Image src='/pictures/about/tomek-about-2.jpg' className='rounded-4 rotate-md-8' />
+            <Image
+              src='/pictures/about/couple-tour.jpg'
+              alt='Couple. https://pixabay.com/pl/photos/para-wolno%C5%9B%C4%87-%C5%9Bwi%C4%99to-podr%C3%B3%C5%BC-9010675/'
+              className='rounded-4 rotate-md-8'
+            />
           </Col>
           <Col xs={12} md={8} lg={7}>
             <Card className='about-card ms-lg-n5 mt-lg-3 rounded-4 border-0 shadow-lg bg-primary-subtle'>
               <Card.Body>
-                <Card.Text className='fs-5'>
-                  <span className='fw-bold'>BIURO PODROZY TOURGUIDE</span> istnieje od 2008 z 4 letnia przerwa w latach
-                  pandemicznych. Działalność firmy ubezpiecza Compensa/ Viener z siedzibą w Warszawie ul. Aleje Jerozolimskie 162.
-                  Terytorium działalności to Polska i kraje sąsiednie. Właścicielem biura jestem ja - Tomasz Zdunek.
-                </Card.Text>
+                <ul className='about-details fs-5 list-unstyled'>
+                  <li className='fs-5 fw-bold mb-2'>Nasza oferta to starannie zaplanowane imprezy turystyczne:</li>
+                  <li>
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Nauka przez przygodę! Wycieczki dla dzieci i młodzieży.
+                  </li>
+                  <li>
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Pakiety tematyczne! Wycieczki tematyczne związane z
+                    programem nauczania (np. historia, przyroda, kultura).
+                  </li>
+                  <li>
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Bezpiecznie, aktywnie, z pasją! Imprezy dla seniorów.
+                  </li>
+                  <li>
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Z nami odkryjesz świat od nowa! Wyjazdy integracyjne
+                    pracowników.
+                  </li>
+                  <li>
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Podróżuj z pasją! Krótkie wypady oraz dłuższe obozy,
+                    kolonie czy trampingi rowerowe.
+                  </li>
+                  <li>
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Podróże Szyte na Miarę! Kompleksowa obsługa, w tym
+                    zakwaterowanie, wyżywienie oraz transport.
+                  </li>
+                </ul>
               </Card.Body>
             </Card>
           </Col>
@@ -55,7 +79,7 @@ const AboutContent = () => {
             </Card>
           </Col>
           <Col className='order-0 order-md-1 about-content-img-wrapper ps-lg-0 mb-2 mb-md-0' xs={12} md={4}>
-            <Image className='tomek-about-1 w-100 rounded-4' src='/pictures/about/tomek-about-1.jpg' rounded />
+            <Image className='tomek-about-1 w-100 rounded-4' src='/pictures/about/tour-offers-pic.jpg' rounded />
           </Col>
         </Row>
         <Row className='mb-4'>
@@ -63,58 +87,36 @@ const AboutContent = () => {
             <Card className='about-card mt-lg-3 rounded-4 border-0 shadow-lg bg-primary-subtle'>
               <Card.Body>
                 <ul className='about-details fs-5 list-unstyled'>
-                  <li className='fs-4 fw-bold mb-2'>Dlaczego warto skorzystać z naszych usług?</li>
+                  <li className='fs-4 fw-bold mb-2'>Dlaczego warto wybrać Biuro Podróży TourGuide?</li>
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>działamy aktywnie w turystyce od 1998 i ciągle mamy z tego
-                    przyjemność
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Indywidualne podejście: wyznajemy zasadę, że turystyka nie
+                    jest szablonem, do którego trzeba wpasować każdą grupę turystów.
                   </li>
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>do każdego klienta podchodzimy indywidualnie tak by
-                    precyzyjnie spełnić jego życzenia
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Powiedz nam o wymarzonej wyprawie – my zajmiemy się jej
+                    organizacją.
                   </li>
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>preferujemy aktywność fizyczną podczas wyjazdów ale to
-                    klient decyduje co będzie robił
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Konsultacje przed wycieczką: chcemy poznać oczekiwania i
+                    dostosowywać program do grupy. Bardzo lubimy osobisty kontakt w dogodnej dla państwa porze oraz miejscu.
                   </li>
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>reklamacje prawie nam się nie zdarzają
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Jakość nad ilość: nie interesuje nas ilość czy zasięgi
+                    kosztem Państwa zadowolenia.
                   </li>
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>podejmiemy się organizacji każdego projektu…jeśli dalej w
-                    Europę to we współpracy z innym biurem
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Pasja i doświadczenie: mamy wieloletnie doświadczenie w
+                    turystyce - od 1998 roku. Nasi piloci, przewodnicy oraz kierowcy to pasjonaci, co widać w ich pełnym
+                    zaangażowaniu.
                   </li>
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>wszelkie formalności załatwiamy u klienta albo za pomocą
-                    kontaktu meilowego
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Sprawdzeni partnerzy: współpracujemy tylko z rzetelnymi
+                    dostawcami usług, co gwarantuje komfort i bezpieczeństwo.
                   </li>
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>współpracujemy ze sprawdzonymi gestorami, którzy oferują
-                    czyste pokoje z łazienkami i smaczne jedzenie
-                  </li>
-                  <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>zapewniamy wygodne autokary w każdym rozmiarze{" "}
-                  </li>
-                  <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>wystawiamy faktury VAT Marża, również imienne
-                  </li>
-                  <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>dla TourGuide pracują tylko piloci- pasjonaci z dużym
-                    doświadczeniem w obsłudze turystów
-                  </li>
-                  <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>programy zawarte na stronie i folderze to najczęściej
-                    wybierane opcje.
-                  </li>
-                  <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Podejmiemy się realizacji Panstwa pomysłów w całej Europie
-                  </li>
-                  <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>ceny zawarte na WWW i folderze są skalkulowane dla wyjazdów
-                    z Warszawy…
-                  </li>
-                  <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Jeśli mieszkasz gdzie indziej, napisz do nas a wycenimy
-                    Twoją podróż najszybciej jak się da
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Wygodę podróży zapewniamy dobierając wygodne autokary.
+                    Wypoczynek po intensywnym zwiedzaniu w sprawdzonych przez nas hotelach z czystymi pokojami z łazienkami oraz
+                    serwujące smaczne jedzenie.
                   </li>
                 </ul>
               </Card.Body>
@@ -126,29 +128,29 @@ const AboutContent = () => {
             <Card className='about-card  mt-lg-3 rounded-4 border-0 shadow-lg bg-primary-subtle'>
               <Card.Body>
                 <ul className='about-details fs-5 list-unstyled'>
-                  <li className='fs-4 fw-bold mb-2'>W cenie zawarte są koszty:</li>
+                  <li className='fs-4 fw-bold mb-2'>Co zawiera cena?</li>
 
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>zakwaterowanie (zawsze pokoje z łazienkami)
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Zakwaterowanie w pokojach z łazienkami.
                   </li>
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>wyżywienie (dwa lub trzy razy dziennie)
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Wyżywienie (dwa lub trzy posiłki dziennie).
                   </li>
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>transport autokarem wraz z parkingami i opłatami drogowymi
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Transport autokarem z opłatami drogowymi, kosztami
+                    parkingów.
                   </li>
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>opieka pilota, przewodników górskich i miejskich gdzie
-                    konieczne
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Opiekę pilota oraz usługi przewodników.
                   </li>
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>ubezpieczenie NNW (za granicą KL+ NNW)
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Ubezpieczenie NNW (za granicą KL+ NNW).
                   </li>
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>pobyt kadry (1/15) i obsługi
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Pobyt kadry (1/15).
                   </li>
                   <li>
-                    <i className='bi bi-arrow-right-circle-fill me-2'></i>czasem konkurs wiedzy o zwiedzanym regionie
+                    <i className='bi bi-arrow-right-circle-fill me-2'></i>Opcjonalnie konkurs wiedzy o zwiedzanym regionie.
                   </li>
                 </ul>
               </Card.Body>
