@@ -8,13 +8,14 @@ import { FavoritesProvider } from "./context/FavoritesContext.jsx";
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 
 const queryClient = new QueryClient();
+const reCaptchaKey = import.meta.env.VITE_RECAPTCHA_KEY;
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
       <FavoritesProvider>
         <SearchProvider>
-          <GoogleReCaptchaProvider reCaptchaKey='6LdjvaMqAAAAALXGgg_2w9B4DpiAnDenvfjXoz-K'>
+          <GoogleReCaptchaProvider reCaptchaKey={reCaptchaKey}>
             <App />
           </GoogleReCaptchaProvider>
         </SearchProvider>
