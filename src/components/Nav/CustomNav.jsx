@@ -71,11 +71,11 @@ const CustomNav = forwardRef((_, headerRef) => {
               <Nav.Link as={NavLink} to='/about' onClick={handleNavLinkClick}>
                 O mnie
               </Nav.Link>
-              <Nav.Link as={NavLink} to='/contact' onClick={handleNavLinkClick}>
-                Kontakt
-              </Nav.Link>
               <Nav.Link as={NavLink} to='/offers-types' onClick={handleNavLinkClick}>
                 Oferty
+              </Nav.Link>
+              <Nav.Link as={NavLink} to='/contact' onClick={handleNavLinkClick}>
+                Kontakt
               </Nav.Link>
             </Nav>
 

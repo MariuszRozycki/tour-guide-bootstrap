@@ -42,6 +42,7 @@ const RenderSingleOffer = () => {
           <Image
             className='w-100 h-sm-100 rounded-4 shadow-4 object-fit-cover'
             src={offer.imageMain}
+            alt={offer.title}
             onError={handleImageError}
             rounded
           />

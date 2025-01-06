@@ -21,6 +21,7 @@ const CustomCard = ({ offer }) => {
         variant='top'
         style={{ height: "180px" }}
         src={offer.imageMain}
+        alt={offer.title}
         onError={handleImageError}
         loading='lazy'
       />

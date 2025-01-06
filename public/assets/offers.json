@@ -227,7 +227,7 @@
       "Polańczyk Zdrój, rejs statkiem po Jez. Solińskim, korona zapory",
       "Sanok: Muzeum Historyczne lub Skansen"
     ],
-    "imageMain": "/pictures/domestic/bieszczady01.jpg",
+    "imageMain": "/pictures/domestic/bieszczady02.jpg",
     "price45people": 1058,
     "price40people": 1179,
     "typeOfTrip": "buss-trip",
@@ -309,7 +309,7 @@
       "Rezerwaty: szumy na Tanwii, Czartowe Pole, skansen w Guciowie, Zwierzyniec, Górecka Kościelne",
       "Stare Miasto w Zamościu, Kozłówka: zamek Zamoyskich"
     ],
-    "imageMain": "/pictures/domestic/roztocze-tanwia.jpg",
+    "imageMain": "/pictures/domestic/roztocze01.jpg",
     "price45people": 609,
     "price40people": 669,
     "typeOfTrip": "buss-trip",
@@ -414,7 +414,7 @@
     "description": [
       "Twierdza Modlin ma wiele tajemnic, wszystkich przewodnik nam nie pokaże ale najpiękniejszy widok na Mazowszu na pewno! Zajrzymy na terminal lotniska i cmentarz mennonicki w Sadach. Uwaga: do Twierdzy można dojechać PKP co obniża znacznie koszty!"
     ],
-    "imageMain": "/pictures/not-found/not-found.png",
+    "imageMain": "/pictures/domestic/twierdza-modlin.jpg",
     "price45people": 146,
     "price40people": 168,
     "typeOfTrip": "buss-trip",
@@ -452,7 +452,7 @@
     "description": [
       "Zapraszam na fantastyczny przełom Bugu czyli południowe Podlasie. Mamy tu ciekawe historyczne miasteczka i miejsca kultu religijnego: prawosławnego i unickiego. Warto tu przyjechać!"
     ],
-    "imageMain": "/pictures/tomek-sea.webp",
+    "imageMain": "/pictures/domestic/grabarka01.jpg",
     "price45people": 167,
     "price40people": 187,
     "typeOfTrip": "buss-trip",
@@ -473,7 +473,7 @@
       "W niedzielę śniadanie, wykwaterowanie i wyjazd do Supraśla (cerkiew bizantyjska lub/ i Muzeum Ikon),",
       "Kruszynian (Tatarzy podlascy: meczet i mizar z Dżamilem). Powrót do domu w godzinach wieczornych."
     ],
-    "imageMain": "/pictures/podlasie/podlasie02.jpg",
+    "imageMain": "/pictures/podlasie/podlasie01.jpg",
     "price45people": 579,
     "price40people": 645,
     "typeOfTrip": "buss-trip",
@@ -630,7 +630,7 @@
     "description": [
       "Architektura przede wszystkim: w sierpeckim skansenie stare chałupy, w Czerwińsku romański klasztor a w Modlinie XIX w. twierdza rosyjska"
     ],
-    "imageMain": "/pictures/tomek-sea.webp",
+    "imageMain": "/pictures/domestic/sierpc01.jpg",
     "price45people": 158,
     "price40people": 189,
     "typeOfTrip": "buss-trip",
@@ -646,7 +646,7 @@
     "description": [
       "Skoro Japończycy tak chętnie odwiedzają ten dworek to i my powinniśmy...Chopin był jeden!I zajrzeć do lasu przy okazji"
     ],
-    "imageMain": "/pictures/tomek-sea.webp",
+    "imageMain": "/pictures/domestic/zelazowa-wola.jpg",
     "price45people": 158,
     "price40people": 177,
     "typeOfTrip": "buss-trip",
@@ -679,7 +679,7 @@
     "title": "FARMA ILUZJI",
     "days": "1 dzień",
     "description": ["Dla młodszych dzieciaków temat obowiązkowy! Starsi też nie będą się nudzić. Zabawa na cały dzień"],
-    "imageMain": "/pictures/tomek-sea.webp",
+    "imageMain": "/pictures/domestic/farma-iluzji01.jpg",
     "price45people": 178,
     "price40people": 199,
     "typeOfTrip": "buss-trip",
@@ -719,7 +719,7 @@
       "Wilno z przewodnikiem (plan do uzgodnienia)",
       "Troki: zamek i ulica Karaimów"
     ],
-    "imageMain": "/pictures/abroad/vilnius01.jpg",
+    "imageMain": "/pictures/abroad/vilnus02.jpg",
     "price45people": 679,
     "price40people": 735,
     "typeOfTrip": "buss-trip",
@@ -786,7 +786,7 @@
       "Woliński PN: zagroda żubrów, klif Gosań, latarnia Kikut i Niechorze, Międzyzdroje, park miniatur latarni morskich",
       "Muzeum Mydła i Brudu - Bydgoszcz"
     ],
-    "imageMain": "/pictures/domestic/lighthouse01.jpg",
+    "imageMain": "/pictures/domestic/baltic-sea-sand.jpg",
     "price45people": 1099,
     "price40people": 1169,
     "typeOfTrip": "buss-trip",

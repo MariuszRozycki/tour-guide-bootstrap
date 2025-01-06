@@ -21,11 +21,11 @@ const CustomBreadcrumb = () => {
         <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/about" }} onClick={handleBreadcrumbClick}>
           O mnie
         </Breadcrumb.Item>
-        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/contact" }} onClick={handleBreadcrumbClick}>
-          Kontakt
-        </Breadcrumb.Item>
         <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/offers-types" }} onClick={handleBreadcrumbClick}>
           Oferty
+        </Breadcrumb.Item>
+        <Breadcrumb.Item linkAs={NavLink} linkProps={{ to: "/contact" }} onClick={handleBreadcrumbClick}>
+          Kontakt
         </Breadcrumb.Item>
       </Breadcrumb>
     </Container>
