@@ -744,7 +744,7 @@
       "ostatecznie KL Auschwitz- Birkenau.",
       "Powrót wieczorem"
     ],
-    "imageMain": "/dist/pictures/krakow/krakow01.jpg",
+    "imageMain": "/pictures/krakow/krakow01.jpg",
     "price45people": 689,
     "price40people": 749,
     "typeOfTrip": "buss-trip",
@@ -999,7 +999,7 @@
       "DĘBLIN - Muzeum Sił Powietrznych czyli tak zwane must have",
       "JANOWIEC - zamek Firlejów i kameralny skansen"
     ],
-    "imageMain": "/dist/pictures/kazimierz-dolny/kazimierz-dolny01.jpg",
+    "imageMain": "/pictures/kazimierz-dolny/kazimierz-dolny01.jpg",
     "price45people": 147,
     "price40people": 165,
     "typeOfTrip": "buss-trip",
