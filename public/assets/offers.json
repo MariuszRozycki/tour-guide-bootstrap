@@ -744,7 +744,7 @@
       "ostatecznie KL Auschwitz- Birkenau.",
       "Powrót wieczorem"
     ],
-    "imageMain": "/pictures/krakow/krakow01.jpg",
+    "imageMain": "/pictures/domestic/krakow01.jpg",
     "price45people": 689,
     "price40people": 749,
     "typeOfTrip": "buss-trip",
@@ -978,7 +978,7 @@
     "description": [
       "Śladem Krzyżaków- Muzeum Państwa Krzyżackiego w Działdowie, Zamek w Nidzicy i spacer po fantastycznym rezerwacie, jedynym takim"
     ],
-    "imageMain": "/pictures/domestic/dzialdowo-muzeum.jpg",
+    "imageMain": "/pictures/domestic/dzialdowo-muz.jpg",
     "price45people": 159,
     "price40people": 178,
     "typeOfTrip": "buss-trip",
@@ -999,7 +999,7 @@
       "DĘBLIN - Muzeum Sił Powietrznych czyli tak zwane must have",
       "JANOWIEC - zamek Firlejów i kameralny skansen"
     ],
-    "imageMain": "/pictures/kazimierz-dolny/kazimierz-dolny01.jpg",
+    "imageMain": "/pictures/domestic/kazimierz-dolny01.jpg",
     "price45people": 147,
     "price40people": 165,
     "typeOfTrip": "buss-trip",
